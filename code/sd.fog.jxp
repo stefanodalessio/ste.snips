@@ -1,0 +1,14 @@
+<jitterpass>
+	<pass name="fog">
+		<bind name="range" param="fog_range" default="2" />
+		<bind name="start" param="fog_start" default="3" />
+		<bind name="BGFog" param="skybox_fog_intensity" default="1" />
+		<bind name="color" param="fog_color" default="0,0,0,1." />
+		<bind name="intensity" param="fog_intensity" default="1." />
+		<subpass file="sd.fog.jxs" output="COLOR">
+			<input source="COLOR" />
+			<input source="NORMALS" />
+		</subpass>
+	</pass>
+</jitterpass>	
+

@@ -1,0 +1,20 @@
+{
+	"author" : "Stefano D'Alessio",
+	"description" : "a collection of snippets to speed patching up",
+	"homepatcher" : "ste.snippets.overview",
+	"max_version_min" : "9.0.0",
+	"name" : "ste.snips",
+	"os" : {
+		"macintosh" : {
+			"platform" : [ "x64", "arm64" ],
+			"min_version" : "none"
+		},
+		"windows" : {
+			"platform" : [ "x64" ],
+			"min_version" : "10"
+		}
+	},	
+	"tags" : ["snippets", "A/V", "interactivity", "interaction"],
+	"version" : "0.0.1",
+	"website" : "https://stefanodalessio.github.io/"
+}

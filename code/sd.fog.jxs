@@ -1,0 +1,56 @@
+<jittershader name="sd.fog.jxs">
+	<param name="tex_scene" type="int" default="0" />
+	<param name="tex_depth" type="int" default="1" />
+	<param name="fog_start" type="float" default="3.0" />
+	<param name="fog_range" type="float" default="2.0" />
+	<param name="skybox_fog_intensity" type="float" default="1" />
+	<param name="fog_color" type="vec4" default="0. 0. 0. 1.0" />
+	<param name="fog_intensity" type="float" default="1.0" />
+	<language name="glsl" version="1.2">
+		<bind param="tex_scene" program="fp" />
+		<bind param="tex_depth" program="fp" />		
+		<bind param="fog_start" program="fp" />
+		<bind param="fog_range" program="fp" />
+		<bind param="skybox_fog_intensity" program="fp" />
+		<bind param="fog_color" program="fp" />
+		<bind param="fog_intensity" program="fp" />
+		<program name="vp" type="vertex" source="sh.passthru.xform.vp.glsl" />		
+		<program name="fp" type="fragment">
+<![CDATA[
+
+varying vec2 texcoord0;
+varying vec2 texcoord1;
+
+uniform sampler2DRect tex_scene; 
+uniform sampler2DRect tex_depth;
+uniform float fog_start;
+uniform float fog_range;
+uniform float skybox_fog_intensity;
+uniform float fog_intensity;
+uniform vec4 fog_color;
+
+float adjustDepth(float depth) {
+    return depth * 100.0;
+}
+
+void main()
+{
+	vec4 scene = texture2DRect(tex_scene, texcoord0);
+	vec4 depth = texture2DRect(tex_depth, texcoord1);
+	
+	float adjustedDepth = adjustDepth(depth.w);
+	float fog_factor;
+	
+	if (depth.w == 0.0) {
+		fog_factor = skybox_fog_intensity * fog_intensity;
+	} else {
+		fog_factor = clamp((adjustedDepth - fog_start) / fog_range, 0.0, 1.0) * fog_intensity;
+	}
+	
+	gl_FragColor = mix(scene, fog_color, fog_factor);
+}
+
+]]>		
+		</program>		
+	</language>
+</jittershader>
