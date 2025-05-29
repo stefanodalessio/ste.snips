@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -28,13 +28,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
+						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -43,6 +43,152 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-107",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 804.0, 201.0, 35.0, 22.0 ],
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 804.0, 233.0, 51.0, 22.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-113",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 1399.0, 142.0, 401.0, 535.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"linecount" : 9,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 6.0, 67.0, 315.0, 141.0 ],
+													"text" : "\"scrub\" thru a video timeline\n\nload a video by drag and drop\n\nmodulate the position parameter from outside to scrub thry the frames of the video,\nthe position param is normalized 0. is video start 1. is video end\n\n"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 11.0, 8.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [  ]
+									}
+,
+									"patching_rect" : [ 804.0, 261.0, 77.0, 22.0 ],
+									"text" : "p description"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activebgoncolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activetextcolor" : [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+									"activetextoncolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+									"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"bordercolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"focusbordercolor" : [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-72",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"parameter_mappable" : 0,
+									"patching_rect" : [ 804.0, 172.0, 107.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 329.0, 15.0, 103.0, 17.0 ],
+									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "clearAll[1]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "clearAll",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"text" : "open description",
+									"texton" : "preview",
+									"varname" : "live.text[10]"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-20",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -50,8 +196,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 657.0, 369.0, 149.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 253.0, 41.0, 229.0, 20.0 ],
-									"text" : "\"scroll\" thru a video file timeline",
+									"presentation_rect" : [ 253.0, 78.0, 229.0, 20.0 ],
+									"text" : "\"scrub\" thru a video timeline",
 									"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
 								}
 
@@ -314,7 +460,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1164,8 +1310,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-434"
+ ]
 									}
 ,
 									"patching_rect" : [ 432.0, 152.0, 119.0, 22.0 ],
@@ -1197,6 +1342,7 @@
 									"patching_rect" : [ 311.0, 179.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
+										"live.text[10]" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
 										"position" : [ 0.0 ]
 									}
@@ -1251,25 +1397,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-19",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 481.0, 613.0, 69.0, 22.0 ],
-									"text" : "qmetro 100"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 481.0, 669.0, 153.0, 22.0 ],
-									"text" : "zl.reg"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 481.0, 669.0, 32.0, 22.0 ],
+									"text" : "gate"
 								}
 
 							}
@@ -1376,7 +1510,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1769,8 +1903,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-436"
+ ]
 									}
 ,
 									"patching_rect" : [ 52.0, 126.0, 183.0, 43.0 ],
@@ -1942,6 +2075,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-107", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
@@ -1977,13 +2117,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
 									"source" : [ "obj-21", 0 ]
 								}
@@ -2009,6 +2142,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-22", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-113", 0 ],
+									"source" : [ "obj-35", 0 ]
 								}
 
 							}
@@ -2141,13 +2281,19 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
+									"destination" : [ "obj-107", 0 ],
+									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
 							}
  ],
-						"originid" : "pat-432",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -2174,11 +2320,11 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-430",
 		"parameters" : 		{
 			"obj-60::obj-16" : [ "edit[51]", "edit", 0 ],
 			"obj-60::obj-38" : [ "lock&close[40]", "lock&close", 0 ],
 			"obj-60::obj-42" : [ "position", "position", 0 ],
+			"obj-60::obj-72" : [ "clearAll[1]", "clearAll", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -2193,15 +2339,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "scroller.js",
-				"bootpath" : "~/Documents/Max 8/Library/_ste-extra",
-				"patcherrelativepath" : "../../Library/_ste-extra",
+				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "varnameOut.js",
-				"bootpath" : "~/Documents/Max 8/Library/_ste-extra",
-				"patcherrelativepath" : "../../Library/_ste-extra",
+				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

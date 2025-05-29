@@ -1,32 +1,73 @@
 # ste.snips
 
-## intro
+## dependencies
 
-ste.snips is a package for Max9, it is a collection of snippets built to speed up and simplify your Max life. the focus is on embodied interactivity and real time audio-visuals.
+After installing the package go to the extras menu and open the ste.snips.overview, here you find a patch that can automatically download the media pipe dependencies from [lysdexic audio github](https://github.com/lysdexic-audio), and a list of the packages needed for all snippets to run.
 
-the main goal of the ste.snips collection is to give quick access and powerful tools to beginners that never used Max and don't know Programming and/or Max specific idioms but also to speed up patching for any kind of user, seasoned too!
+## Intro
 
-most snippets are single subpatchers, when opened they show a ready to use interface in a separate window, at the bottom right of your main monitor. In this way you can quickly access the interface for that specific snippet while keeping your main patch minimal and clean
+ste.snips is a package for Max9, consisting of a collection of snippets designed to expedite and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.
 
-some snippets are more complex, some are simple wrappers, built to give a consistent user experience to students. Some are built around [C74](https://cycling74.com/)or other people's code 
-(find names and credits inside the snippets and in descriptions) 
+The primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.
 
-## for seasoned max users
+Most snippets are single subpatchers that, when opened, display a ready-to-use interface in a separate window located at the bottom right of your main monitor. This allows quick access to the interface for each specific snippet while maintaining a minimal and clean main patch.
 
-i built these tools for my courses at art universities, simplicity and ease of use is sometimes prioritized over efficiency, precise terminology and "technical correctness", most snippets dealing with timed events are synced with jit.world and NOT sample accurate
+Some snippets are more complex, while others are simple wrappers designed to offer a consistent user experience, especially for students. Credits for code contributions from [C74](https://cycling74.com/) and others can be found within the snippets and their descriptions.
 
-all parameters UI contained in the snippets have specific scripting names, are pattr addressable and save their values automatically when the patch is saved as patcher snapshot thanks to the [ste.autosave] snippet
+## For Seasoned Max Users
 
-why snippets and not abstractions?
-I love long term compatibility but i also like to improve snippets without headaches. 
-I want to make sure that i can change the snippets without breaking old patches that depend on them. 
+I created these tools for my courses at art universities, prioritizing simplicity and ease of use over efficiency, precise terminology, and technical correctness. Most snippets dealing with timed events are synchronized with jit.world and are not sample-accurate.
 
-## special thanks
+All UI parameters within the snippets have specific scripting names, are pattr addressable, and automatically save their values when the patch is saved using the [ste.autosave] snippet.
 
-to my students of the [Univ. of Applied Arts Vienna](https://dieangewandte.at/) ([APL](https://apl.uni-ak.ac.at/)) ([DK](https://digitalekunst.ac.at/)), [Kunst Uni. Linz](https://www.kunstuni-linz.at/) ([interface cultures](https://www.kunstuni-linz.at/en/studies/degree-programmes/interface-cultures/master-programme)) and [FH Salzburg](https://www.fh-salzburg.ac.at/) for testing the snippets over the years while working on their ideas
+Why Snippets and Not Abstractions?
+I value long-term compatibility but also want the flexibility to improve my snippets without compatibility issues. Snippets allow me to update and modify them without breaking old patches that rely on them.
 
-to anyone whose code or patches I have included in this snippet collection
+## Special Thanks
 
-to [Klaus Obermaier](https://www.exile.at/) for introducing me to Max in 2009, teaching me much about interactivity and lots of other practical and existential stuff, many of these snippets are build upon his methods
+To my students at the [Univ. of Applied Arts Vienna](https://dieangewandte.at/) ([APL](https://apl.uni-ak.ac.at/)) ([DK](https://digitalekunst.ac.at/)), [Kunst Uni. Linz](https://www.kunstuni-linz.at/) ([interface cultures](https://www.kunstuni-linz.at/en/studies/degree-programmes/interface-cultures/master-programme)) and [FH Salzburg](https://www.fh-salzburg.ac.at/) for testing the snippets over the years while working on their projects
 
-to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) and Austria's [BMWKMS](https://www.bmwkms.gv.at/) for the support
+To everyone whose code or patches are included in this snippet collection.
+
+To [Klaus Obermaier](https://www.exile.at/) for introducing me to Max in 2009, teaching me about interactivity, and influencing many of the methods used in these snippets.
+
+to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
+
+## change logs
+
+### v0.0.2
+
+- all examples have been improved and commented 
+- better descriptions in all snippets, there is a "open description" button for longer text, the examples files have been built with older snippets so they won't have the longer descriptions
+- new examples added
+- ste.snips.overview does not contain anymore all the snippets in the snippet tab but only the descriptions
+- added new media and folders structure in media folder
+- pix snippets preview are now running at the same FPS of the world and not reduced to 10 FPS
+- pixGetBlob:
+	- fixed preview method
+	- resizes to 320 240 and blurs before tracking
+- pixColorMask:
+	- preview only if active
+	- matrix out is now luma
+	- fixed inverted indicator in ste.decide
+- sequence:
+	- fixed bug with external modulation of sync and preset
+	- init does not reset drive mode anymore
+	- direction is now externally modulatable
+	- fixed preset retriggering phase and stepnumber
+	- purple indicator of out works with bangStep and stepNum
+- pixGetWhite name changed to pixGetWhitePos
+- 3dMotion: larger min and max number boxes in lfo graphical preview
+- bangSpeed: adjustments to get a pseudo frequency output
+- 3dPointLight: added a "brightness" parameter that is co-dependent to the "attenuation"
+- ste.audioIn~ added live scope
+- ste.audioOut~ added live scope
+- ste.concat~ removed because now it crashes
+- ste.volume~ extended to +24 db
+- ste.volumeStereo~ extended to +24 db
+- ste.pixVideoTrig decoupled the STARTposition from the triggering of the video 
+- 3dCornerpin: fixed problem with textures
+- ste.GetMovement & ste.pixGetPresence, float is now the first output, while 2nd and 3rd are the videos
+- chickenSinging example was pretty bad so it no longer exist
+- micTap example deleted because it was useless
+- worldColors example is gone because it was redundant

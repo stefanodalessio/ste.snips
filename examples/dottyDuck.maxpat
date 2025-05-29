@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -15,12 +15,25 @@
 		"subpatcher_template" : "ste.template",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 24.0, 550.0, 47.0 ],
+					"presentation_linecount" : 8,
+					"text" : "the ste.3dModelGeom outputs the geometry of the loaded model as a matrix of pixels containing the information about the model, we can plug it in a jit.gl.mesh or apply tranformations, the snippet also outputs the new geometry data from its second output"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 140.0, 221.0, 100.0 ],
+					"patching_rect" : [ 184.0, 229.0, 221.0, 100.0 ],
 					"text" : "keep in mind that the 3dModelGeom only outputs once after loading the model\nif you change anything in the patch you need to re-click the \"triggerOut\" button or bang it from outside with a qmetro or something "
 				}
 
@@ -40,7 +53,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -409,7 +422,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1259,8 +1272,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-461"
+ ]
 									}
 ,
 									"patching_rect" : [ 579.0, 174.0, 119.0, 22.0 ],
@@ -1455,7 +1467,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1634,8 +1646,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-463"
+ ]
 									}
 ,
 									"patching_rect" : [ 39.0, 274.0, 49.0, 22.0 ],
@@ -2003,7 +2014,6 @@
 
 							}
  ],
-						"originid" : "pat-459",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -2020,7 +2030,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 23.0, 198.0, 134.0, 22.0 ],
+					"patching_rect" : [ 15.0, 287.0, 134.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.pixFxBrightness",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -2035,7 +2045,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 23.0, 164.0, 151.0, 22.0 ],
+					"patching_rect" : [ 15.0, 253.0, 151.0, 22.0 ],
 					"text" : "jit.gl.texture @dim 640 360"
 				}
 
@@ -2055,13 +2065,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1156.0, 564.0, 500.0, 300.0 ],
+						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -2517,7 +2527,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3367,8 +3377,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-467"
+ ]
 									}
 ,
 									"patching_rect" : [ 735.0, 150.0, 119.0, 22.0 ],
@@ -3542,7 +3551,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3961,8 +3970,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-469"
+ ]
 									}
 ,
 									"patching_rect" : [ 223.0, 125.0, 183.0, 43.0 ],
@@ -4242,7 +4250,6 @@
 
 							}
  ],
-						"originid" : "pat-465",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -4259,7 +4266,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 23.0, 31.0, 123.0, 22.0 ],
+					"patching_rect" : [ 15.0, 120.0, 123.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dModelGeom",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -4275,7 +4282,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 47.0, 70.0, 297.0, 49.0 ],
+					"patching_rect" : [ 39.0, 159.0, 297.0, 49.0 ],
 					"text" : "jit.gl.mesh @draw_mode points @point_mode circle_depth @mat_diffuse 1. 0. 1. 1. @point_size 10. @position 0. 0. -1. @gl_color 1. 0. 1. 1."
 				}
 
@@ -4290,7 +4297,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 92.0, 327.0, 80.0, 49.0 ]
+					"patching_rect" : [ 84.0, 416.0, 80.0, 49.0 ]
 				}
 
 			}
@@ -4309,7 +4316,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4725,7 +4732,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5575,8 +5582,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-473"
+ ]
 									}
 ,
 									"patching_rect" : [ 994.0, 152.0, 119.0, 22.0 ],
@@ -7177,7 +7183,6 @@
 
 							}
  ],
-						"originid" : "pat-471",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -7194,7 +7199,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 23.0, 298.0, 88.0, 22.0 ],
+					"patching_rect" : [ 15.0, 387.0, 88.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dWorld",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -7209,7 +7214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.0, 410.0, 67.0, 22.0 ],
+					"patching_rect" : [ 196.0, 412.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -7230,7 +7235,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7539,7 +7544,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8389,8 +8394,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-479"
+ ]
 									}
 ,
 									"patching_rect" : [ 137.0, 191.0, 119.0, 22.0 ],
@@ -8630,7 +8634,6 @@
 
 							}
  ],
-						"originid" : "pat-477",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -8647,7 +8650,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 18.0, 385.0, 98.0, 22.0 ],
+					"patching_rect" : [ 196.0, 387.0, 98.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.autoSave",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -8701,7 +8704,6 @@
 
 			}
  ],
-		"originid" : "pat-457",
 		"parameters" : 		{
 			"obj-14::obj-13" : [ "lock&close[40]", "lock&close", 0 ],
 			"obj-14::obj-25" : [ "edit[51]", "edit", 0 ],
@@ -8818,7 +8820,7 @@
 						"version" : 2,
 						"minorversion" : 0,
 						"name" : "snap00",
-						"origin" : "3dModelGeom",
+						"origin" : "dottyDuck",
 						"type" : "patcher",
 						"subtype" : "Undefined",
 						"embed" : 1,
@@ -8863,7 +8865,7 @@
 							"filename" : "snap00_20250423.maxsnap",
 							"filepath" : "~/Documents/Max 9/Snapshots",
 							"filepos" : -1,
-							"snapshotfileid" : "c4bd29843d15967c2cdd44931efcd1ff"
+							"snapshotfileid" : "41a5d267ae80a8c1ced38044a76f18fc"
 						}
 
 					}

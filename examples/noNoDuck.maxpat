@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -14,6 +14,44 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"subpatcher_template" : "ste.template",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 216.0, 253.0, 60.0 ],
+					"presentation_linecount" : 5,
+					"text" : "like with materials, the TwistFX needs to be coupled with a ste.3dModel by copy pasting its name from inside the ste.3dTwistFX into the FX name in the ste.3dModel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-4",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 180.666666666666686, 153.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 11.0, 240.0, 47.0 ],
+					"text" : "animating a disagreeing duck using the ste.3dTwistFX and a 3dMotion animated float value"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
 					"color" : [ 0.638382196426392, 0.254104733467102, 1.0, 1.0 ],
@@ -28,7 +66,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -824,7 +862,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1013,7 +1051,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 5,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1189,8 +1227,7 @@
 																}
 
 															}
- ],
-														"originid" : "pat-625"
+ ]
 													}
 ,
 													"patching_rect" : [ 219.5, 89.0, 113.0, 22.0 ],
@@ -1516,8 +1553,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-623"
+ ]
 									}
 ,
 									"patching_rect" : [ 278.0, 509.0, 87.0, 22.0 ],
@@ -1537,7 +1573,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1714,7 +1750,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 5,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1890,8 +1926,7 @@
 																}
 
 															}
- ],
-														"originid" : "pat-629"
+ ]
 													}
 ,
 													"patching_rect" : [ 178.0, 129.0, 113.0, 22.0 ],
@@ -2201,8 +2236,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-627"
+ ]
 									}
 ,
 									"patching_rect" : [ 163.0, 509.0, 87.0, 22.0 ],
@@ -2272,7 +2306,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2449,7 +2483,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 5,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2625,8 +2659,7 @@
 																}
 
 															}
- ],
-														"originid" : "pat-633"
+ ]
 													}
 ,
 													"patching_rect" : [ 178.0, 129.0, 113.0, 22.0 ],
@@ -2936,8 +2969,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-631"
+ ]
 									}
 ,
 									"patching_rect" : [ 52.0, 509.0, 87.0, 22.0 ],
@@ -4322,7 +4354,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5172,8 +5204,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-635"
+ ]
 									}
 ,
 									"patching_rect" : [ 980.0, 212.0, 119.0, 22.0 ],
@@ -5205,7 +5236,7 @@
 									"patching_rect" : [ 857.0, 237.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"XOnOff" : [ 1 ],
-										"Xval" : [ 0.04473203238026 ],
+										"Xval" : [ -0.12198842032801 ],
 										"YOnOff" : [ 0 ],
 										"Yval" : [ 0.0 ],
 										"ZOnOff" : [ 0 ],
@@ -6212,7 +6243,6 @@
 
 							}
  ],
-						"originid" : "pat-621",
 						"styles" : [ 							{
 								"name" : "Audiomix",
 								"default" : 								{
@@ -6246,7 +6276,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 175.0, 33.0, 93.0, 22.0 ],
+					"patching_rect" : [ 168.333333333333343, 114.0, 93.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dMotion",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -6268,19 +6298,18 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
+						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
 						"enablehscroll" : 0,
 						"enablevscroll" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 0,
@@ -6556,7 +6585,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7406,8 +7435,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-639"
+ ]
 									}
 ,
 									"patching_rect" : [ 668.0, 137.0, 119.0, 22.0 ],
@@ -7440,7 +7468,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
-										"amount" : [ 0.04473203238026 ],
+										"amount" : [ -0.12198842032801 ],
 										"height" : [ 20.0 ],
 										"lock&close" : [ 0.0 ]
 									}
@@ -7461,7 +7489,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 545.0, 7.0, 212.0, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 6.0, 184.0, 29.0 ],
+									"presentation_rect" : [ 4.0, 24.0, 184.0, 29.0 ],
 									"style" : "ste.snip",
 									"text" : "3dTwistFX",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
@@ -7688,7 +7716,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 0.592854505315683, 0.0, 61.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.592854505315683, 0.0, 49.0, 22.0 ],
+									"presentation_rect" : [ 8.0, 127.0, 49.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_initial" : [ 0.3 ],
@@ -8038,7 +8066,6 @@
 
 							}
  ],
-						"originid" : "pat-637",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -8055,7 +8082,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 154.0, 78.0, 99.0, 22.0 ],
+					"patching_rect" : [ 154.0, 183.0, 99.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dTwistFX",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -8077,13 +8104,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
+						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -8163,7 +8190,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8318,8 +8345,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-643"
+ ]
 									}
 ,
 									"patching_rect" : [ 353.0, 240.0, 81.0, 22.0 ],
@@ -8351,7 +8377,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8506,8 +8532,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-645"
+ ]
 									}
 ,
 									"patching_rect" : [ 202.0, 240.0, 81.0, 22.0 ],
@@ -8539,7 +8564,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8694,8 +8719,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-647"
+ ]
 									}
 ,
 									"patching_rect" : [ 89.0, 240.0, 81.0, 22.0 ],
@@ -9527,7 +9551,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10377,8 +10401,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-649"
+ ]
 									}
 ,
 									"patching_rect" : [ 1418.0, 161.0, 119.0, 22.0 ],
@@ -10428,9 +10451,9 @@
 										"posY" : [ 0.0 ],
 										"posZ" : [ -3.490000009536743 ],
 										"reset_transform" : [ 0.0 ],
-										"rotX" : [ 40.0 ],
-										"rotY" : [ -40.0 ],
-										"rotZ" : [ 0.0 ],
+										"rotX" : [ -0.0 ],
+										"rotY" : [ -90.0 ],
+										"rotZ" : [ -32.0 ],
 										"scaleX" : [ 1.5 ],
 										"scaleY" : [ 1.5 ],
 										"scaleZ" : [ 1.5 ],
@@ -11885,7 +11908,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12304,8 +12327,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-651"
+ ]
 									}
 ,
 									"patching_rect" : [ 401.0, 651.0, 183.0, 43.0 ],
@@ -13600,7 +13622,6 @@
 
 							}
  ],
-						"originid" : "pat-641",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -13617,7 +13638,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 78.0, 124.0, 22.0 ],
+					"patching_rect" : [ 13.0, 183.0, 124.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dModel",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -13635,7 +13656,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 82.0, 183.0, 80.0, 49.0 ]
+					"patching_rect" : [ 82.0, 348.0, 80.0, 49.0 ]
 				}
 
 			}
@@ -13654,7 +13675,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14070,7 +14091,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14920,8 +14941,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-655"
+ ]
 									}
 ,
 									"patching_rect" : [ 994.0, 152.0, 119.0, 22.0 ],
@@ -16515,7 +16535,6 @@
 
 							}
  ],
-						"originid" : "pat-653",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -16532,7 +16551,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 154.0, 88.0, 22.0 ],
+					"patching_rect" : [ 13.0, 319.0, 88.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dWorld",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -16547,7 +16566,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 174.0, 208.0, 67.0, 22.0 ],
+					"patching_rect" : [ 174.0, 373.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -16568,7 +16587,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16877,7 +16896,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17727,8 +17746,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-661"
+ ]
 									}
 ,
 									"patching_rect" : [ 137.0, 191.0, 119.0, 22.0 ],
@@ -17968,7 +17986,6 @@
 
 							}
  ],
-						"originid" : "pat-659",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -17985,7 +18002,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 174.0, 183.0, 98.0, 22.0 ],
+					"patching_rect" : [ 174.0, 348.0, 98.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.autoSave",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -17996,8 +18013,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 1 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-106", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 1 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -18016,7 +18040,6 @@
 
 			}
  ],
-		"originid" : "pat-619",
 		"parameters" : 		{
 			"obj-106::obj-1" : [ "resetAll", "resetAll", 0 ],
 			"obj-106::obj-112" : [ "resetX", "resetX", 0 ],
@@ -18187,10 +18210,10 @@
 						"visible" : 1.0,
 						"blob" : 						{
 							"FXName[1]" : [ "3dTwistFX" ],
-							"Xval" : [ 0.04473203238026 ],
+							"Xval" : [ -0.12198842032801 ],
 							"Yval" : [ 0.0 ],
 							"Zval" : [ 0.0 ],
-							"amount" : [ 0.04473203238026 ],
+							"amount" : [ -0.12198842032801 ],
 							"amplitudeX" : [ 0.2 ],
 							"amplitudeY" : [ 1.0 ],
 							"amplitudeZ" : [ 1.0 ],
@@ -18207,9 +18230,9 @@
 							"phaseX" : [ 0 ],
 							"phaseY" : [ 0 ],
 							"phaseZ" : [ 0 ],
-							"rotX[3]" : [ 40.0 ],
-							"rotY[3]" : [ -40.0 ],
-							"rotZ[3]" : [ 0.0 ],
+							"rotX[3]" : [ -0.0 ],
+							"rotY[3]" : [ -90.0 ],
+							"rotZ[3]" : [ -32.0 ],
 							"scaleX[3]" : [ 1.5 ],
 							"scaleY[3]" : [ 1.5 ],
 							"scaleZ[3]" : [ 1.5 ],
@@ -18231,7 +18254,7 @@
 						"version" : 2,
 						"minorversion" : 0,
 						"name" : "snap00",
-						"origin" : "3dTwistFX",
+						"origin" : "noNoDuck",
 						"type" : "patcher",
 						"subtype" : "Undefined",
 						"embed" : 1,
@@ -18285,10 +18308,10 @@
 									"visible" : 1.0,
 									"blob" : 									{
 										"FXName[1]" : [ "3dTwistFX" ],
-										"Xval" : [ 0.04473203238026 ],
+										"Xval" : [ -0.12198842032801 ],
 										"Yval" : [ 0.0 ],
 										"Zval" : [ 0.0 ],
-										"amount" : [ 0.04473203238026 ],
+										"amount" : [ -0.12198842032801 ],
 										"amplitudeX" : [ 0.2 ],
 										"amplitudeY" : [ 1.0 ],
 										"amplitudeZ" : [ 1.0 ],
@@ -18305,9 +18328,9 @@
 										"phaseX" : [ 0 ],
 										"phaseY" : [ 0 ],
 										"phaseZ" : [ 0 ],
-										"rotX[3]" : [ 40.0 ],
-										"rotY[3]" : [ -40.0 ],
-										"rotZ[3]" : [ 0.0 ],
+										"rotX[3]" : [ -0.0 ],
+										"rotY[3]" : [ -90.0 ],
+										"rotZ[3]" : [ -32.0 ],
 										"scaleX[3]" : [ 1.5 ],
 										"scaleY[3]" : [ 1.5 ],
 										"scaleZ[3]" : [ 1.5 ],
@@ -18327,7 +18350,7 @@
 							"filename" : "snap00_20250417_7.maxsnap",
 							"filepath" : "~/Documents/Max 9/Snapshots",
 							"filepos" : -1,
-							"snapshotfileid" : "9006d4295d702684e48b943e2a5edc83"
+							"snapshotfileid" : "486805655b7f3d33ded0ef34fc02c854"
 						}
 
 					}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -28,13 +28,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
+						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -42,6 +42,184 @@
 						"enablevscroll" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-57",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 621.0, 232.0, 67.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 101.0, 52.0, 115.0, 20.0 ],
+									"text" : "floatOutFrequency",
+									"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-107",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 986.0, 187.0, 35.0, 22.0 ],
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-56",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 986.0, 219.0, 51.0, 22.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-113",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 1399.0, 142.0, 401.0, 535.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"linecount" : 23,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 6.0, 67.0, 315.0, 328.0 ],
+													"text" : "filters a sound with 3 parallel resonant filters,\nmeasures the loudness of the 3 resulting sounds, \noutputs 3 floats from 1st 2nd and 3rd outlet\noutlet 4 5 and 6 are the filtered sounds, for audition purposes (but also if you want to use them as sound FX)\n\nwith preAmp you can push the sound volume in case your loudness results are low\n\nfloatOutFrequency \ncontrols how often you get the results from the first 3 float outputs, keep it as \"synced with ste.3dworld\" if you are using it for anything that has a visual out in the 3dWorls\n\nfreq1 2 and 3 are the frequencies for the 3 parallel resonant filters\n\nres1 2 and 3 are the resonance values for the 3 parallel resonant filters\n\nif the filters \"explode\" overresonating press \"clear\"\n\n\n"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 11.0, 8.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [  ]
+									}
+,
+									"patching_rect" : [ 986.0, 247.0, 77.0, 22.0 ],
+									"text" : "p description"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activebgoncolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activetextcolor" : [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+									"activetextoncolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+									"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"bordercolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"focusbordercolor" : [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-72",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"parameter_mappable" : 0,
+									"patching_rect" : [ 986.0, 158.0, 107.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 361.0, 34.0, 103.0, 19.0 ],
+									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "clearAll[1]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "clearAll",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"text" : "open description",
+									"texton" : "preview",
+									"varname" : "live.text[10]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 44.667276791864452,
+									"hidden" : 1,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 195.0, 803.0, 458.0, 56.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 91.0, 92.0, 256.0, 106.0 ],
+									"text" : "LOCK THIS PATCH!!!",
+									"textcolor" : [ 0.993154764175415, 0.507667601108551, 0.122715823352337, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-36",
 									"maxclass" : "newobj",
@@ -63,7 +241,7 @@
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 433.0, 572.0, 161.5, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 287.0, 10.0, 162.0, 19.166665971279144 ]
+									"presentation_rect" : [ 302.0, 12.0, 162.0, 19.166665971279144 ]
 								}
 
 							}
@@ -251,26 +429,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 161.0, 68.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-23",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1143.0, 314.0, 165.0, 74.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 295.0, 124.0, 175.0, 74.0 ],
-									"style" : "ste.snip",
-									"text" : "filters a sound with 3 parallel resonant filters and gets 3 amplitude values out, out 4 5 6 are the filtered outputs for audition purposes",
-									"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
 								}
 
 							}
@@ -690,23 +848,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 44.667276791864452,
-									"hidden" : 1,
-									"id" : "obj-2",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 195.0, 803.0, 458.0, 56.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 163.0, 509.0, 256.0, 106.0 ],
-									"text" : "LOCK THIS PATCH!!!",
-									"textcolor" : [ 0.993154764175415, 0.507667601108551, 0.122715823352337, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -933,7 +1074,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1783,8 +1924,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-4542"
+ ]
 									}
 ,
 									"patching_rect" : [ 324.0, 728.0, 119.0, 22.0 ],
@@ -1817,10 +1957,11 @@
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
 										"clear" : [ 0.0 ],
+										"floatOutFrequency" : [ 0 ],
 										"freq1" : [ 150.0 ],
 										"freq2" : [ 5000.0 ],
 										"freq3" : [ 15000.0 ],
-										"frequency" : [ 0 ],
+										"live.text[10]" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
 										"preAmp" : [ 1.0 ],
 										"res1" : [ 5.0 ],
@@ -1899,29 +2040,29 @@
 									"bgfillcolor_type" : "color",
 									"fontsize" : 12.0,
 									"id" : "obj-37",
-									"items" : [ "synced with ste.world", ",", "60Hz", ",", "50Hz", ",", "30Hz", ",", "25Hz" ],
+									"items" : [ "synced with ste.3dWorld", ",", "60Hz", ",", "50Hz", ",", "30Hz", ",", "25Hz" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 396.0, 250.0, 141.0, 22.0 ],
+									"patching_rect" : [ 396.0, 250.0, 163.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 104.0, 72.0, 146.0, 22.0 ],
+									"presentation_rect" : [ 104.0, 72.0, 155.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "synced with ste.world", "60Hz", "50Hz", "30Hz", "25Hz" ],
-											"parameter_longname" : "umenu",
+											"parameter_enum" : [ "synced with ste.3dWorld", "60Hz", "50Hz", "30Hz", "25Hz" ],
+											"parameter_longname" : "floatOutFrequency",
 											"parameter_mmax" : 4,
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "umenu",
+											"parameter_shortname" : "floatOutFrequency",
 											"parameter_type" : 2
 										}
 
 									}
 ,
 									"textcolor" : [ 0.145830914378166, 0.92420494556427, 0.550447762012482, 1.0 ],
-									"varname" : "frequency"
+									"varname" : "floatOutFrequency"
 								}
 
 							}
@@ -2164,6 +2305,13 @@
 									"destination" : [ "obj-9", 0 ],
 									"order" : 0,
 									"source" : [ "obj-100", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-107", 0 ]
 								}
 
 							}
@@ -2532,6 +2680,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-113", 0 ],
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-24", 1 ],
 									"source" : [ "obj-6", 0 ]
 								}
@@ -2541,6 +2696,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-107", 0 ],
+									"source" : [ "obj-72", 0 ]
 								}
 
 							}
@@ -2561,7 +2723,6 @@
 
 							}
  ],
-						"originid" : "pat-4540",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -2588,10 +2749,9 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-4538",
 		"parameters" : 		{
 			"obj-27::obj-31" : [ "res1[1]", "res1", 0 ],
-			"obj-27::obj-37" : [ "umenu", "umenu", 0 ],
+			"obj-27::obj-37" : [ "floatOutFrequency", "floatOutFrequency", 0 ],
 			"obj-27::obj-38" : [ "lock&close[40]", "lock&close", 0 ],
 			"obj-27::obj-39" : [ "clear", "clear", 0 ],
 			"obj-27::obj-41" : [ "freq1", "freq1", 0 ],
@@ -2601,6 +2761,7 @@
 			"obj-27::obj-51" : [ "res3", "res3", 0 ],
 			"obj-27::obj-53" : [ "res2", "res2", 0 ],
 			"obj-27::obj-55" : [ "res1", "res1", 0 ],
+			"obj-27::obj-72" : [ "clearAll[1]", "clearAll", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -2615,15 +2776,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "scroller.js",
-				"bootpath" : "~/Documents/Max 8/Library/_ste-extra",
-				"patcherrelativepath" : "../../Library/_ste-extra",
+				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "varnameOut.js",
-				"bootpath" : "~/Documents/Max 8/Library/_ste-extra",
-				"patcherrelativepath" : "../../Library/_ste-extra",
+				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

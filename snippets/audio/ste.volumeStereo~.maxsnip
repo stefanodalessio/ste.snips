@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 419.0, 254.0, 640.0, 480.0 ],
+		"rect" : [ 413.0, 235.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"description" : "126 x 22, containing 1 object",
 		"boxes" : [ 			{
@@ -28,13 +28,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
+						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -42,6 +42,152 @@
 						"enablevscroll" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-107",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 931.0, 106.0, 35.0, 22.0 ],
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 931.0, 138.0, 51.0, 22.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-113",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 1399.0, 142.0, 401.0, 535.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"linecount" : 6,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 6.0, 67.0, 315.0, 87.0 ],
+													"text" : "simple Stereo volume control\n\nyou can control it in decibels (volume) or with 0-1 values (amplitude)\n\nmax +24 decibels / +15.8 amplitude"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 11.0, 8.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [  ]
+									}
+,
+									"patching_rect" : [ 931.0, 166.0, 77.0, 22.0 ],
+									"text" : "p description"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activebgoncolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activetextcolor" : [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+									"activetextoncolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+									"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"bordercolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"focusbordercolor" : [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-72",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"parameter_mappable" : 0,
+									"patching_rect" : [ 931.0, 77.0, 107.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 344.0, 12.0, 103.0, 19.0 ],
+									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "clearAll[1]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "clearAll",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"text" : "open description",
+									"texton" : "preview",
+									"varname" : "live.text[10]"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontsize" : 44.667276791864452,
 									"hidden" : 1,
@@ -227,7 +373,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 533.0, 83.0, 106.0, 96.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 233.0, 6.0, 40.0, 23.0 ],
+									"presentation_rect" : [ 233.0, 9.0, 40.0, 23.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -286,7 +432,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1136,8 +1282,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-3888"
+ ]
 									}
 ,
 									"patching_rect" : [ 533.0, 182.0, 119.0, 22.0 ],
@@ -1170,6 +1315,7 @@
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
 										"amplitude" : [ 1.0 ],
+										"live.text[10]" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
 										"volume" : [ 0.0 ]
 									}
@@ -1327,66 +1473,6 @@
 							}
 , 							{
 								"box" : 								{
-									"display_range" : [ -70.0, 12.0 ],
-									"hint" : "Adjusts the volume of the audio file being played",
-									"id" : "obj-105",
-									"lastchannelcount" : 0,
-									"maxclass" : "live.gain~",
-									"modulationcolor" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
-									"numinlets" : 2,
-									"numoutlets" : 5,
-									"orientation" : 1,
-									"outlettype" : [ "signal", "signal", "", "float", "list" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 14.0, 129.0, 159.0, 26.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 105.0, 202.0, 26.0 ],
-									"saved_attribute_attributes" : 									{
-										"modulationcolor" : 										{
-											"expression" : ""
-										}
-,
-										"slidercolor" : 										{
-											"expression" : ""
-										}
-,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"tricolor" : 										{
-											"expression" : ""
-										}
-,
-										"trioncolor" : 										{
-											"expression" : ""
-										}
-,
-										"valueof" : 										{
-											"parameter_initial" : [ 0 ],
-											"parameter_longname" : "volumeStereo",
-											"parameter_mmax" : 12.0,
-											"parameter_mmin" : -70.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "volumeStereo",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
-										}
-
-									}
-,
-									"showname" : 0,
-									"shownumber" : 0,
-									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"textcolor" : [ 0.0, 0.02, 0.078, 1.0 ],
-									"tricolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
-									"trioncolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
-									"varname" : "volume"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "audio input (+ volume in db)",
 									"id" : "obj-7",
 									"index" : 1,
@@ -1433,6 +1519,66 @@
 									"presentation_rect" : [ 3.0, 85.0, 63.0, 20.0 ],
 									"text" : "volume",
 									"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"display_range" : [ -70.0, 24.0 ],
+									"hint" : "Adjusts the volume of the audio file being played",
+									"id" : "obj-105",
+									"lastchannelcount" : 0,
+									"maxclass" : "live.gain~",
+									"modulationcolor" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+									"numinlets" : 2,
+									"numoutlets" : 5,
+									"orientation" : 1,
+									"outlettype" : [ "signal", "signal", "", "float", "list" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 14.0, 129.0, 159.0, 36.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 6.0, 105.0, 202.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"modulationcolor" : 										{
+											"expression" : ""
+										}
+,
+										"slidercolor" : 										{
+											"expression" : ""
+										}
+,
+										"textcolor" : 										{
+											"expression" : ""
+										}
+,
+										"tricolor" : 										{
+											"expression" : ""
+										}
+,
+										"trioncolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "volumeStereo",
+											"parameter_mmax" : 24.0,
+											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "volumeStereo",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
+										}
+
+									}
+,
+									"showname" : 0,
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.638382196426392, 0.254104733467102, 1.0, 1.0 ],
+									"tricolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
+									"trioncolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
+									"varname" : "volume"
 								}
 
 							}
@@ -1493,6 +1639,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-107", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
@@ -1530,6 +1683,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-113", 0 ],
+									"source" : [ "obj-35", 0 ]
 								}
 
 							}
@@ -1584,13 +1744,19 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-107", 0 ],
+									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-105", 0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
 							}
  ],
-						"originid" : "pat-3886",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -1617,12 +1783,12 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-3884",
 		"parameters" : 		{
 			"obj-59::obj-105" : [ "volumeStereo", "volumeStereo", 0 ],
 			"obj-59::obj-38" : [ "lock&close[40]", "lock&close", 0 ],
 			"obj-59::obj-4" : [ "amplitude", "amplitude", 0 ],
 			"obj-59::obj-43" : [ "edit[51]", "edit", 0 ],
+			"obj-59::obj-72" : [ "clearAll[1]", "clearAll", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1637,15 +1803,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "scroller.js",
-				"bootpath" : "~/Documents/Max 8/Library/_ste-extra",
-				"patcherrelativepath" : "../../Library/_ste-extra",
+				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "varnameOut.js",
-				"bootpath" : "~/Documents/Max 8/Library/_ste-extra",
-				"patcherrelativepath" : "../../Library/_ste-extra",
+				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

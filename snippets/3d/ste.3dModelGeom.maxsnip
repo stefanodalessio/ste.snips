@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -22,13 +22,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "jit_geometry" ],
+					"outlettype" : [ "jit_geometry", "jit_matrix" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -42,6 +42,152 @@
 						"enablevscroll" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-107",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 459.0, 85.0, 35.0, 22.0 ],
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-111",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 459.0, 117.0, 51.0, 22.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-113",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 830.0, 145.0, 400.0, 354.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"linecount" : 9,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 11.0, 54.0, 362.0, 141.0 ],
+													"text" : "snippet for jit.gl.model with matrix output 2 and automatic 0\n\nloads a 3d model and outputs its geometry as geometry (out 1) and as matrix (out 2)\n\nyou can drop a compatible 3d model in the field \n\nas it outputs only once when loading the model, you can push the \"triggerOut\" button to get the geometry again in case its needed\n"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 11.0, 8.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [  ]
+									}
+,
+									"patching_rect" : [ 459.0, 145.0, 77.0, 22.0 ],
+									"text" : "p description"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activebgoncolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activetextcolor" : [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+									"activetextoncolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+									"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"bordercolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"focusbordercolor" : [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-114",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"parameter_mappable" : 0,
+									"patching_rect" : [ 459.0, 56.0, 107.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 319.0, 9.0, 103.0, 19.0 ],
+									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "clearAll[1]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "clearAll",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"text" : "open description",
+									"texton" : "preview",
+									"varname" : "live.text[1]"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-14",
 									"maxclass" : "newobj",
@@ -194,11 +340,11 @@
 								"box" : 								{
 									"comment" : "matrix",
 									"id" : "obj-6",
-									"index" : 1,
+									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 41.0, 499.0, 30.0, 30.0 ]
+									"patching_rect" : [ 124.0, 499.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -206,11 +352,11 @@
 								"box" : 								{
 									"comment" : "geom ",
 									"id" : "obj-5",
-									"index" : 2,
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 129.0, 499.0, 30.0, 30.0 ]
+									"patching_rect" : [ 41.0, 499.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -245,7 +391,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_geometry", "" ],
-									"patching_rect" : [ 81.0, 449.0, 94.0, 22.0 ],
+									"patching_rect" : [ 41.0, 449.0, 94.0, 22.0 ],
 									"text" : "jit.geom.togeom"
 								}
 
@@ -431,7 +577,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 735.0, 51.0, 106.0, 96.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 233.0, 6.0, 40.0, 23.0 ],
+									"presentation_rect" : [ 233.0, 7.0, 40.0, 23.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -490,7 +636,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1340,8 +1486,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-365"
+ ]
 									}
 ,
 									"patching_rect" : [ 735.0, 150.0, 119.0, 22.0 ],
@@ -1374,6 +1519,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"live.text" : [ 0.0 ],
+										"live.text[1]" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
 										"triggerOut" : [ 0.0 ]
 									}
@@ -1394,30 +1540,10 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 612.0, 20.0, 212.0, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 6.0, 184.0, 29.0 ],
+									"presentation_rect" : [ 4.0, 3.0, 184.0, 29.0 ],
 									"style" : "ste.snip",
 									"text" : "3dModelGeom",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-53",
-									"linecount" : 6,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 412.0, 296.0, 103.0, 87.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 246.0, 96.0, 244.0, 33.0 ],
-									"style" : "ste.snip",
-									"text" : "loads a 3d model and outputs its geometry as geometry  (out 1) and as matrix (out 2)",
-									"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
 								}
 
 							}
@@ -1515,7 +1641,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1934,8 +2060,7 @@
 												}
 
 											}
- ],
-										"originid" : "pat-367"
+ ]
 									}
 ,
 									"patching_rect" : [ 223.0, 125.0, 183.0, 43.0 ],
@@ -2007,8 +2132,29 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-111", 0 ],
+									"source" : [ "obj-107", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-113", 0 ],
+									"source" : [ "obj-111", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-107", 0 ],
+									"source" : [ "obj-114", 0 ]
 								}
 
 							}
@@ -2086,7 +2232,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-250", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-251", 0 ]
 								}
 
@@ -2102,7 +2248,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-251", 0 ]
 								}
 
@@ -2195,7 +2341,6 @@
 
 							}
  ],
-						"originid" : "pat-363",
 						"styles" : [ 							{
 								"name" : "ste.snip",
 								"default" : 								{
@@ -2222,8 +2367,8 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-361",
 		"parameters" : 		{
+			"obj-14::obj-114" : [ "clearAll[1]", "clearAll", 0 ],
 			"obj-14::obj-13" : [ "lock&close[40]", "lock&close", 0 ],
 			"obj-14::obj-25" : [ "edit[51]", "edit", 0 ],
 			"obj-14::obj-3" : [ "triggerOut", "triggerOut", 0 ],
