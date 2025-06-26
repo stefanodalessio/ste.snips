@@ -4,7 +4,7 @@
 
 After installing the package go to the extras menu and open the ste.snips.overview, here you find a patch that can automatically download the media pipe dependencies from [lysdexic audio github](https://github.com/lysdexic-audio), and a list of the packages needed for all snippets to run.
 
-![[snipsPreview.gif]]
+![](snipsPreview.gif)
 
 ## Intro
 
@@ -41,6 +41,28 @@ To [Klaus Obermaier](https://www.exile.at/) for introducing me to Max in 2009, t
 to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
 ## change logs
+
+
+###
+- sequence
+	- init does not reset driveMode anymore
+	- is now able to work with integers, there is a new toggle in case floats are needed
+- inScale & inOutScale
+	- inMax float "link to scripting name" is now off, leading to number box retaining value when copy pasted
+- faceTracking now works with new jweb files
+- 3dMotion
+	- added a rangeMode, to be able to choose between 2 ways of defining the LFOs ranges. Ether with amplitude & center (bipolar), or with min. & max. values. This makes the snippet also easy to use for purposes other than 3d animations
+- threshOnOff
+	- fixed hysteresis min max bug
+	- added OFFthreshold (interdependent of hysteresis)
+	- now can replace threshBang
+- threshBang kicked out because redundancy
+- 3dPointLight has now the 3dLightViz embedded in it & is movable with auto_handle
+- 3dLightViz eliminated because of redundancy
+- 3dCornerpin pin, gl_color parameter
+- pixGetWhitePos resolution raised to 320 240
+- new example: "spinningStone"
+- "dottyDuck" example updated with some fancy duck noise modulation
 
 ### v0.0.2
 
