@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 77.0, 100.0, 997.0, 780.0 ],
+		"rect" : [ 77.0, 100.0, 489.0, 768.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -31,7 +31,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 49.0, 352.0, 33.0 ],
+					"patching_rect" : [ 21.0, 45.0, 352.0, 33.0 ],
 					"text" : "simple example of color tracking, Y influences volume and X influences pan"
 				}
 
@@ -2408,7 +2408,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -3543,7 +3543,7 @@
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
-										"pan" : [ 0.8265625 ]
+										"pan" : [ 0.2515625 ]
 									}
 ,
 									"text" : "autopattr",
@@ -4061,7 +4061,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -5195,9 +5195,9 @@
 									"patching_rect" : [ 412.0, 209.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
-										"amplitude" : [ 0.920833333333333 ],
+										"amplitude" : [ 0.8375 ],
 										"lock&close[1]" : [ 0.0 ],
-										"volume" : [ -0.716379360529906 ]
+										"volume" : [ -1.540303685822343 ]
 									}
 ,
 									"text" : "autopattr",
@@ -15452,13 +15452,13 @@
 						"lock&close[7]" : 0.0,
 						"lock&close[8]" : 0.0,
 						"output_texture" : 0.0,
-						"pan" : 0.8265625,
+						"pan" : 0.2515625,
 						"resetToSmallWindow" : 0.0,
 						"toggle[1]" : 0.0,
 						"visible" : 1.0,
-						"volumeStereo" : -0.716379360529906,
+						"volumeStereo" : -1.540303685822343,
 						"blob" : 						{
-							"amplitude" : [ 0.920833333333333 ],
+							"amplitude" : [ 0.8375 ],
 							"erase_color" : [ "erase_color", 0.0, 0.0, 0.0, 1.0 ],
 							"number" : [ 0.992156862745098 ],
 							"number[1]" : [ 0.003921568627451 ],
@@ -15509,13 +15509,13 @@
 									"lock&close[7]" : 0.0,
 									"lock&close[8]" : 0.0,
 									"output_texture" : 0.0,
-									"pan" : 0.8265625,
+									"pan" : 0.2515625,
 									"resetToSmallWindow" : 0.0,
 									"toggle[1]" : 0.0,
 									"visible" : 1.0,
-									"volumeStereo" : -0.716379360529906,
+									"volumeStereo" : -1.540303685822343,
 									"blob" : 									{
-										"amplitude" : [ 0.920833333333333 ],
+										"amplitude" : [ 0.8375 ],
 										"erase_color" : [ "erase_color", 0.0, 0.0, 0.0, 1.0 ],
 										"number" : [ 0.992156862745098 ],
 										"number[1]" : [ 0.003921568627451 ],

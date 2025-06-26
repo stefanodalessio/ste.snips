@@ -34,7 +34,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1920.0, 405.0, 640.0, 575.0 ],
+						"rect" : [ 1088.0, 442.0, 640.0, 575.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -42,6 +42,22 @@
 						"enablevscroll" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-85",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 298.5, 747.0, 177.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"legacy" : 1
+									}
+,
+									"text" : "dict.unpack face_0: face_1:"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-80",
 									"maxclass" : "message",
@@ -256,17 +272,6 @@
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 1272.0, 415.0, 44.0, 22.0 ],
 									"text" : "sel 1 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-34",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1059.0, 315.0, 100.0, 22.0 ]
 								}
 
 							}
@@ -1813,12 +1818,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 181.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 98.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack LIPS:"
+													"text" : "dict.unpack Lips:"
 												}
 
 											}
@@ -2008,7 +2013,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 134.0, 166.0, 340.0, 304.0 ],
+										"rect" : [ 586.0, 230.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2033,12 +2038,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 173.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 134.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack FACE_OVAL:"
+													"text" : "dict.unpack Face_Oval:"
 												}
 
 											}
@@ -2253,12 +2258,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 181.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 157.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack RIGHT_EYEBROW:"
+													"text" : "dict.unpack Right_Eyebrow:"
 												}
 
 											}
@@ -2448,7 +2453,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 133.0, 615.0, 340.0, 304.0 ],
+										"rect" : [ 820.0, 438.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2473,12 +2478,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 173.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 149.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack LEFT_EYEBROW:"
+													"text" : "dict.unpack Left_Eyebrow:"
 												}
 
 											}
@@ -2668,7 +2673,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 81.0, 340.0, 304.0 ],
+										"rect" : [ 134.0, 172.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2693,12 +2698,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 144.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 131.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack RIGHT_EYE:"
+													"text" : "dict.unpack Right_Eye:"
 												}
 
 											}
@@ -2888,7 +2893,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 81.0, 340.0, 304.0 ],
+										"rect" : [ 134.0, 172.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2913,12 +2918,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 136.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 123.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack LEFT_EYE:"
+													"text" : "dict.unpack Left_Eye:"
 												}
 
 											}
@@ -3397,7 +3402,7 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"id" : "obj-37",
-									"items" : [ "FaceTime HD Camera (467C:1317)", ",", "OBS Virtual Camera", ",", "iPhone SD Camera" ],
+									"items" : [ "FaceTime HD Camera (467C:1317)", ",", "Camo Camera", ",", "iPhone SD Camera" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3409,7 +3414,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_defer" : 1,
-											"parameter_enum" : [ "FaceTime HD Camera (467C:1317)", "OBS Virtual Camera", "iPhone SD Camera" ],
+											"parameter_enum" : [ "FaceTime HD Camera (467C:1317)", "Camo Camera", "iPhone SD Camera" ],
 											"parameter_longname" : "camera[2]",
 											"parameter_mmax" : 2,
 											"parameter_modmode" : 0,
@@ -4272,7 +4277,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-74", 0 ],
+									"destination" : [ "obj-85", 0 ],
 									"order" : 0,
 									"source" : [ "obj-6", 0 ]
 								}
@@ -4466,6 +4471,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-80", 0 ],
 									"source" : [ "obj-84", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-74", 0 ],
+									"source" : [ "obj-85", 0 ]
 								}
 
 							}

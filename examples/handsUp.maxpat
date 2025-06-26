@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 126.0, 87.0, 946.0, 959.0 ],
+		"rect" : [ 34.0, 100.0, 946.0, 959.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -23,7 +23,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.0, 703.0, 132.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "duck turns towards the higher hand"
 				}
 
@@ -38,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 579.0, 556.0, 149.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "a little reverb for the vibe"
 				}
 
@@ -53,7 +51,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 418.0, 507.0, 113.0, 39.0 ],
-					"presentation_linecount" : 2,
 					"text" : "pan the sound right"
 				}
 
@@ -83,7 +80,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 350.0, 132.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "the more the distance the more the pitch shift"
 				}
 
@@ -99,7 +95,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 276.0, 350.0, 132.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "the more the distance the more the pitch shift"
 				}
 
@@ -139,7 +134,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 284.0, 159.0, 149.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "vertical distance between nose and R hand"
 				}
 
@@ -155,7 +149,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 159.0, 149.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "vertical distance between nose and L hand"
 				}
 
@@ -171,7 +164,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 78.0, 36.0, 214.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "we use ste.poseTracking to ger L and R hand + nose Y position"
 				}
 
@@ -1957,22 +1949,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1190.0, 401.0, 97.0, 34.0 ],
-									"restore" : 									{
-										"_edit" : [ 0.0 ],
-										"_status" : [ 1 ],
-										"attenuation" : [ 60.0 ],
-										"brightness" : [ 0.0 ],
-										"diffuse" : [ "diffuse", 1.0, 1.0, 1.0, 1.0 ],
-										"falloff" : [ 2.0 ],
-										"handleReset" : [ 0.0 ],
-										"lock&close" : [ 0.0 ],
-										"posX" : [ 2.0 ],
-										"posY" : [ 2.0 ],
-										"posZ" : [ 2.0 ],
-										"shadows" : [ 0 ],
-										"specular" : [ "specular", 1.0, 1.0, 1.0, 1.0 ]
-									}
-,
 									"text" : "autopattr",
 									"varname" : "u464004402[1]"
 								}
@@ -2200,6 +2176,22 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1073.0, 322.0, 56.0, 22.0 ],
+									"restore" : 									{
+										"_edit" : [ 0.0 ],
+										"_status" : [ 1 ],
+										"attenuation" : [ 60.0 ],
+										"brightness" : [ 0.0 ],
+										"diffuse" : [ "diffuse", 1.0, 1.0, 1.0, 1.0 ],
+										"falloff" : [ 2.0 ],
+										"handleReset" : [ 0.0 ],
+										"lock&close" : [ 0.0 ],
+										"posX" : [ 2.0 ],
+										"posY" : [ 2.0 ],
+										"posZ" : [ 2.0 ],
+										"shadows" : [ 0 ],
+										"specular" : [ "specular", 1.0, 1.0, 1.0, 1.0 ]
+									}
+,
 									"text" : "autopattr",
 									"varname" : "u464004402"
 								}
@@ -37361,7 +37353,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
-										"reference" : [ 1.482863187789917 ]
+										"reference" : [ 1.53071916103363 ]
 									}
 ,
 									"text" : "autopattr",
@@ -38965,7 +38957,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
-										"reference" : [ 1.365782737731934 ]
+										"reference" : [ 1.549793481826782 ]
 									}
 ,
 									"text" : "autopattr",
@@ -65169,7 +65161,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1920.0, 405.0, 640.0, 575.0 ],
+						"rect" : [ 1088.0, 442.0, 640.0, 575.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -74921,8 +74913,8 @@
 							"power[3]" : [ 1.0 ],
 							"random[1]" : [ 0.3 ],
 							"random[2]" : [ 0.3 ],
-							"reference" : [ 1.365782737731934 ],
-							"reference[1]" : [ 1.482863187789917 ],
+							"reference" : [ 1.549793481826782 ],
+							"reference[1]" : [ 1.53071916103363 ],
 							"reference[2]" : [ 0.0 ],
 							"rotX[2]" : [ 0.0 ],
 							"rotY[2]" : [ -100.000000000811397 ],
@@ -75127,8 +75119,8 @@
 										"power[3]" : [ 1.0 ],
 										"random[1]" : [ 0.3 ],
 										"random[2]" : [ 0.3 ],
-										"reference" : [ 1.365782737731934 ],
-										"reference[1]" : [ 1.482863187789917 ],
+										"reference" : [ 1.549793481826782 ],
+										"reference[1]" : [ 1.53071916103363 ],
 										"reference[2]" : [ 0.0 ],
 										"rotX[2]" : [ 0.0 ],
 										"rotY[2]" : [ -100.000000000811397 ],

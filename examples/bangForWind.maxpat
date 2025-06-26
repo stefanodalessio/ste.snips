@@ -15,33 +15,6 @@
 		"subpatcher_template" : "ste.template",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontsize" : 12.0,
-					"id" : "obj-19",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 131.400000000000006, 665.0, 149.0, 37.0 ],
-					"presentation_linecount" : 2,
-					"text" : "just a clip for ears and speakers safety"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"linecount" : 13,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 25.0, 498.0, 194.0 ],
-					"text" : "here we see how to transform any trigger/bang in to a \"frequency\" value that depends on how often the trigger/bang happens\n\nwe can also see how to use the inOutScale snippet to first normalize the \"fequency\" value and then scale it out to a range that fits the \"freq1\" input of the ste.to3Floats~\n\nthe ste.to3Floats~ main function is to focus on 3 different frequency ranges (e.g. kick, snare, high hat) and then measure the amplitude of those 3 frequency areas and output 3 floats to create something sound reactive\nBUT\nin this case we are not measuring anything and just using it as a filter\nthe 3rd 4th and 5th outputs are the filtered results of the incoming sound (a noise~ in this case) and we are using the output of the 1st filter\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
 					"color" : [ 0.638382196426392, 0.254104733467102, 1.0, 1.0 ],
 					"fontface" : 3,
@@ -61,13 +34,159 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
 						"enablehscroll" : 0,
 						"enablevscroll" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-107",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 965.0, 79.0, 35.0, 22.0 ],
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 965.0, 111.0, 51.0, 22.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-113",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 1399.0, 142.0, 401.0, 535.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"linecount" : 11,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 6.0, 67.0, 315.0, 154.0 ],
+													"text" : "quantifying the frequency of incoming bangs to a smoothed float value\n\nits not a timer that measure the interval between 2 bangs and always needs for the next bang to measure,\n\nbut its a combination of slide and line, the more you bang in the more the output float raises, \nwhen you stop, it falls down\n\nits less precise but more usable for real time applications"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 11.0, 8.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [  ]
+									}
+,
+									"patching_rect" : [ 965.0, 139.0, 77.0, 22.0 ],
+									"text" : "p description"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activebgoncolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activetextcolor" : [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+									"activetextoncolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+									"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"bordercolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"focusbordercolor" : [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-72",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"parameter_mappable" : 0,
+									"patching_rect" : [ 965.0, 50.0, 107.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 344.0, 8.0, 103.0, 19.0 ],
+									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "clearAll[1]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "clearAll",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"text" : "open description",
+									"texton" : "preview",
+									"varname" : "live.text[10]"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
@@ -141,7 +260,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 442.0, 259.0, 458.0, 56.0 ],
+									"patching_rect" : [ 367.0, 259.0, 458.0, 56.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 126.0, 90.0, 256.0, 106.0 ],
@@ -157,7 +276,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 786.0, 221.0, 72.0, 22.0 ],
+									"patching_rect" : [ 711.0, 221.0, 72.0, 22.0 ],
 									"text" : "prepend set"
 								}
 
@@ -169,7 +288,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 786.0, 163.0, 58.0, 22.0 ],
+									"patching_rect" : [ 711.0, 163.0, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -181,7 +300,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 786.0, 191.0, 99.0, 22.0 ],
+									"patching_rect" : [ 711.0, 191.0, 99.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "varnameOut.js",
 										"parameter_enable" : 0
@@ -198,7 +317,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 647.0, 229.0, 71.0, 22.0 ],
+									"patching_rect" : [ 572.0, 229.0, 71.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "scroller.js",
 										"parameter_enable" : 0
@@ -215,7 +334,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 448.0, 190.0, 32.0, 22.0 ],
+									"patching_rect" : [ 373.0, 190.0, 32.0, 22.0 ],
 									"text" : "t b 0"
 								}
 
@@ -238,7 +357,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 448.0, 85.0, 106.0, 96.0 ],
+									"patching_rect" : [ 373.0, 85.0, 106.0, 96.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 842.0, 742.0, 45.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
@@ -295,7 +414,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 684.0, 113.0, 270.0, 41.0 ],
+									"patching_rect" : [ 609.0, 113.0, 270.0, 41.0 ],
 									"text" : "Reset&Re-position"
 								}
 
@@ -317,7 +436,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 571.0, 85.0, 106.0, 96.0 ],
+									"patching_rect" : [ 496.0, 85.0, 106.0, 96.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 226.340321183204651, 6.0, 46.659678816795349, 23.0 ],
 									"saved_attribute_attributes" : 									{
@@ -1231,7 +1350,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 571.0, 198.0, 119.0, 22.0 ],
+									"patching_rect" : [ 496.0, 198.0, 119.0, 22.0 ],
 									"text" : "p winManagemant"
 								}
 
@@ -1243,7 +1362,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 571.0, 229.0, 67.0, 22.0 ],
+									"patching_rect" : [ 496.0, 229.0, 67.0, 22.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -1257,11 +1376,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 448.0, 223.0, 97.0, 34.0 ],
+									"patching_rect" : [ 373.0, 223.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
+										"live.text[10]" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
-										"smoothness" : [ 1000.0 ]
+										"smoothness" : [ 2000.0 ]
 									}
 ,
 									"text" : "autopattr",
@@ -1278,7 +1398,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 442.0, 24.0, 212.0, 29.0 ],
+									"patching_rect" : [ 367.0, 24.0, 212.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 6.0, 184.0, 29.0 ],
 									"style" : "ste.snip",
@@ -1403,16 +1523,16 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-23",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 150.0, 145.5, 163.0, 60.0 ],
+									"patching_rect" : [ 150.0, 145.5, 163.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 243.0, 146.0, 165.0, 60.0 ],
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 243.0, 146.0, 165.0, 47.0 ],
 									"style" : "ste.snip",
-									"text" : "quantifying the frequency of bangs events to a smoothed float value\ndone to ",
+									"text" : "quantifying the frequency of incoming bangs to a smoothed float value",
 									"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
 								}
 
@@ -1452,7 +1572,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 700.0, 183.0, 26.0, 29.0 ],
+									"patching_rect" : [ 625.0, 183.0, 26.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 501.680642366409302, 300.840318202972412 ],
 									"proportion" : 0.5,
@@ -1465,6 +1585,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-92", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-107", 0 ]
 								}
 
 							}
@@ -1549,6 +1676,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-113", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-37", 0 ]
 								}
@@ -1591,8 +1725,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-107", 0 ],
+									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"midpoints" : [ 795.5, 253.0, 773.4921875, 253.0, 773.4921875, 14.0, 451.5, 14.0 ],
+									"midpoints" : [ 720.5, 253.0, 698.4921875, 253.0, 698.4921875, 14.0, 376.5, 14.0 ],
 									"source" : [ "obj-92", 0 ]
 								}
 
@@ -1614,11 +1755,37 @@
  ]
 					}
 ,
-					"patching_rect" : [ 26.0, 331.0, 118.0, 22.0 ],
+					"patching_rect" : [ 26.0, 326.0, 118.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.bangsSpeed",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
 					"varname" : "bangsSpeed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 131.400000000000006, 665.0, 149.0, 37.0 ],
+					"text" : "just a clip for ears and speakers safety"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 26.0, 25.0, 500.0, 194.0 ],
+					"text" : "here we see how to transform any trigger/bang in to a \"frequency\" value that depends on how often the trigger/bang happens\n\nwe can also see how to use the inOutScale snippet to first normalize the \"fequency\" value and then scale it out to a range that fits the \"freq1\" input of the ste.to3Floats~\n\nthe ste.to3Floats~ main function is to focus on 3 different frequency ranges (e.g. kick, snare, high hat) and then measure the amplitude of those 3 frequency areas and output 3 floats to create something sound reactive\nBUT\nin this case we are not measuring anything and just using it as a filter\nthe 3rd 4th and 5th outputs are the filtered results of the incoming sound (a noise~ in this case) and we are using the output of the 1st filter\n"
 				}
 
 			}
@@ -1659,7 +1826,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -4536,13 +4703,12 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1229.0, 716.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
 						"enablehscroll" : 0,
 						"enablevscroll" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "invert",
@@ -15244,6 +15410,7 @@
 			"obj-32::obj-171" : [ "smoothness", "smoothness", 0 ],
 			"obj-32::obj-3" : [ "lock&close[40]", "lock&close", 0 ],
 			"obj-32::obj-32" : [ "edit[51]", "edit", 0 ],
+			"obj-32::obj-72" : [ "clearAll[1]", "clearAll", 0 ],
 			"obj-38::obj-14" : [ "lock&close[4]", "lock&close", 0 ],
 			"obj-38::obj-29" : [ "loadAudioStatus", "loadAudioStatus", 0 ],
 			"obj-38::obj-32" : [ "edit[4]", "edit", 0 ],
@@ -15324,6 +15491,7 @@
 						"auto[6]" : 0.0,
 						"auto_handle" : 0.0,
 						"clear" : 0.0,
+						"clearAll[1]" : 0.0,
 						"clear[1]" : 0.0,
 						"edit[1]" : 0.0,
 						"edit[2]" : 0.0,
@@ -15361,7 +15529,7 @@
 							"res1[1]" : [ 1.0 ],
 							"res2" : [ 12.550000000000001 ],
 							"res3" : [ 5.0 ],
-							"smoothness" : [ 1000.0 ]
+							"smoothness" : [ 2000.0 ]
 						}
 
 					}
@@ -15392,6 +15560,7 @@
 									"auto[6]" : 0.0,
 									"auto_handle" : 0.0,
 									"clear" : 0.0,
+									"clearAll[1]" : 0.0,
 									"clear[1]" : 0.0,
 									"edit[1]" : 0.0,
 									"edit[2]" : 0.0,
@@ -15429,7 +15598,7 @@
 										"res1[1]" : [ 1.0 ],
 										"res2" : [ 12.550000000000001 ],
 										"res3" : [ 5.0 ],
-										"smoothness" : [ 1000.0 ]
+										"smoothness" : [ 2000.0 ]
 									}
 
 								}

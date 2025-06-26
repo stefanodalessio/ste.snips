@@ -10,10 +10,130 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 213.0, 107.0, 763.0, 838.0 ],
+		"rect" : [ 216.0, 100.0, 763.0, 838.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"subpatcher_template" : "ste.template",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 151.0, 178.0, 53.0, 22.0 ],
+					"text" : "jit.matrix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 281.0, 123.0, 47.0, 22.0 ],
+					"text" : "jit.bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 151.0, 212.0, 201.0, 22.0 ],
+					"text" : "jit.slide @slide_up 5 @slide_down 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 151.0, 89.0, 126.0, 22.0 ],
+					"text" : "qmetro 100 @active 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 390.0, 212.0, 183.0, 22.0 ],
+					"sync" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 151.0, 258.0, 133.0, 22.0 ],
+					"text" : "jit.map @map 0 1 0.8 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 15.0, 359.0, 53.0, 22.0 ],
+					"text" : "jit.matrix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 151.0, 288.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 151.0, 123.0, 115.0, 22.0 ],
+					"text" : "jit.noise 3 float32 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 15.0, 395.0, 29.5, 22.0 ],
+					"text" : "jit.*"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"linecount" : 3,
@@ -21,20 +141,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 24.0, 550.0, 47.0 ],
-					"presentation_linecount" : 8,
 					"text" : "the ste.3dModelGeom outputs the geometry of the loaded model as a matrix of pixels containing the information about the model, we can plug it in a jit.gl.mesh or apply tranformations, the snippet also outputs the new geometry data from its second output"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"id" : "obj-15",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.0, 229.0, 221.0, 100.0 ],
-					"text" : "keep in mind that the 3dModelGeom only outputs once after loading the model\nif you change anything in the patch you need to re-click the \"triggerOut\" button or bang it from outside with a qmetro or something "
+					"patching_rect" : [ 77.0, 338.0, 263.0, 64.0 ],
+					"text" : "keep in mind that the 3dModelGeom only outputs once after loading the model\nthats why we have a jit.matrix here to store the matrix and trigger it again"
 				}
 
 			}
@@ -2030,7 +2150,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 287.0, 134.0, 22.0 ],
+					"patching_rect" : [ 15.0, 482.0, 134.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.pixFxBrightness",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -2045,7 +2165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 253.0, 151.0, 22.0 ],
+					"patching_rect" : [ 15.0, 448.0, 151.0, 22.0 ],
 					"text" : "jit.gl.texture @dim 640 360"
 				}
 
@@ -2071,7 +2191,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -4266,7 +4386,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 120.0, 123.0, 22.0 ],
+					"patching_rect" : [ 15.0, 89.0, 123.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dModelGeom",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -4282,7 +4402,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 39.0, 159.0, 297.0, 49.0 ],
+					"patching_rect" : [ 327.0, 582.0, 297.0, 49.0 ],
 					"text" : "jit.gl.mesh @draw_mode points @point_mode circle_depth @mat_diffuse 1. 0. 1. 1. @point_size 10. @position 0. 0. -1. @gl_color 1. 0. 1. 1."
 				}
 
@@ -4297,7 +4417,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 84.0, 416.0, 80.0, 49.0 ]
+					"patching_rect" : [ 84.0, 611.0, 80.0, 49.0 ]
 				}
 
 			}
@@ -7199,7 +7319,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 387.0, 88.0, 22.0 ],
+					"patching_rect" : [ 15.0, 582.0, 88.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dWorld",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -7214,7 +7334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 196.0, 412.0, 67.0, 22.0 ],
+					"patching_rect" : [ 196.0, 607.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -8650,7 +8770,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 196.0, 387.0, 98.0, 22.0 ],
+					"patching_rect" : [ 196.0, 582.0, 98.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.autoSave",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -8661,9 +8781,44 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"order" : 0,
-					"source" : [ "obj-14", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -8671,7 +8826,52 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"order" : 1,
-					"source" : [ "obj-14", 0 ]
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 160.5, 245.71484375, 376.34765625, 245.71484375, 376.34765625, 197.0, 399.5, 197.0 ],
+					"order" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -8742,6 +8942,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "jit.*.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jit.geom.togeom.mxo",
 				"type" : "iLaX"
 			}

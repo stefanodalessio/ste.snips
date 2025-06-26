@@ -15,18 +15,6 @@
 		"subpatcher_template" : "ste.template",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-4",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 14.0, 425.0, 33.0 ],
-					"text" : "simple face tracking using mediapipe, x y and z are then scaled to ranges that fit the positioning of the duck model "
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
 					"color" : [ 0.638382196426392, 0.254104733467102, 1.0, 1.0 ],
 					"fontface" : 3,
@@ -46,7 +34,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1920.0, 405.0, 640.0, 575.0 ],
+						"rect" : [ 1088.0, 442.0, 640.0, 575.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -54,6 +42,168 @@
 						"enablevscroll" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-85",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 298.5, 747.0, 177.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"legacy" : 1
+									}
+,
+									"text" : "dict.unpack face_0: face_1:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-80",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1474.0, 73.0, 35.0, 22.0 ],
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-82",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1474.0, 105.0, 51.0, 22.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-113",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 1399.0, 142.0, 401.0, 535.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 11.0, 53.0, 310.0, 33.0 ],
+													"text" : "uses media pipe to track a face\nand outputs x y z coordinates of various face parts"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 11.0, 8.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [  ]
+									}
+,
+									"patching_rect" : [ 1474.0, 133.0, 77.0, 22.0 ],
+									"text" : "p description"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activebgoncolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"activetextcolor" : [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+									"activetextoncolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+									"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"bordercolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"focusbordercolor" : [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-84",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"parameter_mappable" : 0,
+									"patching_rect" : [ 1474.0, 44.0, 107.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 418.0, 12.0, 103.0, 19.0 ],
+									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activetextoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "clearAll[1]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "clearAll",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"text" : "open description",
+									"texton" : "preview",
+									"varname" : "live.text[10]"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-81",
 									"linecount" : 2,
@@ -122,17 +272,6 @@
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 1272.0, 415.0, 44.0, 22.0 ],
 									"text" : "sel 1 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-34",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1059.0, 315.0, 100.0, 22.0 ]
 								}
 
 							}
@@ -1290,6 +1429,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"camera" : [ 0 ],
+										"live.text[10]" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
 										"reload" : [ 0.0 ]
 									}
@@ -1678,12 +1818,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 181.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 98.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack LIPS:"
+													"text" : "dict.unpack Lips:"
 												}
 
 											}
@@ -1873,7 +2013,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 134.0, 166.0, 340.0, 304.0 ],
+										"rect" : [ 586.0, 230.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -1898,12 +2038,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 173.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 134.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack FACE_OVAL:"
+													"text" : "dict.unpack Face_Oval:"
 												}
 
 											}
@@ -2118,12 +2258,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 181.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 157.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack RIGHT_EYEBROW:"
+													"text" : "dict.unpack Right_Eyebrow:"
 												}
 
 											}
@@ -2313,7 +2453,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 133.0, 615.0, 340.0, 304.0 ],
+										"rect" : [ 820.0, 438.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2338,12 +2478,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 173.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 149.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack LEFT_EYEBROW:"
+													"text" : "dict.unpack Left_Eyebrow:"
 												}
 
 											}
@@ -2533,7 +2673,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 81.0, 340.0, 304.0 ],
+										"rect" : [ 134.0, 172.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2558,12 +2698,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 144.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 131.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack RIGHT_EYE:"
+													"text" : "dict.unpack Right_Eye:"
 												}
 
 											}
@@ -2753,7 +2893,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 81.0, 340.0, 304.0 ],
+										"rect" : [ 134.0, 172.0, 340.0, 304.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2778,12 +2918,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 101.0, 136.0, 22.0 ],
+													"patching_rect" : [ 50.0, 101.0, 123.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"legacy" : 1
+														"legacy" : 0
 													}
 ,
-													"text" : "dict.unpack LEFT_EYE:"
+													"text" : "dict.unpack Left_Eye:"
 												}
 
 											}
@@ -4137,7 +4277,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-74", 0 ],
+									"destination" : [ "obj-85", 0 ],
 									"order" : 0,
 									"source" : [ "obj-6", 0 ]
 								}
@@ -4315,6 +4455,34 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-82", 0 ],
+									"source" : [ "obj-80", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-113", 0 ],
+									"source" : [ "obj-82", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-80", 0 ],
+									"source" : [ "obj-84", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-74", 0 ],
+									"source" : [ "obj-85", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-90", 0 ],
 									"source" : [ "obj-87", 1 ]
 								}
@@ -4379,11 +4547,23 @@
  ]
 					}
 ,
-					"patching_rect" : [ 14.0, 96.0, 197.5, 22.0 ],
+					"patching_rect" : [ 14.0, 88.0, 197.5, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.faceTracking",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
 					"varname" : "faceTracking"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 14.0, 425.0, 33.0 ],
+					"text" : "simple face tracking using mediapipe, x y and z are then scaled to ranges that fit the positioning of the duck model "
 				}
 
 			}
@@ -15639,9 +15819,9 @@
 										"live.text[2]" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
 										"materialName" : [ "" ],
-										"posX" : [ 0.248921066522598 ],
-										"posY" : [ -0.164332136511803 ],
-										"posZ" : [ -3.67883038520813 ],
+										"posX" : [ 0.166258737444878 ],
+										"posY" : [ 0.36252361536026 ],
+										"posZ" : [ -3.150224208831787 ],
 										"reset_transform" : [ 0.0 ],
 										"rotX" : [ 0.0 ],
 										"rotY" : [ -103.0 ],
@@ -23346,6 +23526,7 @@
 			"obj-3::obj-31" : [ "edit[51]", "edit", 0 ],
 			"obj-3::obj-37" : [ "camera[2]", "camera", 0 ],
 			"obj-3::obj-42" : [ "clear all[1]", "clear all", 0 ],
+			"obj-3::obj-84" : [ "clearAll[1]", "clearAll", 0 ],
 			"obj-54::obj-11" : [ "_status[1]", "_status", 0 ],
 			"obj-54::obj-15" : [ "erase_color", "erase_color", 0 ],
 			"obj-54::obj-22" : [ "toggle[1]", "toggle", 0 ],
@@ -23427,6 +23608,7 @@
 						"clear all[23]" : 0.0,
 						"clear all[24]" : 0.0,
 						"clearAll" : 0.0,
+						"clearAll[1]" : 0.0,
 						"cull_face" : 3.0,
 						"depth_enable" : 1.0,
 						"edit[10]" : 0.0,
@@ -23476,9 +23658,9 @@
 							"scaleX[2]" : [ 1.0 ],
 							"scaleY[2]" : [ 1.0 ],
 							"scaleZ[2]" : [ 1.0 ],
-							"sensitivity[10]" : [ -3.67883038520813 ],
-							"sensitivity[11]" : [ -0.164332136511803 ],
-							"sensitivity[12]" : [ 0.248921066522598 ]
+							"sensitivity[10]" : [ -3.150224208831787 ],
+							"sensitivity[11]" : [ 0.36252361536026 ],
+							"sensitivity[12]" : [ 0.166258737444878 ]
 						}
 
 					}
@@ -23520,6 +23702,7 @@
 									"clear all[23]" : 0.0,
 									"clear all[24]" : 0.0,
 									"clearAll" : 0.0,
+									"clearAll[1]" : 0.0,
 									"cull_face" : 3.0,
 									"depth_enable" : 1.0,
 									"edit[10]" : 0.0,
@@ -23569,9 +23752,9 @@
 										"scaleX[2]" : [ 1.0 ],
 										"scaleY[2]" : [ 1.0 ],
 										"scaleZ[2]" : [ 1.0 ],
-										"sensitivity[10]" : [ -3.67883038520813 ],
-										"sensitivity[11]" : [ -0.164332136511803 ],
-										"sensitivity[12]" : [ 0.248921066522598 ]
+										"sensitivity[10]" : [ -3.150224208831787 ],
+										"sensitivity[11]" : [ 0.36252361536026 ],
+										"sensitivity[12]" : [ 0.166258737444878 ]
 									}
 
 								}

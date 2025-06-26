@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 143.0, 1038.0, 811.0 ],
+		"rect" : [ 34.0, 100.0, 1038.0, 811.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -33,7 +33,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 221.0, 628.5, 193.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "overdrive for some crunch and ear protection"
 				}
 
@@ -47,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 466.0, 344.0, 196.0, 64.0 ],
-					"presentation_linecount" : 4,
 					"text" : "midi to frequency translation is the fastest way to go from a lineat value to an exponential (frequency) value"
 				}
 
@@ -61,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 604.0, 435.0, 193.0, 64.0 ],
-					"presentation_linecount" : 4,
 					"text" : "we create a triplet of slighly different values to feed as frequencies to the 3 filters of the ste.to3Floats~"
 				}
 
@@ -75,7 +72,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 528.0, 298.0, 193.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "scale index Y value to a range that would fit midi notes"
 				}
 
@@ -152,7 +148,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 243.5, 524.0, 195.0, 64.0 ],
-					"presentation_linecount" : 8,
 					"text" : "using a ste.to3Floats~ not because of its capabilities to measure volume but as a triple parallel filter"
 				}
 
@@ -178,7 +173,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 261.0, 322.0, 113.0, 51.0 ],
-					"presentation_linecount" : 6,
 					"text" : "how distant are thumb and index  Ys?"
 				}
 
@@ -197,14 +191,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontsize" : 19.166595362368454,
+					"fontsize" : 31.451562080426214,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 115.0, 322.0, 32.0 ],
-					"presentation_linecount" : 2,
-					"text" : "PUSH THE VOLUME UP FIRST!!!!"
+					"patching_rect" : [ 54.0, 107.0, 499.0, 46.0 ],
+					"text" : "RAISE THE VOLUME FIRST!!!!"
 				}
 
 			}
@@ -3370,9 +3363,9 @@
 									"patching_rect" : [ 379.0, 193.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
-										"amplitude" : [ 1.985817912713928 ],
+										"amplitude" : [ 1.105412151513547 ],
 										"lock&close[1]" : [ 0.0 ],
-										"volume" : [ 5.958788477054247 ]
+										"volume" : [ 0.870484687207035 ]
 									}
 ,
 									"text" : "autopattr",
@@ -4932,7 +4925,7 @@
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
-										"pan" : [ 0.614727795124054 ]
+										"pan" : [ 0.337719321250916 ]
 									}
 ,
 									"text" : "autopattr",
@@ -11945,7 +11938,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -13727,15 +13720,15 @@
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
 										"clear" : [ 0.0 ],
-										"freq1" : [ 117.235340102802454 ],
-										"freq2" : [ 146.54417512850307 ],
-										"freq3" : [ 175.853010154203673 ],
+										"freq1" : [ 205.996911212705641 ],
+										"freq2" : [ 257.496139015882022 ],
+										"freq3" : [ 308.995366819058461 ],
 										"frequency" : [ 0 ],
 										"lock&close[1]" : [ 0.0 ],
 										"preAmp" : [ 1.0 ],
-										"res1" : [ 19.8176588777505 ],
-										"res2" : [ 19.8176588777505 ],
-										"res3" : [ 19.8176588777505 ]
+										"res1" : [ 8.4981562337456 ],
+										"res2" : [ 8.4981562337456 ],
+										"res3" : [ 8.4981562337456 ]
 									}
 ,
 									"text" : "autopattr",
@@ -17633,7 +17626,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
-										"reference" : [ 0.673714399337769 ]
+										"reference" : [ 0.551732122898102 ]
 									}
 ,
 									"text" : "autopattr",
@@ -18114,7 +18107,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1920.0, 405.0, 640.0, 575.0 ],
+						"rect" : [ 1088.0, 442.0, 640.0, 575.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,

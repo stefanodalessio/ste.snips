@@ -1,0 +1,93 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 7,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"rect" : [ 59.0, 119.0, 1000.0, 780.0 ],
+		"gridsize" : [ 15.0, 15.0 ],
+		"description" : "56 x 42, containing 2 objects",
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 10.0, 51.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 10.0, 51.0, 20.0 ],
+					"text" : "ste.float",
+					"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+					"fontsize" : 14.321678161617513,
+					"format" : 6,
+					"htricolor" : [ 0.993154764175415, 0.507667601108551, 0.122715823352337, 1.0 ],
+					"id" : "obj-9",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 13.0, 30.0, 53.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 128.0, 48.0, 24.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "float",
+							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "float",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
+					"triangle" : 0,
+					"tricolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+					"varname" : "float"
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-9" : [ "float", "float", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "ste.float",
+			"objects" : "number, comment",
+			"tags" : "",
+			"description" : "56 x 42, containing 2 objects",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAEwAAABACAYAAACwVZFQAAAABHNCSVQICAgIfAhkiAAABPlJREFUeJztmjuMG0UYgL/ZXXt3/bg93/ruchwVjyJAj4RShCJIRJQUNIiSijZdCioqoKOiQUIUFDRUUCJFQpEogAIJERGJSyz57Fufvd7zviku3sSXy+HZ2yQOmq9Z39gz/8znf3bGsycuXbqUo1ga7Wl34FlDCZNECZNECZNECZNECZNECZNECZNECZNECZNECZNECZNECZNk5YRp2sp1aQHjcTS6trbGZDIhz5c/ObJtG9d1ATg6OiJNU0ajUan4uq7TbDYZj8el6p9F5V+npmk4jiOdKY1Gg+l0yt7eHnmeS8k+iW3bWJZVuv5ZlM4wIQSu62KaJnmeM51OOTw8LLJka2uL/f198jyn0+lgmmaRNbPZbKEtx3GwbftUSYZh0Ol0qNfrD9Vvt9u0Wi10XSeOY0ajEWma4jgOQgi63S6DwaDsEE+ldIY1m01qtRr7+/t4nke73aZerxfTwPM8kiTBdV00TWMwGDCbzQqhD+L7PmEYEgQBk8lk4b354IfDIbPZjG63i2EY1Ot1HMfh8PCQfr9PlmWsr6+TJAm+75MkSekpfRbnmpJCCAzDYDab0ev1iKKIOI4BiOMYwzAwTZPxeEwcx4zHY7IswzTNhXbSNCXLMpIkIUmSolzXdWzbLrJqnkGNRoM0TRkMBgRBQJIkxHFc3AYebK9qSk/J6XSKaZpsbGwAEAQBnuctfEbXdQA2NzcXyi3LIgzD/4xRr9fJ85woioqyOI7RdZ00TVlbW6PT6RR/CyHKDmdpSgvTNI3RaITneTQaDRzHKabDnCzLAOj1esW3bRgGaZouFSNNUzRNwzCMhfpRFNFut7EsC8/zCMOw6MPjpvSUbDQadLvd4oZ/Mv11XSdJkiIThBDUajW2t7eLKWnbdpGFpxHHMVmW0Wq1EEJgWRa1Wo0wDNE0jSzLigWg2WwW9fI8R9O0x5JxpTPM930sy2J3dxeAKIrwfZ8sywjDkO3tbfr9PsPhENd12d3dJcsyfN8vBum6LgcHBwRB8NDghBDkec5wOGRjY4NWq0We54xGI8IwJE3ThfhBEFCv19F1nSiKMAyDnZ0d7t69W3aIpyLO+1xyPtCTW4L5gOfMM6Isj6o/v389Kc6903/UBvNk+XlknVX/ScqCFfwtueooYZIoYZIoYZKUuun3er2q+/HU2dnZWepzKsMkUcIkUcIkUcIkUcIkqfQhSL52geziFUCg/fUTYni7yuZXgsqEZRevkLz3BcRHkISkb13D+OZDtFs3qgqxElQyJfN6k+SdjxF//0zts8vUPn8TMbxNcvV6Fc2vFNUI23kF2lvoN75EBAeI0Ee7+TVsvkS29XIVIVaGaoStPw+A6P9ZlBWv15bbQT8rVLNKOheOr8H9x1ri6PhxW97qVhJiVahGWHbvEE+/v4bkeg0AEU0rCbEqVCNs0j++2p37ZY314+voTiUhVoVKhInBLQCyF98oyrIXjl8L758qQqwMlezDtDu/I/Z+Jb380bEgs032+vtov3yLODokb2+RXL2O/tv3aH/8WEXIp0ZlP42M765BOCH54CuSdz9F3L6J/sMn9960yF99m+y516oK99Qo9ZjtrAPEvOlCfISIgnN17Emz7AFi5f9QJ6bDqptcKdRphSRKmCRKmCRKmCRKmCSlVslll+D/IyrDJFHCJFHCJFHCJFHCJFHCJFHCJFHCJFHCJPkXiSwDrWf/hlYAAAAASUVORK5CYII="
+		}
+,
+		"autosave" : 0
+	}
+
+}

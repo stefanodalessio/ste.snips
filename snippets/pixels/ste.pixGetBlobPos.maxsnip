@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+		"rect" : [ 77.0, 423.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"description" : "121 x 22, containing 1 object",
 		"boxes" : [ 			{
@@ -34,7 +34,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
+						"rect" : [ 1228.0, 717.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -1901,8 +1901,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 294.0, 354.0, 101.0, 22.0 ],
-									"text" : "print biggestBlob:"
+									"patching_rect" : [ 294.0, 354.0, 118.0, 22.0 ],
+									"text" : "print pixGetBlobPos:"
 								}
 
 							}

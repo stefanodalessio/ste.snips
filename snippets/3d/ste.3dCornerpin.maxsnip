@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 278.0, 202.0, 640.0, 480.0 ],
+		"rect" : [ 222.0, 160.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"description" : "108 x 22, containing 1 object",
 		"boxes" : [ 			{
@@ -41,6 +41,38 @@
 						"enablevscroll" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"attr" : "gl_color",
+									"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+									"fontsize" : 11.898970920906017,
+									"id" : "obj-84",
+									"lock" : 1,
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 371.0, 482.0, 117.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 192.340321183204651, 267.0, 117.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_invisible" : 1,
+											"parameter_longname" : "gl_color",
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "gl_color",
+											"parameter_type" : 3
+										}
+
+									}
+,
+									"text_width" : 57.659678816795349,
+									"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
+									"varname" : "gl_color"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-83",
 									"maxclass" : "newobj",
@@ -162,7 +194,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 608.0, 313.0, 107.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 133.0, 11.0, 103.0, 19.0 ],
+									"presentation_rect" : [ 341.0, 34.166665971279144, 103.0, 19.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -2171,6 +2203,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
+										"gl_color" : [ "gl_color", 1.0, 1.0, 1.0, 1.0 ],
 										"handles" : [ 0 ],
 										"layer" : [ 1 ],
 										"live.text" : [ 0.0 ],
@@ -3325,6 +3358,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-71", 0 ],
+									"source" : [ "obj-84", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
 									"source" : [ "obj-9", 0 ]
 								}
@@ -3378,6 +3418,7 @@
 			"obj-55::obj-45" : [ "layer", "layer", 0 ],
 			"obj-55::obj-6" : [ "upper_right_X", "upper_right_X", 0 ],
 			"obj-55::obj-7" : [ "status[4]", "status", 0 ],
+			"obj-55::obj-84" : [ "gl_color", "gl_color", 0 ],
 			"obj-55::obj-95" : [ "clearAll[1]", "clearAll", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

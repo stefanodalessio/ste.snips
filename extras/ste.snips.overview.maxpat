@@ -10,11 +10,12 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1498.0, 111.0, 1435.0, 830.0 ],
+		"rect" : [ 481.0, 126.0, 1435.0, 830.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-40",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -3593,7 +3594,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 138.0, 789.0, 63.0, 22.0 ],
+					"patching_rect" : [ 138.0, 763.0, 63.0, 22.0 ],
 					"text" : "p snippets",
 					"varname" : "snippets"
 				}
@@ -3630,7 +3631,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 788.0, 402.0, 33.0 ],
+					"patching_rect" : [ 1025.0, 752.0, 402.0, 33.0 ],
 					"text" : "you are DONE, close the package manager, and check the snippets TAB!!!"
 				}
 
@@ -3643,7 +3644,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 788.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 752.0, 22.0, 20.0 ],
 					"text" : "17",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3655,7 +3656,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 759.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 723.0, 402.0, 20.0 ],
 					"text" : "click on the \"install\" button and wait (maybe laggy max again)"
 				}
 
@@ -3668,7 +3669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 759.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 723.0, 22.0, 20.0 ],
 					"text" : "16",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3681,7 +3682,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 718.0, 402.0, 33.0 ],
+					"patching_rect" : [ 1025.0, 687.0, 402.0, 33.0 ],
 					"text" : "the results should list the \"catart-mubu\" package (white letters on black backgtound), click on it"
 				}
 
@@ -3692,7 +3693,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 690.0, 345.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 659.0, 345.0, 20.0 ],
 					"text" : "in the search field on the top right search for \"catart\""
 				}
 
@@ -3703,7 +3704,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 634.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 603.0, 402.0, 20.0 ],
 					"text" : "click on the \"install\" button and wait (maybe laggy max again)"
 				}
 
@@ -3726,7 +3727,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 662.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 631.0, 402.0, 20.0 ],
 					"text" : "once it is installed go back using the arrows on the top left"
 				}
 
@@ -3738,7 +3739,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 591.0, 402.0, 33.0 ],
+					"patching_rect" : [ 1025.0, 565.0, 402.0, 33.0 ],
 					"text" : "the results should list the \"mubu for max\" package (white letters on black backgtound), click on it"
 				}
 
@@ -3749,7 +3750,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 563.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 537.0, 402.0, 20.0 ],
 					"text" : "in the search field on the top right search for \"mubu for\""
 				}
 
@@ -3760,7 +3761,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 535.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 509.0, 402.0, 20.0 ],
 					"text" : "once it is installed go back using the arrows on the top left"
 				}
 
@@ -3771,7 +3772,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 508.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 482.0, 402.0, 20.0 ],
 					"text" : "click on the \"install\" button and wait (maybe laggy max again)"
 				}
 
@@ -3783,7 +3784,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 466.0, 402.0, 33.0 ],
+					"patching_rect" : [ 1025.0, 444.0, 402.0, 33.0 ],
 					"text" : "the results should list the \"petra\" package (white logo on blue background), click on it"
 				}
 
@@ -3795,7 +3796,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 423.0, 402.0, 33.0 ],
+					"patching_rect" : [ 1025.0, 405.0, 402.0, 33.0 ],
 					"text" : "the results should list the \"petra\" package (white logo on blue background), click on it"
 				}
 
@@ -3806,7 +3807,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 395.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 377.0, 402.0, 20.0 ],
 					"text" : "in the search field on the top right search for \"petra\""
 				}
 
@@ -3818,7 +3819,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 349.0, 402.0, 33.0 ],
+					"patching_rect" : [ 1025.0, 339.0, 402.0, 33.0 ],
 					"text" : "Max might get laggy -i guess because of indexing downloaded files- just be patient, it will go back to normal"
 				}
 
@@ -3829,7 +3830,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 322.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 312.0, 402.0, 20.0 ],
 					"text" : "once it is installed go back using the arrows on the top left"
 				}
 
@@ -3840,7 +3841,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 294.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 284.0, 402.0, 20.0 ],
 					"text" : "click on the \"install\" button and wait"
 				}
 
@@ -3852,7 +3853,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 251.0, 402.0, 33.0 ],
+					"patching_rect" : [ 1025.0, 247.0, 402.0, 33.0 ],
 					"text" : "the results should list the \"cv.jit\" package (pink/white hand on blue background), click on it"
 				}
 
@@ -3863,7 +3864,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 224.0, 402.0, 20.0 ],
+					"patching_rect" : [ 1025.0, 220.0, 402.0, 20.0 ],
 					"text" : "in the search field on the top right search for \"cv.jit\""
 				}
 
@@ -3899,7 +3900,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 718.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 687.0, 22.0, 20.0 ],
 					"text" : "16",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3913,7 +3914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 662.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 631.0, 22.0, 20.0 ],
 					"text" : "13",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3927,7 +3928,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 690.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 659.0, 22.0, 20.0 ],
 					"text" : "15",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3941,7 +3942,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 634.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 603.0, 22.0, 20.0 ],
 					"text" : "14",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3955,7 +3956,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 591.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 565.0, 22.0, 20.0 ],
 					"text" : "13",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3969,7 +3970,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 563.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 537.0, 22.0, 20.0 ],
 					"text" : "12",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3983,7 +3984,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 535.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 509.0, 22.0, 20.0 ],
 					"text" : "11",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -3997,7 +3998,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 508.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 482.0, 22.0, 20.0 ],
 					"text" : "10",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4011,7 +4012,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 466.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 444.0, 22.0, 20.0 ],
 					"text" : "9",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4025,7 +4026,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 423.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 405.0, 22.0, 20.0 ],
 					"text" : "8",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4039,7 +4040,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 395.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 377.0, 22.0, 20.0 ],
 					"text" : "7",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4053,7 +4054,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 322.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 312.0, 22.0, 20.0 ],
 					"text" : "6",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4067,7 +4068,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 294.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 284.0, 22.0, 20.0 ],
 					"text" : "5",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4081,7 +4082,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 251.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 247.0, 22.0, 20.0 ],
 					"text" : "4",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4095,7 +4096,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 998.0, 224.0, 22.0, 20.0 ],
+					"patching_rect" : [ 998.0, 220.0, 22.0, 20.0 ],
 					"text" : "3",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4210,13 +4211,14 @@
 						"classnamespace" : "box",
 						"rect" : [ 1051.0, 172.0, 588.0, 530.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-46",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 490.0, 102.0, 20.0 ],
+									"patching_rect" : [ 33.0, 437.0, 102.0, 20.0 ],
 									"text" : "repeat steps 2 - 5"
 								}
 
@@ -4229,8 +4231,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 490.0, 22.0, 20.0 ],
-									"text" : "16",
+									"patching_rect" : [ 9.0, 437.0, 22.0, 20.0 ],
+									"text" : "15",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 								}
 
@@ -4241,7 +4243,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 434.0, 102.0, 20.0 ],
+									"patching_rect" : [ 33.0, 381.0, 102.0, 20.0 ],
 									"text" : "repeat steps 2 - 5"
 								}
 
@@ -4254,7 +4256,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 434.0, 22.0, 20.0 ],
+									"patching_rect" : [ 9.0, 381.0, 22.0, 20.0 ],
 									"text" : "13",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 								}
@@ -4268,7 +4270,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 198.0, 461.0, 362.0, 21.0 ],
+									"patching_rect" : [ 198.0, 408.0, 362.0, 21.0 ],
 									"text" : "https://github.com/lysdexic-audio/jweb-pose-landmarker"
 								}
 
@@ -4279,7 +4281,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 462.0, 161.0, 20.0 ],
+									"patching_rect" : [ 33.0, 409.0, 161.0, 20.0 ],
 									"text" : "open your browser and go to"
 								}
 
@@ -4292,8 +4294,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 462.0, 22.0, 20.0 ],
-									"text" : "15",
+									"patching_rect" : [ 9.0, 409.0, 22.0, 20.0 ],
+									"text" : "14",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 								}
 
@@ -4306,7 +4308,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 198.0, 405.0, 362.0, 21.0 ],
+									"patching_rect" : [ 198.0, 352.0, 362.0, 21.0 ],
 									"text" : "https://github.com/lysdexic-audio/jweb-object-detection"
 								}
 
@@ -4319,20 +4321,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 198.0, 349.5, 362.0, 21.0 ],
-									"text" : "https://github.com/lysdexic-audio/jweb-hands-landmarker"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-38",
-									"maxclass" : "textedit",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 198.0, 294.0, 362.0, 21.0 ],
+									"patching_rect" : [ 198.0, 297.0, 362.0, 21.0 ],
 									"text" : "https://github.com/lysdexic-audio/jweb-hands-landmarker"
 								}
 
@@ -4343,18 +4332,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 378.0, 102.0, 20.0 ],
-									"text" : "repeat steps 2 - 5"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-36",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 322.0, 102.0, 20.0 ],
+									"patching_rect" : [ 33.0, 325.0, 102.0, 20.0 ],
 									"text" : "repeat steps 2 - 5"
 								}
 
@@ -4365,7 +4343,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 406.0, 161.0, 20.0 ],
+									"patching_rect" : [ 33.0, 353.0, 161.0, 20.0 ],
 									"text" : "open your browser and go to"
 								}
 
@@ -4376,7 +4354,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 350.0, 161.0, 20.0 ],
+									"patching_rect" : [ 33.0, 297.0, 161.0, 20.0 ],
 									"text" : "open your browser and go to"
 								}
 
@@ -4402,8 +4380,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 406.0, 22.0, 20.0 ],
-									"text" : "14",
+									"patching_rect" : [ 9.0, 353.0, 22.0, 20.0 ],
+									"text" : "12",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 								}
 
@@ -4416,8 +4394,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 378.0, 22.0, 20.0 ],
-									"text" : "13",
+									"patching_rect" : [ 9.0, 325.0, 22.0, 20.0 ],
+									"text" : "11",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 								}
 
@@ -4430,48 +4408,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 350.0, 22.0, 20.0 ],
-									"text" : "12",
-									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-									"fontface" : 1,
-									"id" : "obj-25",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 322.0, 22.0, 20.0 ],
-									"text" : "11",
-									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-									"fontface" : 1,
-									"id" : "obj-27",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 295.0, 22.0, 20.0 ],
+									"patching_rect" : [ 9.0, 297.0, 22.0, 20.0 ],
 									"text" : "10",
 									"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-28",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 295.0, 161.0, 20.0 ],
-									"text" : "open your browser and go to"
 								}
 
 							}
@@ -4780,7 +4719,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 766.0, 701.5, 137.0, 37.0 ],
+					"patching_rect" : [ 766.0, 709.0, 137.0, 37.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -4943,7 +4882,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 225.0, 252.0, 24.0 ],
+					"patching_rect" : [ 505.0, 241.0, 252.0, 24.0 ],
 					"text" : "hopefully your max Library path is there",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4957,7 +4896,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 484.0, 273.0, 19.0, 20.0 ],
+					"patching_rect" : [ 484.0, 281.0, 19.0, 20.0 ],
 					"text" : "1",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4971,7 +4910,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 507.0, 271.0, 250.5, 24.0 ],
+					"patching_rect" : [ 507.0, 279.0, 250.5, 24.0 ],
 					"text" : "click on DOWNLOAD ALL",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
@@ -4980,12 +4919,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-75",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 484.0, 173.0, 273.0, 33.0 ],
-					"text" : "follow the steps below to quickly download and install the projects"
+					"patching_rect" : [ 484.0, 170.0, 273.0, 60.0 ],
+					"text" : "follow the steps below to download & install the projects (auto install seems not to be working with WIndows... sorry... see at the bottom the \"instructions\" button for manual installation)"
 				}
 
 			}
@@ -5010,7 +4949,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 766.0, 123.0, 183.0, 22.0 ],
+					"patching_rect" : [ 766.0, 121.0, 183.0, 22.0 ],
 					"text" : "https://github.com/lysdexic-audio"
 				}
 
@@ -5046,7 +4985,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.0, 72.0, 140.0, 20.0 ],
-					"text" : "v 0.0.1",
+					"text" : "v 0.0.3",
 					"textcolor" : [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
 				}
 
@@ -5505,7 +5444,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 108.0, 416.0, 248.0 ],
+					"patching_rect" : [ 19.0, 108.0, 418.0, 248.0 ],
 					"text" : "ste.snips is a package for Max9, consisting of a collection of snippets designed to expedite and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.\n\nThe primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.\n\nMost snippets are single subpatchers that, when opened, display a ready-to-use interface in a separate window located at the bottom right of your main monitor. This allows quick access to the interface for each specific snippet while maintaining a minimal and clean main patch.\n\nSome snippets are more complex, while others are simple wrappers designed to offer a consistent user experience, especially for students. Credits for code contributions from C74 and others can be found within the snippets and their descriptions."
 				}
 
@@ -7582,7 +7521,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 766.0, 264.0, 137.0, 37.0 ],
+					"patching_rect" : [ 766.0, 272.0, 137.0, 37.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -7750,7 +7689,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 766.0, 223.0, 177.0, 20.0 ],
+					"patching_rect" : [ 766.0, 243.0, 177.0, 20.0 ],
 					"text" : "Max Library path found!",
 					"textcolor" : [ 0.146, 0.924, 0.55, 1.0 ]
 				}

@@ -4,9 +4,16 @@
 
 After installing the package go to the extras menu and open the ste.snips.overview, here you find a patch that can automatically download the media pipe dependencies from [lysdexic audio github](https://github.com/lysdexic-audio), and a list of the packages needed for all snippets to run.
 
+![[snipsPreview.gif]]
+
 ## Intro
 
 ste.snips is a package for Max9, consisting of a collection of snippets designed to expedite and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.
+
+Find some videos of patches built with the ste.snippets here:
+[shaking my heads](https://www.youtube.com/watch?v=TAmbGvDeVtY)
+[duckFace improvisation](https://www.youtube.com/watch?v=dOpI2ajVjL0)
+[Amen hand-break](https://www.youtube.com/watch?v=CH11DIMfMSY)
 
 The primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.
 

@@ -1744,7 +1744,6 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
-											"parameter_linknames" : 1,
 											"parameter_longname" : "inMax",
 											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 0,
