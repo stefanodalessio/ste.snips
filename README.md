@@ -11,9 +11,9 @@ After installing the package go to the extras menu and open the ste.snips.overvi
 ste.snips is a package for Max9, consisting of a collection of snippets designed to expedite and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.
 
 Find some videos of patches built with the ste.snippets here:
-[shaking my heads](https://www.youtube.com/watch?v=TAmbGvDeVtY)
-[duckFace improvisation](https://www.youtube.com/watch?v=dOpI2ajVjL0)
-[Amen hand-break](https://www.youtube.com/watch?v=CH11DIMfMSY)
+- [shaking my heads](https://www.youtube.com/watch?v=TAmbGvDeVtY)
+- [duckFace improvisation](https://www.youtube.com/watch?v=dOpI2ajVjL0)
+- [Amen hand-break](https://www.youtube.com/watch?v=CH11DIMfMSY)
 
 The primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.
 
@@ -28,7 +28,7 @@ I created these tools for my courses at art universities, prioritizing simplicit
 All UI parameters within the snippets have specific scripting names, are pattr addressable, and automatically save their values when the patch is saved using the [ste.autosave] snippet.
 
 Why Snippets and Not Abstractions?
-I value long-term compatibility but also want the flexibility to improve my snippets without compatibility issues. Snippets allow me to update and modify them without breaking old patches that rely on them.
+I value long-term compatibility but also want the flexibility to improve my snippets without issues with old project. Snippets allow me to update and modify them without breaking old patches that rely on them.
 
 ## Special Thanks
 
@@ -42,8 +42,7 @@ to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
 ## change logs
 
-
-###
+### v0.0.3
 - sequence
 	- init does not reset driveMode anymore
 	- is now able to work with integers, there is a new toggle in case floats are needed
