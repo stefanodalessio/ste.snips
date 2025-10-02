@@ -4,16 +4,58 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 94.0, 100.0, 355.0, 533.0 ],
+		"rect" : [ 94.0, 100.0, 459.0, 533.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"subpatcher_template" : "ste.template",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 8,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 106.0, 757.0, 228.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"subpatcher_template" : "ste.template",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"linecount" : 13,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 12.0, 19.0, 729.0, 181.0 ],
+									"text" : "By using snippets you make sure that what you build will stay the same in the future even if i heaviliy modify the ste.snips library, as the snippets you use are safely contained in your patch and do not get loaded from an external library. \n\nThis is good for future compatibility, but consequently when i improve the ste.snips, the examples do not get automagically updated, this means that in the examples files you might find snippets that look slightly different and have less possibilities then the actual ones, basically they are old.\n \nI try to update the examples that contains too old or too different snippets but i do not have the capacities to update all examples each time i push a ste.snips update. \n\nIf you want to use an example patch as a starting point to do you own magic, it is advisable to replicate it as a new patch, in this way you make sure you are using the latest ste.snips and also you get to better understands how it works :) cheers!\nStefano"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 13.0, 426.0, 366.0, 22.0 ],
+					"text" : "p wait why are these snippets a little different from the actual ones?"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"linecount" : 4,
@@ -21,7 +63,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 216.0, 253.0, 60.0 ],
-					"presentation_linecount" : 5,
 					"text" : "like with materials, the TwistFX needs to be coupled with a ste.3dModel by copy pasting its name from inside the ste.3dTwistFX into the FX name in the ste.3dModel"
 				}
 
@@ -66,7 +107,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -862,7 +903,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1051,7 +1092,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1573,7 +1614,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1750,7 +1791,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2306,7 +2347,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2483,7 +2524,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4354,7 +4395,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5236,7 +5277,7 @@
 									"patching_rect" : [ 857.0, 237.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"XOnOff" : [ 1 ],
-										"Xval" : [ -0.12198842032801 ],
+										"Xval" : [ 0.180750769725091 ],
 										"YOnOff" : [ 0 ],
 										"Yval" : [ 0.0 ],
 										"ZOnOff" : [ 0 ],
@@ -6298,7 +6339,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6585,7 +6626,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7468,7 +7509,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
-										"amount" : [ -0.12198842032801 ],
+										"amount" : [ 0.180750769725091 ],
 										"height" : [ 20.0 ],
 										"lock&close" : [ 0.0 ]
 									}
@@ -8104,7 +8145,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8190,7 +8231,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8377,7 +8418,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8564,7 +8605,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9551,7 +9592,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10451,7 +10492,7 @@
 										"posY" : [ 0.0 ],
 										"posZ" : [ -3.490000009536743 ],
 										"reset_transform" : [ 0.0 ],
-										"rotX" : [ -0.0 ],
+										"rotX" : [ 0.0 ],
 										"rotY" : [ -90.0 ],
 										"rotZ" : [ -32.0 ],
 										"scaleX" : [ 1.5 ],
@@ -11908,7 +11949,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13675,7 +13716,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14091,7 +14132,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16587,7 +16628,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16896,7 +16937,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18210,10 +18251,10 @@
 						"visible" : 1.0,
 						"blob" : 						{
 							"FXName[1]" : [ "3dTwistFX" ],
-							"Xval" : [ -0.12198842032801 ],
+							"Xval" : [ 0.180750769725091 ],
 							"Yval" : [ 0.0 ],
 							"Zval" : [ 0.0 ],
-							"amount" : [ -0.12198842032801 ],
+							"amount" : [ 0.180750769725091 ],
 							"amplitudeX" : [ 0.2 ],
 							"amplitudeY" : [ 1.0 ],
 							"amplitudeZ" : [ 1.0 ],
@@ -18230,7 +18271,7 @@
 							"phaseX" : [ 0 ],
 							"phaseY" : [ 0 ],
 							"phaseZ" : [ 0 ],
-							"rotX[3]" : [ -0.0 ],
+							"rotX[3]" : [ 0.0 ],
 							"rotY[3]" : [ -90.0 ],
 							"rotZ[3]" : [ -32.0 ],
 							"scaleX[3]" : [ 1.5 ],
@@ -18308,10 +18349,10 @@
 									"visible" : 1.0,
 									"blob" : 									{
 										"FXName[1]" : [ "3dTwistFX" ],
-										"Xval" : [ -0.12198842032801 ],
+										"Xval" : [ 0.180750769725091 ],
 										"Yval" : [ 0.0 ],
 										"Zval" : [ 0.0 ],
-										"amount" : [ -0.12198842032801 ],
+										"amount" : [ 0.180750769725091 ],
 										"amplitudeX" : [ 0.2 ],
 										"amplitudeY" : [ 1.0 ],
 										"amplitudeZ" : [ 1.0 ],
@@ -18328,7 +18369,7 @@
 										"phaseX" : [ 0 ],
 										"phaseY" : [ 0 ],
 										"phaseZ" : [ 0 ],
-										"rotX[3]" : [ -0.0 ],
+										"rotX[3]" : [ 0.0 ],
 										"rotY[3]" : [ -90.0 ],
 										"rotZ[3]" : [ -32.0 ],
 										"scaleX[3]" : [ 1.5 ],

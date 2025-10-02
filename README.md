@@ -2,7 +2,7 @@
 
 ## dependencies
 
-After installing the package go to the extras menu and open the ste.snips.overview, here you find a patch that can automatically download the media pipe dependencies from [lysdexic audio github](https://github.com/lysdexic-audio), and a list of the packages needed for all snippets to run.
+After installing the package go to the extras menu and open the ste.snips.overview, here you find a patch about the ste.snips with a "install mediapipe projects" button that will open an other patch to automatically download the media pipe dependencies from [lysdexic audio github](https://github.com/lysdexic-audio), and a list of the packages needed for all snippets to run.
 
 ![](snipsPreview.gif)
 
@@ -40,62 +40,34 @@ To [Klaus Obermaier](https://www.exile.at/) for introducing me to Max in 2009, t
 
 to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
-## change logs
-
-### v0.0.3
-- sequence
-	- init does not reset driveMode anymore
-	- is now able to work with integers, there is a new toggle in case floats are needed
-- inScale & inOutScale
-	- inMax float "link to scripting name" is now off, leading to number box retaining value when copy pasted
-- faceTracking now works with new jweb files
-- 3dMotion
-	- added a rangeMode, to be able to choose between 2 ways of defining the LFOs ranges. Ether with amplitude & center (bipolar), or with min. & max. values. This makes the snippet also easy to use for purposes other than 3d animations
-- threshOnOff
-	- fixed hysteresis min max bug
-	- added OFFthreshold (interdependent of hysteresis)
-	- now can replace threshBang
-- threshBang kicked out because redundancy
-- 3dPointLight has now the 3dLightViz embedded in it & is movable with auto_handle
-- 3dLightViz eliminated because of redundancy
-- 3dCornerpin pin, gl_color parameter
-- pixGetWhitePos resolution raised to 320 240
-- new example: "spinningStone"
-- "dottyDuck" example updated with some fancy duck noise modulation
-
-### v0.0.2
-
-- all examples have been improved and commented 
-- better descriptions in all snippets, there is a "open description" button for longer text, the examples files have been built with older snippets so they won't have the longer descriptions
-- new examples added
-- ste.snips.overview does not contain anymore all the snippets in the snippet tab but only the descriptions
-- added new media and folders structure in media folder
-- pix snippets preview are now running at the same FPS of the world and not reduced to 10 FPS
-- pixGetBlob:
-	- fixed preview method
-	- resizes to 320 240 and blurs before tracking
-- pixColorMask:
-	- preview only if active
-	- matrix out is now luma
-	- fixed inverted indicator in ste.decide
-- sequence:
-	- fixed bug with external modulation of sync and preset
-	- init does not reset drive mode anymore
-	- direction is now externally modulatable
-	- fixed preset retriggering phase and stepnumber
-	- purple indicator of out works with bangStep and stepNum
-- pixGetWhite name changed to pixGetWhitePos
-- 3dMotion: larger min and max number boxes in lfo graphical preview
-- bangSpeed: adjustments to get a pseudo frequency output
-- 3dPointLight: added a "brightness" parameter that is co-dependent to the "attenuation"
-- ste.audioIn~ added live scope
-- ste.audioOut~ added live scope
-- ste.concat~ removed because now it crashes
-- ste.volume~ extended to +24 db
-- ste.volumeStereo~ extended to +24 db
-- ste.pixVideoTrig decoupled the STARTposition from the triggering of the video 
-- 3dCornerpin: fixed problem with textures
-- ste.GetMovement & ste.pixGetPresence, float is now the first output, while 2nd and 3rd are the videos
-- chickenSinging example was pretty bad so it no longer exist
-- micTap example deleted because it was useless
-- worldColors example is gone because it was redundant
+## latest changelog v0.0.4
+- changes and improvemets
+	- pvar is now largely used to distribute inputs around the patches
+	- spinning stone example updated with interaction
+	- ste.toFloat~ and ste.to3Float~ renamed to ste.getLoudness~ and ste.getLoudness3~
+	- ste.loudness3~ 3 new sig~ outs
+	- ste.loudness~ new sig~ out
+	- ste.panMono~ ste.mixMono~ ste.freeverbMono~ renamed to ste.pan~ ste.mix~ ste.freeverb~
+	- ste.pixToFloat renamed to ste.pixGetBrightness
+	- ste.pixGetBrightness now also accepts RGB matrices (and internally translates them to luma)
+	- ste.pixVideoSpeed ranamed to ste.pixVideoLoop and has now loop mode, startMs and lenMs parameter and preset system
+	- ste.ramp has now separate trigger button and can output at higher rate
+	- ste.3dEnvironment has now rotation parameters for the skybox
+	- ste.3dCornerpin has now blend enable and blend mode params
+- shiny new stuff
+	- new example patch: audioPlayer2MovieControl
+	- new example patch: duckComposition
+	- new example patch: noteScalerOscillations
+	- ste.strudelSend: sends strudel code on the fly to a strudel.cc instance with listening websocket (video link here?)
+	- ste.antiRetrigger: avoid retriggering! when it gets a bang it waits a defined amount of ms before letting pass an other bang
+	- ste.scenes: instantiates a pattrstorage coupled with a preset and few other useful objects, not a full fledged enclosed snippet with GUI but useful to store different "scenes" of your patch
+	- ste.composer: control presets (scenes) of your patch Modulate preset fades, play them with your computer keyboard, record you performance, play it back.
+	- ste.3dMeshwarp: built around the jit.gl.meshwarp from the jitter tools package
+	- ste.inbounds: checks if incoming values are moving within defined boundary
+	- ste.inbounds2: checks if incoming 2d values are moving within defined boundaries 
+	- ste.inbounds3: checks if incoming 3d values are moving within defined boundaries 
+	- ste.noteScaler: quantize midi note integers into scales
+	- ste.kick~: kick synth from Simon Hutchinson
+	- ste.swarm~: a wrapper for abl.device.swarm~
+	- ste.bitgrunge~: a wrapper for abl.device.bitgrunge~
+	- ste.bubble~: a wrapper for abl.device.bubble~

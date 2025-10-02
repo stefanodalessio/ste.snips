@@ -4,15 +4,57 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1244.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1244.0, 959.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 8,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 106.0, 757.0, 228.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"subpatcher_template" : "ste.template",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"linecount" : 13,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 12.0, 19.0, 729.0, 181.0 ],
+									"text" : "By using snippets you make sure that what you build will stay the same in the future even if i heaviliy modify the ste.snips library, as the snippets you use are safely contained in your patch and do not get loaded from an external library. \n\nThis is good for future compatibility, but consequently when i improve the ste.snips, the examples do not get automagically updated, this means that in the examples files you might find snippets that look slightly different and have less possibilities then the actual ones, basically they are old.\n \nI try to update the examples that contains too old or too different snippets but i do not have the capacities to update all examples each time i push a ste.snips update. \n\nIf you want to use an example patch as a starting point to do you own magic, it is advisable to replicate it as a new patch, in this way you make sure you are using the latest ste.snips and also you get to better understands how it works :) cheers!\nStefano"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 43.0, 1016.0, 366.0, 22.0 ],
+					"text" : "p wait why are these snippets a little different from the actual ones?"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "comment",
@@ -87,7 +129,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -370,7 +412,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1847,7 +1889,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1884,7 +1926,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2733,7 +2775,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3616,8 +3658,8 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
-										"attenuation" : [ 6.190291012875521 ],
-										"brightness" : [ 0.336584357993025 ],
+										"attenuation" : [ 60.0 ],
+										"brightness" : [ 0.0 ],
 										"diffuse" : [ "diffuse", 1.0, 1.0, 1.0, 1.0 ],
 										"falloff" : [ 1.0 ],
 										"handleReset" : [ 0.0 ],
@@ -4696,7 +4738,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5005,7 +5047,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6270,7 +6312,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6679,7 +6721,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6962,7 +7004,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8852,7 +8894,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9122,7 +9164,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10363,7 +10405,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10620,7 +10662,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11502,9 +11544,9 @@
 									"patching_rect" : [ 412.0, 209.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
-										"amplitude" : [ 0.000316227766017 ],
+										"amplitude" : [ 0.515322498868268 ],
 										"lock&close[1]" : [ 0.0 ],
-										"volume" : [ -70.0 ]
+										"volume" : [ -5.758417918446579 ]
 									}
 ,
 									"text" : "autopattr",
@@ -11962,7 +12004,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12245,7 +12287,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14495,7 +14537,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14752,7 +14794,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15634,9 +15676,9 @@
 									"patching_rect" : [ 412.0, 209.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
-										"amplitude" : [ 0.000316227766017 ],
+										"amplitude" : [ 0.515322498868268 ],
 										"lock&close[1]" : [ 0.0 ],
-										"volume" : [ -70.0 ]
+										"volume" : [ -5.758417918446579 ]
 									}
 ,
 									"text" : "autopattr",
@@ -16094,7 +16136,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16377,7 +16419,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18627,7 +18669,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -18910,7 +18952,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -20409,7 +20451,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -20692,7 +20734,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -22185,7 +22227,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -22574,7 +22616,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -23861,7 +23903,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -24039,7 +24081,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -24160,7 +24202,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -25061,7 +25103,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -25370,7 +25412,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -26635,7 +26677,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -27060,7 +27102,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -27449,7 +27491,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -28736,7 +28778,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -28914,7 +28956,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -29035,7 +29077,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -29936,7 +29978,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -30245,7 +30287,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -31510,7 +31552,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -31995,7 +32037,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -32385,7 +32427,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -33736,7 +33778,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -34058,7 +34100,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -34941,7 +34983,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
-										"amount" : [ 0.336584357993025 ],
+										"amount" : [ 0.0 ],
 										"blurWidth" : [ 2.0 ],
 										"lock&close" : [ 0.0 ],
 										"threshold" : [ 0.2 ]
@@ -35522,7 +35564,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -35792,7 +35834,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -37022,7 +37064,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -37517,7 +37559,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -38407,7 +38449,7 @@
 										"pitch" : [ 1.2 ],
 										"range" : [ 50 ],
 										"reverse" : [ 2 ],
-										"start" : [ 1175 ]
+										"start" : [ 1469 ]
 									}
 ,
 									"text" : "autopattr",
@@ -38708,7 +38750,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -40358,7 +40400,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -40615,7 +40657,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -41719,7 +41761,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -42623,7 +42665,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -44289,7 +44331,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -44679,7 +44721,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -46051,7 +46093,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -46308,7 +46350,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -47490,7 +47532,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -47539,7 +47581,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -48440,7 +48482,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -48903,7 +48945,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -49382,7 +49424,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -49664,7 +49706,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -49909,7 +49951,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -50054,7 +50096,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -50648,7 +50690,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -51037,7 +51079,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -51794,7 +51836,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -53371,7 +53413,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -54256,7 +54298,7 @@
 										"Xval[2]" : [ 7.823403358459473 ],
 										"Xval[5]" : [ 1.0 ],
 										"Xval[6]" : [ 127.821601867675781 ],
-										"Xval[7]" : [ 0.0 ],
+										"Xval[7]" : [ 0.375 ],
 										"Xval[8]" : [ 1.0 ],
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
@@ -54270,12 +54312,12 @@
 										"seqDur[3]" : [ 1.0 ],
 										"seqFreq" : [ 0.977925419807434 ],
 										"seqPhase" : [ 0.0 ],
-										"seqX" : [ 0.0, 0.311111111111111, 0.622222222222222, 0.0, 0.3, 0.644444444444444, 0.0, 0.311111111111111 ],
+										"seqX" : [ 0.0, 0.2, 0.533333333333333, 0.0, 0.177777777777778, 0.511111111111111, 0.0, 0.2 ],
 										"stepDur" : [ 127.821601867675781 ],
 										"stepFreq" : [ 7.823403358459473 ],
 										"stepNum" : [ 1 ],
 										"stepsX" : [ 8 ],
-										"stepsX[1]" : [ 0 ],
+										"stepsX[1]" : [ 2 ],
 										"sync" : [ 0.0 ]
 									}
 ,
@@ -56192,7 +56234,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -56521,7 +56563,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -57405,10 +57447,10 @@
 										"_edit[1]" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
 										"mix" : [ 1.0 ],
-										"pitch" : [ 2.0 ],
+										"pitch" : [ 0.25 ],
 										"random" : [ 0.0 ],
 										"stereoize" : [ 1.0 ],
-										"window" : [ 100.0 ]
+										"window" : [ 300.0 ]
 									}
 ,
 									"text" : "autopattr",
@@ -57740,7 +57782,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -60395,7 +60437,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -60704,7 +60746,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -61969,7 +62011,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -62378,7 +62420,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -63945,7 +63987,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -64134,7 +64176,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -64656,7 +64698,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -64833,7 +64875,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -65389,7 +65431,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -65566,7 +65608,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -67381,7 +67423,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -68263,11 +68305,11 @@
 									"patching_rect" : [ 992.0, 237.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"XOnOff" : [ 1 ],
-										"Xval" : [ -67.172818967622831 ],
+										"Xval" : [ -180.0 ],
 										"Xval[1]" : [ 180.0 ],
 										"Xval[2]" : [ -180.0 ],
 										"YOnOff" : [ 1 ],
-										"Yval" : [ -103.118541888647457 ],
+										"Yval" : [ -180.0 ],
 										"Yval[1]" : [ 180.0 ],
 										"Yval[2]" : [ -180.0 ],
 										"ZOnOff" : [ 0 ],
@@ -68282,8 +68324,8 @@
 										"centerX" : [ 0.0 ],
 										"centerY" : [ 0.0 ],
 										"centerZ" : [ 0.0 ],
-										"freqX" : [ 0.336584357993025 ],
-										"freqY" : [ 1.380322292956716 ],
+										"freqX" : [ 0.0 ],
+										"freqY" : [ 0.0 ],
 										"freqZ" : [ 0.511986495164411 ],
 										"initX" : [ 0.0 ],
 										"initY" : [ 0.0 ],
@@ -69790,7 +69832,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -70099,7 +70141,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -71364,7 +71406,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -71772,7 +71814,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -71858,7 +71900,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -72045,7 +72087,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -72232,7 +72274,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -73219,7 +73261,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -74119,12 +74161,12 @@
 										"posY" : [ 0.0 ],
 										"posZ" : [ -2.0 ],
 										"reset_transform" : [ 0.0 ],
-										"rotX" : [ -67.172821044921875 ],
-										"rotY" : [ -103.118545532226562 ],
+										"rotX" : [ -180.0 ],
+										"rotY" : [ -180.0 ],
 										"rotZ" : [ 0.0 ],
-										"scaleX" : [ 0.938032209873199 ],
-										"scaleY" : [ 0.938032209873199 ],
-										"scaleZ" : [ 0.938032209873199 ],
+										"scaleX" : [ 0.800000011920929 ],
+										"scaleY" : [ 0.800000011920929 ],
+										"scaleZ" : [ 0.800000011920929 ],
 										"smooth_shading" : [ 1.0 ]
 									}
 ,
@@ -75571,7 +75613,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -77324,7 +77366,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -77693,7 +77735,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -78576,7 +78618,7 @@
 									"restore" : 									{
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
-										"brightness" : [ 0.509226137089851 ],
+										"brightness" : [ 0.334510322740998 ],
 										"lock&close" : [ 0.0 ],
 										"wrap" : [ 0.0 ]
 									}
@@ -78738,7 +78780,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -79324,7 +79366,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -79610,7 +79652,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -80493,7 +80535,7 @@
 									"restore" : 									{
 										"_edit[1]" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
-										"speed" : [ 5.0 ],
+										"speed" : [ 1.174561400516499 ],
 										"volume" : [ 1.0 ]
 									}
 ,
@@ -80784,7 +80826,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -81723,7 +81765,7 @@
 								"filename" : "bd+hh.aiff",
 								"filekind" : "audiofile",
 								"id" : "u381002187",
-								"selection" : [ 0.0, 0.322784810126582 ],
+								"selection" : [ 0.0, 0.183544303797468 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"speed" : 0.984459934434362,
@@ -81749,7 +81791,7 @@
 								"filename" : "snare.aiff",
 								"filekind" : "audiofile",
 								"id" : "u462012993",
-								"selection" : [ 0.0, 0.253164556962025 ],
+								"selection" : [ 0.0, 0.177215189873418 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -81847,7 +81889,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -82117,7 +82159,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -83371,7 +83413,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -83419,7 +83461,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -84320,7 +84362,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -84786,7 +84828,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -85265,7 +85307,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -85547,7 +85589,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -85792,7 +85834,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -85937,7 +85979,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -86531,7 +86573,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -86920,7 +86962,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -87677,7 +87719,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -89253,7 +89295,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -90138,21 +90180,21 @@
 										"Xval[2]" : [ 7.823403358459473 ],
 										"Xval[5]" : [ 1.0 ],
 										"Xval[6]" : [ 127.821601867675781 ],
-										"Xval[7]" : [ 0.147602243511919 ],
-										"Xval[8]" : [ 2.0 ],
+										"Xval[7]" : [ 0.704300246806814 ],
+										"Xval[8]" : [ 6.0 ],
 										"_edit" : [ 0.0 ],
 										"_status" : [ 1 ],
 										"driveMode" : [ 4 ],
 										"init" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
-										"max" : [ 1.200000047683716 ],
+										"max" : [ 2.0 ],
 										"min[2]" : [ 0.0 ],
-										"multislider" : [ 0.366666666666667 ],
+										"multislider" : [ 0.0 ],
 										"nextStep" : [ 0.0 ],
 										"seqDur[2]" : [ 1.0 ],
 										"seqFreq" : [ 0.977925419807434 ],
-										"seqPhase" : [ 0.147602243511919 ],
-										"seqX" : [ 0.933333333333333, 0.366666666666667, 0.0, 0.8, 0.288888888888889, 0.0, 0.6, 0.033333333333333 ],
+										"seqPhase" : [ 0.704300246806814 ],
+										"seqX" : [ 0.244444444444444, 0.0, 0.233333333333333, 0.0, 0.255555555555556, 0.0, 0.233333333333333, 0.0 ],
 										"stepDur" : [ 127.821601867675781 ],
 										"stepFreq" : [ 7.823403358459473 ],
 										"stepNum" : [ 1 ],
@@ -92014,7 +92056,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -93581,7 +93623,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -93770,7 +93812,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -94292,7 +94334,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -94469,7 +94511,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -95025,7 +95067,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -95202,7 +95244,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -97017,7 +97059,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -97899,15 +97941,15 @@
 									"patching_rect" : [ 992.0, 237.0, 97.0, 34.0 ],
 									"restore" : 									{
 										"XOnOff" : [ 1 ],
-										"Xval" : [ 0.147602243511919 ],
+										"Xval" : [ 0.704300246806814 ],
 										"Xval[1]" : [ 1.0 ],
 										"Xval[2]" : [ 0.0 ],
 										"YOnOff" : [ 1 ],
-										"Yval" : [ 0.098401494137977 ],
+										"Yval" : [ 0.86379983546212 ],
 										"Yval[1]" : [ 1.0 ],
 										"Yval[2]" : [ 0.0 ],
 										"ZOnOff" : [ 1 ],
-										"Zval" : [ 0.448568232019657 ],
+										"Zval" : [ 0.571072694508075 ],
 										"Zval[1]" : [ 1.0 ],
 										"Zval[2]" : [ 0.0 ],
 										"_edit" : [ 0.0 ],
@@ -99376,7 +99418,7 @@
 								"selection" : [ 0.0, 0.096774193548387 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : 0.5,
+									"speed" : 0.0,
 									"loop" : 1
 								}
 
@@ -99486,7 +99528,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -99795,7 +99837,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -100938,7 +100980,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -101354,7 +101396,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -103845,7 +103887,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -104138,7 +104180,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -106803,17 +106845,17 @@
 						"umenu[6]" : 0.0,
 						"umenu[7]" : 0.0,
 						"visible" : 1.0,
-						"volumeStereo[2]" : -70.0,
-						"volumeStereo[3]" : -70.0,
+						"volumeStereo[2]" : -5.758417918446579,
+						"volumeStereo[3]" : -5.758417918446579,
 						"wrap" : 0.0,
 						"blob" : 						{
-							"start" : [ 1175 ],
+							"start" : [ 1469 ],
 							"seqFreq[2]" : [ 0.977925419807434 ],
 							"seqFreq[3]" : [ 0.977925419807434 ],
 							"FXName" : [ "" ],
-							"Xval" : [ 0.147602243511919 ],
-							"Xval[18]" : [ 2.0 ],
-							"Xval[19]" : [ 0.147602243511919 ],
+							"Xval" : [ 0.704300246806814 ],
+							"Xval[18]" : [ 6.0 ],
+							"Xval[19]" : [ 0.704300246806814 ],
 							"Xval[1]" : [ 1.0 ],
 							"Xval[20]" : [ 127.821601867675781 ],
 							"Xval[21]" : [ 1.0 ],
@@ -106821,41 +106863,41 @@
 							"Xval[23]" : [ 0.977925419807434 ],
 							"Xval[24]" : [ -180.0 ],
 							"Xval[25]" : [ 180.0 ],
-							"Xval[26]" : [ -67.172818967622831 ],
+							"Xval[26]" : [ -180.0 ],
 							"Xval[27]" : [ 1.0 ],
-							"Xval[28]" : [ 0.0 ],
+							"Xval[28]" : [ 0.375 ],
 							"Xval[29]" : [ 127.821601867675781 ],
 							"Xval[2]" : [ 0.0 ],
 							"Xval[30]" : [ 1.0 ],
 							"Xval[31]" : [ 7.823403358459473 ],
 							"Xval[32]" : [ 0.977925419807434 ],
-							"Yval" : [ 0.098401494137977 ],
+							"Yval" : [ 0.86379983546212 ],
 							"Yval[1]" : [ 1.0 ],
 							"Yval[2]" : [ 0.0 ],
 							"Yval[5]" : [ -180.0 ],
 							"Yval[6]" : [ 180.0 ],
-							"Yval[7]" : [ -103.118541888647457 ],
-							"Zval" : [ 0.448568232019657 ],
+							"Yval[7]" : [ -180.0 ],
+							"Zval" : [ 0.571072694508075 ],
 							"Zval[1]" : [ 1.0 ],
 							"Zval[2]" : [ 0.0 ],
 							"Zval[5]" : [ -180.0 ],
 							"Zval[6]" : [ 180.0 ],
 							"Zval[7]" : [ 0.0 ],
-							"amount[1]" : [ 0.336584357993025 ],
+							"amount[1]" : [ 0.0 ],
 							"amplitudeX" : [ 0.5 ],
 							"amplitudeX[1]" : [ 180.0 ],
 							"amplitudeY" : [ 0.5 ],
 							"amplitudeY[1]" : [ 180.0 ],
 							"amplitudeZ" : [ 0.5 ],
 							"amplitudeZ[1]" : [ 180.0 ],
-							"amplitude[3]" : [ 0.000316227766017 ],
-							"amplitude[4]" : [ 0.000316227766017 ],
-							"attenuation" : [ 6.190291012875521 ],
+							"amplitude[3]" : [ 0.515322498868268 ],
+							"amplitude[4]" : [ 0.515322498868268 ],
+							"attenuation" : [ 60.0 ],
 							"attrui" : [ "lookahead", 1 ],
 							"attrui[1]" : [ "gain", -0.031600874755683 ],
 							"blurWidth[1]" : [ 2.0 ],
-							"brightness" : [ 0.509226137089851 ],
-							"brightness[1]" : [ 0.336584357993025 ],
+							"brightness" : [ 0.334510322740998 ],
+							"brightness[1]" : [ 0.0 ],
 							"centerX" : [ 0.5 ],
 							"centerX[1]" : [ 0.0 ],
 							"centerY" : [ 0.5 ],
@@ -106868,7 +106910,7 @@
 							"density" : [ 40 ],
 							"diffuse[1]" : [ "diffuse", 1.0, 1.0, 1.0, 1.0 ],
 							"direction[2]" : [ 0 ],
-							"direction[3]" : [ 0 ],
+							"direction[3]" : [ 2 ],
 							"erase_color" : [ "erase_color", 0.0, 0.0, 0.0, 1.0 ],
 							"falloff" : [ 1.0 ],
 							"feedback1" : [ 0.804 ],
@@ -106881,21 +106923,21 @@
 							"freq2" : [ 414.0 ],
 							"freq3" : [ 10770.0 ],
 							"freqX" : [ 0.9 ],
-							"freqX[1]" : [ 0.336584357993025 ],
+							"freqX[1]" : [ 0.0 ],
 							"freqY" : [ 0.3 ],
-							"freqY[1]" : [ 1.380322292956716 ],
+							"freqY[1]" : [ 0.0 ],
 							"freqZ" : [ 0.1 ],
 							"freqZ[1]" : [ 0.511986495164411 ],
 							"inMax" : [ 0.702 ],
 							"inMax[1]" : [ 0.513 ],
 							"inMin" : [ 0.193 ],
 							"inMin[1]" : [ 0.286 ],
-							"indicX[2]" : [ 0.366666666666667 ],
+							"indicX[2]" : [ 0.0 ],
 							"indicX[3]" : [ 0.0 ],
 							"layer" : [ 0 ],
 							"lenght" : [ 60.0 ],
 							"materialName" : [ "" ],
-							"max[2]" : [ 1.200000047683716 ],
+							"max[2]" : [ 2.0 ],
 							"max[3]" : [ 4.0 ],
 							"min[2]" : [ 0.0 ],
 							"min[3]" : [ 1.0 ],
@@ -106918,7 +106960,7 @@
 							"phaseZ[1]" : [ 0 ],
 							"pitch" : [ 1.2 ],
 							"pitch[1]" : [ 2.0 ],
-							"pitch[3]" : [ 2.0 ],
+							"pitch[3]" : [ 0.25 ],
 							"posX" : [ 0.0 ],
 							"posY" : [ 0.0 ],
 							"posZ" : [ 2.0 ],
@@ -106936,21 +106978,21 @@
 							"res1[4]" : [ 3.0 ],
 							"res2" : [ 10.0 ],
 							"res3" : [ 10.0 ],
-							"rotX[2]" : [ -67.172821044921875 ],
-							"rotY[2]" : [ -103.118545532226562 ],
+							"rotX[2]" : [ -180.0 ],
+							"rotY[2]" : [ -180.0 ],
 							"rotZ[2]" : [ 0.0 ],
-							"scaleX[2]" : [ 0.938032209873199 ],
-							"scaleY[2]" : [ 0.938032209873199 ],
-							"scaleZ[2]" : [ 0.938032209873199 ],
+							"scaleX[2]" : [ 0.800000011920929 ],
+							"scaleY[2]" : [ 0.800000011920929 ],
+							"scaleZ[2]" : [ 0.800000011920929 ],
 							"sensitivity[10]" : [ -2.0 ],
 							"sensitivity[11]" : [ 0.0 ],
 							"sensitivity[12]" : [ 0.0 ],
 							"seqDur[2]" : [ 1.0 ],
 							"seqDur[3]" : [ 1.0 ],
-							"seqPhase[2]" : [ 0.147602243511919 ],
+							"seqPhase[2]" : [ 0.704300246806814 ],
 							"seqPhase[3]" : [ 0.0 ],
-							"seqX[2]" : [ 0.933333333333333, 0.366666666666667, 0.0, 0.8, 0.288888888888889, 0.0, 0.6, 0.033333333333333 ],
-							"seqX[3]" : [ 0.0, 0.311111111111111, 0.622222222222222, 0.0, 0.3, 0.644444444444444, 0.0, 0.311111111111111 ],
+							"seqX[2]" : [ 0.244444444444444, 0.0, 0.233333333333333, 0.0, 0.255555555555556, 0.0, 0.233333333333333, 0.0 ],
+							"seqX[3]" : [ 0.0, 0.2, 0.533333333333333, 0.0, 0.177777777777778, 0.511111111111111, 0.0, 0.2 ],
 							"slideDown[2]" : [ 10.0 ],
 							"slideDown[3]" : [ 5.0 ],
 							"slideDown[4]" : [ 6.0 ],
@@ -106958,7 +107000,7 @@
 							"slideUp[5]" : [ 0.0 ],
 							"slideUp[6]" : [ 0.0 ],
 							"specular[1]" : [ "specular", 1.0, 1.0, 1.0, 1.0 ],
-							"speed" : [ 5.0 ],
+							"speed" : [ 1.174561400516499 ],
 							"stepDur[2]" : [ 127.821601867675781 ],
 							"stepDur[3]" : [ 127.821601867675781 ],
 							"stepFreq[2]" : [ 7.823403358459473 ],
@@ -106969,7 +107011,7 @@
 							"steps[3]" : [ 8 ],
 							"threshold[1]" : [ 0.2 ],
 							"volume[1]" : [ 1.0 ],
-							"window" : [ 100.0 ],
+							"window" : [ 300.0 ],
 							"end" : [ 50 ]
 						}
 
@@ -107165,17 +107207,17 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"visible" : 1.0,
-									"volumeStereo[2]" : -70.0,
-									"volumeStereo[3]" : -70.0,
+									"volumeStereo[2]" : -5.758417918446579,
+									"volumeStereo[3]" : -5.758417918446579,
 									"wrap" : 0.0,
 									"blob" : 									{
-										"start" : [ 1175 ],
+										"start" : [ 1469 ],
 										"seqFreq[2]" : [ 0.977925419807434 ],
 										"seqFreq[3]" : [ 0.977925419807434 ],
 										"FXName" : [ "" ],
-										"Xval" : [ 0.147602243511919 ],
-										"Xval[18]" : [ 2.0 ],
-										"Xval[19]" : [ 0.147602243511919 ],
+										"Xval" : [ 0.704300246806814 ],
+										"Xval[18]" : [ 6.0 ],
+										"Xval[19]" : [ 0.704300246806814 ],
 										"Xval[1]" : [ 1.0 ],
 										"Xval[20]" : [ 127.821601867675781 ],
 										"Xval[21]" : [ 1.0 ],
@@ -107183,41 +107225,41 @@
 										"Xval[23]" : [ 0.977925419807434 ],
 										"Xval[24]" : [ -180.0 ],
 										"Xval[25]" : [ 180.0 ],
-										"Xval[26]" : [ -67.172818967622831 ],
+										"Xval[26]" : [ -180.0 ],
 										"Xval[27]" : [ 1.0 ],
-										"Xval[28]" : [ 0.0 ],
+										"Xval[28]" : [ 0.375 ],
 										"Xval[29]" : [ 127.821601867675781 ],
 										"Xval[2]" : [ 0.0 ],
 										"Xval[30]" : [ 1.0 ],
 										"Xval[31]" : [ 7.823403358459473 ],
 										"Xval[32]" : [ 0.977925419807434 ],
-										"Yval" : [ 0.098401494137977 ],
+										"Yval" : [ 0.86379983546212 ],
 										"Yval[1]" : [ 1.0 ],
 										"Yval[2]" : [ 0.0 ],
 										"Yval[5]" : [ -180.0 ],
 										"Yval[6]" : [ 180.0 ],
-										"Yval[7]" : [ -103.118541888647457 ],
-										"Zval" : [ 0.448568232019657 ],
+										"Yval[7]" : [ -180.0 ],
+										"Zval" : [ 0.571072694508075 ],
 										"Zval[1]" : [ 1.0 ],
 										"Zval[2]" : [ 0.0 ],
 										"Zval[5]" : [ -180.0 ],
 										"Zval[6]" : [ 180.0 ],
 										"Zval[7]" : [ 0.0 ],
-										"amount[1]" : [ 0.336584357993025 ],
+										"amount[1]" : [ 0.0 ],
 										"amplitudeX" : [ 0.5 ],
 										"amplitudeX[1]" : [ 180.0 ],
 										"amplitudeY" : [ 0.5 ],
 										"amplitudeY[1]" : [ 180.0 ],
 										"amplitudeZ" : [ 0.5 ],
 										"amplitudeZ[1]" : [ 180.0 ],
-										"amplitude[3]" : [ 0.000316227766017 ],
-										"amplitude[4]" : [ 0.000316227766017 ],
-										"attenuation" : [ 6.190291012875521 ],
+										"amplitude[3]" : [ 0.515322498868268 ],
+										"amplitude[4]" : [ 0.515322498868268 ],
+										"attenuation" : [ 60.0 ],
 										"attrui" : [ "lookahead", 1 ],
 										"attrui[1]" : [ "gain", -0.031600874755683 ],
 										"blurWidth[1]" : [ 2.0 ],
-										"brightness" : [ 0.509226137089851 ],
-										"brightness[1]" : [ 0.336584357993025 ],
+										"brightness" : [ 0.334510322740998 ],
+										"brightness[1]" : [ 0.0 ],
 										"centerX" : [ 0.5 ],
 										"centerX[1]" : [ 0.0 ],
 										"centerY" : [ 0.5 ],
@@ -107230,7 +107272,7 @@
 										"density" : [ 40 ],
 										"diffuse[1]" : [ "diffuse", 1.0, 1.0, 1.0, 1.0 ],
 										"direction[2]" : [ 0 ],
-										"direction[3]" : [ 0 ],
+										"direction[3]" : [ 2 ],
 										"erase_color" : [ "erase_color", 0.0, 0.0, 0.0, 1.0 ],
 										"falloff" : [ 1.0 ],
 										"feedback1" : [ 0.804 ],
@@ -107243,21 +107285,21 @@
 										"freq2" : [ 414.0 ],
 										"freq3" : [ 10770.0 ],
 										"freqX" : [ 0.9 ],
-										"freqX[1]" : [ 0.336584357993025 ],
+										"freqX[1]" : [ 0.0 ],
 										"freqY" : [ 0.3 ],
-										"freqY[1]" : [ 1.380322292956716 ],
+										"freqY[1]" : [ 0.0 ],
 										"freqZ" : [ 0.1 ],
 										"freqZ[1]" : [ 0.511986495164411 ],
 										"inMax" : [ 0.702 ],
 										"inMax[1]" : [ 0.513 ],
 										"inMin" : [ 0.193 ],
 										"inMin[1]" : [ 0.286 ],
-										"indicX[2]" : [ 0.366666666666667 ],
+										"indicX[2]" : [ 0.0 ],
 										"indicX[3]" : [ 0.0 ],
 										"layer" : [ 0 ],
 										"lenght" : [ 60.0 ],
 										"materialName" : [ "" ],
-										"max[2]" : [ 1.200000047683716 ],
+										"max[2]" : [ 2.0 ],
 										"max[3]" : [ 4.0 ],
 										"min[2]" : [ 0.0 ],
 										"min[3]" : [ 1.0 ],
@@ -107280,7 +107322,7 @@
 										"phaseZ[1]" : [ 0 ],
 										"pitch" : [ 1.2 ],
 										"pitch[1]" : [ 2.0 ],
-										"pitch[3]" : [ 2.0 ],
+										"pitch[3]" : [ 0.25 ],
 										"posX" : [ 0.0 ],
 										"posY" : [ 0.0 ],
 										"posZ" : [ 2.0 ],
@@ -107298,21 +107340,21 @@
 										"res1[4]" : [ 3.0 ],
 										"res2" : [ 10.0 ],
 										"res3" : [ 10.0 ],
-										"rotX[2]" : [ -67.172821044921875 ],
-										"rotY[2]" : [ -103.118545532226562 ],
+										"rotX[2]" : [ -180.0 ],
+										"rotY[2]" : [ -180.0 ],
 										"rotZ[2]" : [ 0.0 ],
-										"scaleX[2]" : [ 0.938032209873199 ],
-										"scaleY[2]" : [ 0.938032209873199 ],
-										"scaleZ[2]" : [ 0.938032209873199 ],
+										"scaleX[2]" : [ 0.800000011920929 ],
+										"scaleY[2]" : [ 0.800000011920929 ],
+										"scaleZ[2]" : [ 0.800000011920929 ],
 										"sensitivity[10]" : [ -2.0 ],
 										"sensitivity[11]" : [ 0.0 ],
 										"sensitivity[12]" : [ 0.0 ],
 										"seqDur[2]" : [ 1.0 ],
 										"seqDur[3]" : [ 1.0 ],
-										"seqPhase[2]" : [ 0.147602243511919 ],
+										"seqPhase[2]" : [ 0.704300246806814 ],
 										"seqPhase[3]" : [ 0.0 ],
-										"seqX[2]" : [ 0.933333333333333, 0.366666666666667, 0.0, 0.8, 0.288888888888889, 0.0, 0.6, 0.033333333333333 ],
-										"seqX[3]" : [ 0.0, 0.311111111111111, 0.622222222222222, 0.0, 0.3, 0.644444444444444, 0.0, 0.311111111111111 ],
+										"seqX[2]" : [ 0.244444444444444, 0.0, 0.233333333333333, 0.0, 0.255555555555556, 0.0, 0.233333333333333, 0.0 ],
+										"seqX[3]" : [ 0.0, 0.2, 0.533333333333333, 0.0, 0.177777777777778, 0.511111111111111, 0.0, 0.2 ],
 										"slideDown[2]" : [ 10.0 ],
 										"slideDown[3]" : [ 5.0 ],
 										"slideDown[4]" : [ 6.0 ],
@@ -107320,7 +107362,7 @@
 										"slideUp[5]" : [ 0.0 ],
 										"slideUp[6]" : [ 0.0 ],
 										"specular[1]" : [ "specular", 1.0, 1.0, 1.0, 1.0 ],
-										"speed" : [ 5.0 ],
+										"speed" : [ 1.174561400516499 ],
 										"stepDur[2]" : [ 127.821601867675781 ],
 										"stepDur[3]" : [ 127.821601867675781 ],
 										"stepFreq[2]" : [ 7.823403358459473 ],
@@ -107331,7 +107373,7 @@
 										"steps[3]" : [ 8 ],
 										"threshold[1]" : [ 0.2 ],
 										"volume[1]" : [ 1.0 ],
-										"window" : [ 100.0 ],
+										"window" : [ 300.0 ],
 										"end" : [ 50 ]
 									}
 
