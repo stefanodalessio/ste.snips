@@ -1474,7 +1474,7 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"id" : "obj-67",
-									"items" : [ "debug-console", ",", "Inno-Maker-000355", ",", "Bluetooth-Incoming-Port" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -6636,7 +6636,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "jit.*.mxo",
+				"name" : "jit.absdiff.mxo",
 				"type" : "iLaX"
 			}
 , 			{
