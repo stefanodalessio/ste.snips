@@ -14,6 +14,48 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 8,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 106.0, 757.0, 228.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"subpatcher_template" : "ste.template",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"linecount" : 13,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 12.0, 19.0, 729.0, 181.0 ],
+									"text" : "By using snippets you make sure that what you build will stay the same in the future even if i heaviliy modify the ste.snips library, as the snippets you use are safely contained in your patch and do not get loaded from an external library. \n\nThis is good for future compatibility, but consequently when i improve the ste.snips, the examples do not get automagically updated, this means that in the examples files you might find snippets that look slightly different and have less possibilities then the actual ones, basically they are old.\n \nI try to update the examples that contains too old or too different snippets but i do not have the capacities to update all examples each time i push a ste.snips update. \n\nIf you want to use an example patch as a starting point to do you own magic, it is advisable to replicate it as a new patch, in this way you make sure you are using the latest ste.snips and also you get to better understands how it works :) cheers!\nStefano"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 45.0, 639.0, 366.0, 22.0 ],
+					"text" : "p wait why are these snippets a little different from the actual ones?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
 					"color" : [ 0.638382196426392, 0.254104733467102, 1.0, 1.0 ],
 					"fontface" : 3,
@@ -3331,7 +3373,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 207.0, 330.0, 128.0, 22.0 ],
+					"patching_rect" : [ 177.0, 285.0, 128.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.getLoudness3~",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -11496,23 +11538,23 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 992.0, 267.0, 97.0, 34.0 ],
 									"restore" : 									{
-										"XOnOff" : [ 0 ],
-										"Xval" : [ 0.350000023841858 ],
-										"YOnOff" : [ 0 ],
-										"Yval" : [ 0.150000005960464 ],
+										"XOnOff" : [ 1 ],
+										"Xval" : [ 0.363500043364239 ],
+										"YOnOff" : [ 1 ],
+										"Yval" : [ 0.164701860045523 ],
 										"ZOnOff" : [ 1 ],
-										"Zval" : [ 2.408173896032266 ],
+										"Zval" : [ 0.85875009648967 ],
 										"_edit" : [ 0.0 ],
-										"ampX" : [ 0.049999997019768 ],
+										"ampX" : [ 0.049999997019767 ],
 										"ampY" : [ 0.050000000745058 ],
-										"ampZ" : [ 1.449999999254942 ],
-										"centerX" : [ 0.350000023841858 ],
-										"centerY" : [ 0.150000005960464 ],
-										"centerZ" : [ 1.550000000745058 ],
+										"ampZ" : [ 0.099999994039536 ],
+										"centerX" : [ 0.350000008940696 ],
+										"centerY" : [ 0.150000002235174 ],
+										"centerZ" : [ 0.900000005960464 ],
 										"enable" : [ 1 ],
 										"freqX" : [ 1.0 ],
 										"freqY" : [ 1.5 ],
-										"freqZ" : [ 0.100000001490116 ],
+										"freqZ" : [ 1.25 ],
 										"initX" : [ 0.0 ],
 										"initY" : [ 0.0 ],
 										"initZ" : [ 0.0 ],
@@ -11520,7 +11562,7 @@
 										"lock&close" : [ 0.0 ],
 										"modeX" : [ 2 ],
 										"modeY" : [ 0 ],
-										"modeZ" : [ 0 ],
+										"modeZ" : [ 2 ],
 										"outFrequency" : [ 0 ],
 										"outMode" : [ 0 ],
 										"phaseX" : [ 0 ],
@@ -20623,8 +20665,8 @@
 										"Xval[2]" : [ 0.08 ],
 										"Xval[5]" : [ 50000.0 ],
 										"Xval[6]" : [ 12500.0 ],
-										"Xval[7]" : [ 0.681420234167173 ],
-										"Xval[8]" : [ 3.0 ],
+										"Xval[7]" : [ 0.383480012523933 ],
+										"Xval[8]" : [ 2.0 ],
 										"_edit" : [ 0.0 ],
 										"driveMode" : [ 0 ],
 										"enable" : [ 1 ],
@@ -22691,7 +22733,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1113.0, 696.0, 500.0, 300.0 ],
+						"rect" : [ 2060.0, 680.0, 500.0, 300.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"toolbars_unpinned_last_save" : 15,
@@ -27290,21 +27332,21 @@
 										"_edit" : [ 0.0 ],
 										"clear[1]" : [ 0.0 ],
 										"file" : [ "jongly.aif" ],
-										"formant" : [ 1.5 ],
-										"length(0-1)" : [ 0.617885079270924 ],
-										"lengthMs" : [ 705.436507936507951 ],
+										"formant" : [ 0.5 ],
+										"length(0-1)" : [ 0.164701860045523 ],
+										"lengthMs" : [ 464.746820004645656 ],
 										"live.text" : [ 0.0 ],
 										"live.text[1]" : [ 0.0 ],
 										"lock&close" : [ 0.0 ],
 										"loop" : [ 1 ],
 										"loopinterp" : [ 0.0 ],
-										"mode" : [ 2 ],
-										"pitchShift" : [ 0.25 ],
+										"mode" : [ 0 ],
+										"pitchShift" : [ 1.200000047683716 ],
 										"preset" : [ 3.0 ],
 										"restart" : [ 0.0 ],
-										"speed" : [ 2.408173896032266 ],
-										"start(0-1)" : [ 0.0 ],
-										"startMs" : [ 0.0 ],
+										"speed" : [ 0.85875009648967 ],
+										"start(0-1)" : [ 0.363500043364239 ],
+										"startMs" : [ 1025.704804902552723 ],
 										"syncOutFrequency" : [ 0 ],
 										"timeMode" : [ 0 ],
 										"timestretch" : [ 1.0 ]
@@ -29097,8 +29139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 471.0, 191.0, 22.0 ],
-					"text" : "0.027223 0.078074 0.041033 1"
+					"patching_rect" : [ 206.0, 426.0, 191.0, 22.0 ],
+					"text" : "0.285906 0.835877 0.111075 1"
 				}
 
 			}
@@ -29110,7 +29152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 408.0, 282.0, 37.0 ],
+					"patching_rect" : [ 240.0, 363.0, 284.0, 37.0 ],
 					"text" : "we need also transparancy (alpha) as 4th value, alpha value should be 1. all the time"
 				}
 
@@ -29122,7 +29164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 374.0, 129.0, 24.0 ],
+					"patching_rect" : [ 225.0, 329.0, 129.0, 24.0 ],
 					"text" : "join floats for RGB"
 				}
 
@@ -29134,7 +29176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 415.0, 59.0, 22.0 ],
+					"patching_rect" : [ 177.0, 370.0, 59.0, 22.0 ],
 					"text" : "append 1"
 				}
 
@@ -29146,7 +29188,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 375.0, 40.0, 22.0 ],
+					"patching_rect" : [ 177.0, 330.0, 46.25, 22.0 ],
 					"text" : "join 3"
 				}
 
@@ -29158,7 +29200,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 513.0, 119.0, 22.0 ],
+					"patching_rect" : [ 177.0, 453.0, 119.0, 22.0 ],
 					"text" : "prepend erase_color"
 				}
 
@@ -29170,7 +29212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 383.0, 602.0, 67.0, 22.0 ],
+					"patching_rect" : [ 353.0, 512.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -30606,7 +30648,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 383.0, 577.0, 98.0, 22.0 ],
+					"patching_rect" : [ 353.0, 487.0, 98.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.autoSave",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -30624,7 +30666,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 276.0, 606.0, 80.0, 49.0 ]
+					"patching_rect" : [ 246.0, 516.0, 80.0, 49.0 ]
 				}
 
 			}
@@ -31945,7 +31987,7 @@
 										"_status" : [ 1 ],
 										"auto_handle" : [ 0.0 ],
 										"clear" : [ 0.0 ],
-										"erase_color" : [ "erase_color", 0.027222523465753, 0.078073851764202, 0.041032664477825, 1.0 ],
+										"erase_color" : [ "erase_color", 0.285906285047531, 0.835876941680908, 0.111074529588223, 1.0 ],
 										"floating" : [ 0.0 ],
 										"lock&close[1]" : [ 0.0 ],
 										"output-texture" : [ 0.0 ],
@@ -33526,7 +33568,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 207.0, 577.0, 88.0, 22.0 ],
+					"patching_rect" : [ 177.0, 487.0, 88.0, 22.0 ],
 					"prototypename" : "ste.snippet",
 					"text" : "p ste.3dWorld",
 					"textcolor" : [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
@@ -35438,21 +35480,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "Untitled4_20251023.maxsnap",
 				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../Documents/Max 9/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scroller.js",
 				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
-				"patcherrelativepath" : "../Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "varnameOut.js",
 				"bootpath" : "~/Documents/Max 9/Packages/ste.snips/javascript",
-				"patcherrelativepath" : "../Documents/Max 9/Packages/ste.snips/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -35473,8 +35515,8 @@
 						"init" : 0.0,
 						"driveMode" : 0.0,
 						"FPS_mode" : 0.0,
-						"XOnOff" : 0.0,
-						"YOnOff" : 0.0,
+						"XOnOff" : 1.0,
+						"YOnOff" : 1.0,
 						"ZOnOff" : 1.0,
 						"_status[1]" : 1.0,
 						"_status[4]" : 1.0,
@@ -35511,10 +35553,10 @@
 						"lock&close[9]" : 0.0,
 						"loop" : 1.0,
 						"loopinterp" : 0.0,
-						"mode" : 2.0,
+						"mode" : 0.0,
 						"modeX" : 2.0,
 						"modeY" : 0.0,
-						"modeZ" : 0.0,
+						"modeZ" : 2.0,
 						"msOut" : 0.0,
 						"nextStep" : 0.0,
 						"outFrequency" : 0.0,
@@ -35535,38 +35577,38 @@
 						"visible" : 1.0,
 						"blob" : 						{
 							"seqFreq" : [ 0.02 ],
-							"Xval" : [ 0.350000023841858 ],
-							"Xval[10]" : [ 0.681420234167173 ],
-							"Xval[11]" : [ 3.0 ],
+							"Xval" : [ 0.363500043364239 ],
+							"Xval[10]" : [ 0.383480012523933 ],
+							"Xval[11]" : [ 2.0 ],
 							"Xval[6]" : [ 0.02 ],
 							"Xval[7]" : [ 0.08 ],
 							"Xval[8]" : [ 50000.0 ],
 							"Xval[9]" : [ 12500.0 ],
-							"Yval" : [ 0.150000005960464 ],
-							"Zval" : [ 2.408173896032266 ],
-							"ampX" : [ 0.049999997019768 ],
+							"Yval" : [ 0.164701860045523 ],
+							"Zval" : [ 0.85875009648967 ],
+							"ampX" : [ 0.049999997019767 ],
 							"ampY" : [ 0.050000000745058 ],
-							"ampZ" : [ 1.449999999254942 ],
-							"centerX" : [ 0.350000023841858 ],
-							"centerY" : [ 0.150000005960464 ],
-							"centerZ" : [ 1.550000000745058 ],
+							"ampZ" : [ 0.099999994039536 ],
+							"centerX" : [ 0.350000008940696 ],
+							"centerY" : [ 0.150000002235174 ],
+							"centerZ" : [ 0.900000005960464 ],
 							"direction" : [ 0 ],
-							"erase_color" : [ "erase_color", 0.027222523465753, 0.078073851764202, 0.041032664477825, 1.0 ],
+							"erase_color" : [ "erase_color", 0.285906285047531, 0.835876941680908, 0.111074529588223, 1.0 ],
 							"file" : [ "jongly.aif" ],
-							"float" : [ 2.408173896032266 ],
-							"formant" : [ 1.5 ],
+							"float" : [ 0.85875009648967 ],
+							"formant" : [ 0.5 ],
 							"freq1[1]" : [ 50.0 ],
 							"freq2[1]" : [ 200.0 ],
 							"freq3[1]" : [ 1000.0 ],
 							"freqX" : [ 1.0 ],
 							"freqY" : [ 1.5 ],
-							"freqZ" : [ 0.100000001490116 ],
+							"freqZ" : [ 1.25 ],
 							"max" : [ 4 ],
 							"min" : [ 1 ],
 							"phaseX" : [ 0 ],
 							"phaseY" : [ 0 ],
 							"phaseZ" : [ 0 ],
-							"pitchShift" : [ 0.25 ],
+							"pitchShift" : [ 1.200000047683716 ],
 							"preset" : [ 3.0 ],
 							"preset[1]" : [ 0.0 ],
 							"preset[2]" : [ 3.0 ],
@@ -35582,10 +35624,10 @@
 							"stepFreq" : [ 0.08 ],
 							"stepNum" : [ 1 ],
 							"steps" : [ 4 ],
-							"startPos" : [ 0.0 ],
-							"startMs" : [ 0.0 ],
-							"length(0-1)" : [ 0.617885079270924 ],
-							"lengthMs" : [ 705.436507936507951 ]
+							"startPos" : [ 0.363500043364239 ],
+							"startMs" : [ 1025.704804902552723 ],
+							"length(0-1)" : [ 0.164701860045523 ],
+							"lengthMs" : [ 464.746820004645656 ]
 						}
 
 					}
@@ -35611,8 +35653,8 @@
 									"init" : 0.0,
 									"driveMode" : 0.0,
 									"FPS_mode" : 0.0,
-									"XOnOff" : 0.0,
-									"YOnOff" : 0.0,
+									"XOnOff" : 1.0,
+									"YOnOff" : 1.0,
 									"ZOnOff" : 1.0,
 									"_status[1]" : 1.0,
 									"_status[4]" : 1.0,
@@ -35649,10 +35691,10 @@
 									"lock&close[9]" : 0.0,
 									"loop" : 1.0,
 									"loopinterp" : 0.0,
-									"mode" : 2.0,
+									"mode" : 0.0,
 									"modeX" : 2.0,
 									"modeY" : 0.0,
-									"modeZ" : 0.0,
+									"modeZ" : 2.0,
 									"msOut" : 0.0,
 									"nextStep" : 0.0,
 									"outFrequency" : 0.0,
@@ -35673,38 +35715,38 @@
 									"visible" : 1.0,
 									"blob" : 									{
 										"seqFreq" : [ 0.02 ],
-										"Xval" : [ 0.350000023841858 ],
-										"Xval[10]" : [ 0.681420234167173 ],
-										"Xval[11]" : [ 3.0 ],
+										"Xval" : [ 0.363500043364239 ],
+										"Xval[10]" : [ 0.383480012523933 ],
+										"Xval[11]" : [ 2.0 ],
 										"Xval[6]" : [ 0.02 ],
 										"Xval[7]" : [ 0.08 ],
 										"Xval[8]" : [ 50000.0 ],
 										"Xval[9]" : [ 12500.0 ],
-										"Yval" : [ 0.150000005960464 ],
-										"Zval" : [ 2.408173896032266 ],
-										"ampX" : [ 0.049999997019768 ],
+										"Yval" : [ 0.164701860045523 ],
+										"Zval" : [ 0.85875009648967 ],
+										"ampX" : [ 0.049999997019767 ],
 										"ampY" : [ 0.050000000745058 ],
-										"ampZ" : [ 1.449999999254942 ],
-										"centerX" : [ 0.350000023841858 ],
-										"centerY" : [ 0.150000005960464 ],
-										"centerZ" : [ 1.550000000745058 ],
+										"ampZ" : [ 0.099999994039536 ],
+										"centerX" : [ 0.350000008940696 ],
+										"centerY" : [ 0.150000002235174 ],
+										"centerZ" : [ 0.900000005960464 ],
 										"direction" : [ 0 ],
-										"erase_color" : [ "erase_color", 0.027222523465753, 0.078073851764202, 0.041032664477825, 1.0 ],
+										"erase_color" : [ "erase_color", 0.285906285047531, 0.835876941680908, 0.111074529588223, 1.0 ],
 										"file" : [ "jongly.aif" ],
-										"float" : [ 2.408173896032266 ],
-										"formant" : [ 1.5 ],
+										"float" : [ 0.85875009648967 ],
+										"formant" : [ 0.5 ],
 										"freq1[1]" : [ 50.0 ],
 										"freq2[1]" : [ 200.0 ],
 										"freq3[1]" : [ 1000.0 ],
 										"freqX" : [ 1.0 ],
 										"freqY" : [ 1.5 ],
-										"freqZ" : [ 0.100000001490116 ],
+										"freqZ" : [ 1.25 ],
 										"max" : [ 4 ],
 										"min" : [ 1 ],
 										"phaseX" : [ 0 ],
 										"phaseY" : [ 0 ],
 										"phaseZ" : [ 0 ],
-										"pitchShift" : [ 0.25 ],
+										"pitchShift" : [ 1.200000047683716 ],
 										"preset" : [ 3.0 ],
 										"preset[1]" : [ 0.0 ],
 										"preset[2]" : [ 3.0 ],
@@ -35720,10 +35762,10 @@
 										"stepFreq" : [ 0.08 ],
 										"stepNum" : [ 1 ],
 										"steps" : [ 4 ],
-										"startPos" : [ 0.0 ],
-										"startMs" : [ 0.0 ],
-										"length(0-1)" : [ 0.617885079270924 ],
-										"lengthMs" : [ 705.436507936507951 ]
+										"startPos" : [ 0.363500043364239 ],
+										"startMs" : [ 1025.704804902552723 ],
+										"length(0-1)" : [ 0.164701860045523 ],
+										"lengthMs" : [ 464.746820004645656 ]
 									}
 
 								}

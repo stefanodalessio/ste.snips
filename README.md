@@ -2,7 +2,8 @@
 
 ## dependencies
 
-After installing the package go to the extras menu and open the ste.snips.overview, here you find a patch about the ste.snips with a "install mediapipe projects" button that will open an other patch to automatically download the media pipe dependencies from [lysdexic audio github](https://github.com/lysdexic-audio), and a list of the packages needed for all snippets to run.
+After installing the package go to the extras menu and open the ste.snips.overview, here you find a list of the packages needed for some snippets to run.
+The package already includes a collection of media pipe projects from [lysdexic-audio github](https://github.com/lysdexic-audio): face-landmarker, facemesh, hands-gesture-recognizer, hands-landmarker,object-detection, pose-landmarker. If you already have these installed in your Max library, you'll need take care about possible conflicts and decide which ones to keep.
 
 ![](snipsPreview.gif)
 
