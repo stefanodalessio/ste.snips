@@ -7,11 +7,11 @@
 	"os" : {
 		"macintosh" : {
 			"platform" : [ "x64", "arm64" ],
-			"min_version" : "none"
+			"min_version" : "11.0"
 		},
 		"windows" : {
 			"platform" : [ "x64" ],
-			"min_version" : "10"
+			"min_version" : "10 (version 22H2)"
 		}
 	},	
 	"tags" : ["snippets", "A/V", "interactivity", "interaction"],

@@ -41,34 +41,31 @@ To [Klaus Obermaier](https://www.exile.at/) for introducing me to Max in 2009, t
 
 to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
-## latest changelog v0.0.4
-- changes and improvemets
-	- pvar is now largely used to distribute inputs around the patches
-	- spinning stone example updated with interaction
-	- ste.toFloat~ and ste.to3Float~ renamed to ste.getLoudness~ and ste.getLoudness3~
-	- ste.loudness3~ 3 new sig~ outs
-	- ste.loudness~ new sig~ out
-	- ste.panMono~ ste.mixMono~ ste.freeverbMono~ renamed to ste.pan~ ste.mix~ ste.freeverb~
-	- ste.pixToFloat renamed to ste.pixGetBrightness
-	- ste.pixGetBrightness now also accepts RGB matrices (and internally translates them to luma)
-	- ste.pixVideoSpeed ranamed to ste.pixVideoLoop and has now loop mode, startMs and lenMs parameter and preset system
-	- ste.ramp has now separate trigger button and can output at higher rate
-	- ste.3dEnvironment has now rotation parameters for the skybox
-	- ste.3dCornerpin has now blend enable and blend mode params
+## latest changelog v0.0.5
+
 - shiny new stuff
-	- new example patch: audioPlayer2MovieControl
-	- new example patch: duckComposition
-	- new example patch: noteScalerOscillations
-	- ste.strudelSend: sends strudel code on the fly to a strudel.cc instance with listening websocket (video link here?)
-	- ste.antiRetrigger: avoid retriggering! when it gets a bang it waits a defined amount of ms before letting pass an other bang
-	- ste.scenes: instantiates a pattrstorage coupled with a preset and few other useful objects, not a full fledged enclosed snippet with GUI but useful to store different "scenes" of your patch
-	- ste.composer: control presets (scenes) of your patch Modulate preset fades, play them with your computer keyboard, record you performance, play it back.
-	- ste.3dMeshwarp: built around the jit.gl.meshwarp from the jitter tools package
-	- ste.inbounds: checks if incoming values are moving within defined boundary
-	- ste.inbounds2: checks if incoming 2d values are moving within defined boundaries 
-	- ste.inbounds3: checks if incoming 3d values are moving within defined boundaries 
-	- ste.noteScaler: quantize midi note integers into scales
-	- ste.kick~: kick synth from Simon Hutchinson
-	- ste.swarm~: a wrapper for abl.device.swarm~
-	- ste.bitgrunge~: a wrapper for abl.device.bitgrunge~
-	- ste.bubble~: a wrapper for abl.device.bubble~
+	- new exemple: strudelPlay
+	- new example: audioPlayerExample.maxpat
+	- ste.getPitch~ for pitch detection 
+	- ported from dataknow package:
+		- ste.audioHitClassifier~
+		- ste.audioClassifier~
+		- ste.getDescriptors~
+- changes and improvements
+	- ste.sequence
+		- sequence step now excluded from preset
+	- ste.videoTrig
+		- now uses startMs instead of startPos (milliseconds instead of position) to indicate where to start the playback from
+		- uses loop 3 and loopoints_ms instead of delay and stop. It should be more precise when triggering long video fragments
+	- ste.3dCornerpin
+		- now it is possible to smoothly transition between presets without video flicker
+	- ste.3dWorld
+		- the 4th inlet is now correctly named "clear"
+	- ste.3dMotion
+		- all internal params are now addressable from outside
+	- ste.kick
+		- works without Percolate installed
+		- new "distort" parameter
+	- ste.loudness3
+		- each filter has now its own amp param
+	- ste.snips now depend also on flucoma and dataknow packages
