@@ -6,12 +6,12 @@
 	"name" : "ste.snips",
 	"os" : {
 		"macintosh" : {
-			"platform" : [ "x64", "arm64" ],
-			"min_version" : "11.0"
+			"platform" : [ "x64", "aarch64" ],
+			"min_version" : "10.15.x"
 		},
 		"windows" : {
-			"platform" : [ "x64" ],
-			"min_version" : "10 (version 22H2)"
+			"platform" : [ ],
+			"min_version" : "none"
 		}
 	},	
 	"tags" : ["snippets", "A/V", "interactivity", "interaction"],

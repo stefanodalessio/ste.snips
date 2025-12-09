@@ -41,6 +41,103 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "activebgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activebgoncolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activetextcolor": [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+                                    "activetextoncolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+                                    "bgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "bordercolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "focusbordercolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+                                    "fontface": 1,
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0,
+                                    "id": "obj-6",
+                                    "maxclass": "live.text",
+                                    "mode": 0,
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "parameter_enable": 1,
+                                    "parameter_mappable": 0,
+                                    "patching_rect": [ 1152.0, 110.0, 24.0, 20.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 466.0, 36.0, 22.0, 19.0 ],
+                                    "saved_attribute_attributes": {
+                                        "activebgcolor": {
+                                            "expression": ""
+                                        },
+                                        "activebgoncolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextcolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextoncolor": {
+                                            "expression": ""
+                                        },
+                                        "bgcolor": {
+                                            "expression": ""
+                                        },
+                                        "bordercolor": {
+                                            "expression": ""
+                                        },
+                                        "focusbordercolor": {
+                                            "expression": ""
+                                        },
+                                        "valueof": {
+                                            "parameter_enum": [ "val1", "val2" ],
+                                            "parameter_initial": [ 0 ],
+                                            "parameter_linknames": 1,
+                                            "parameter_longname": "live.text[2]",
+                                            "parameter_mmax": 1,
+                                            "parameter_modmode": 0,
+                                            "parameter_shortname": "live.text",
+                                            "parameter_type": 2
+                                        }
+                                    },
+                                    "text": "?",
+                                    "texton": "preview",
+                                    "varname": "live.text[2]"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "bgcolor": [ 0.0, 0.0, 0.0, 0.0 ],
+                                    "bgoncolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                                    "fontface": 1,
+                                    "fontsize": 24.0,
+                                    "id": "obj-55",
+                                    "maxclass": "textbutton",
+                                    "mode": 1,
+                                    "numinlets": 1,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "int" ],
+                                    "parameter_enable": 1,
+                                    "patching_rect": [ 479.04216334463035, 269.4507209658623, 31.957836655369647, 29.09855806827545 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 462.0, 6.0, 30.0, 28.0 ],
+                                    "rounded": 10.0,
+                                    "saved_attribute_attributes": {
+                                        "valueof": {
+                                            "parameter_enum": [ "off", "on" ],
+                                            "parameter_initial": [ 1.0 ],
+                                            "parameter_initial_enable": 1,
+                                            "parameter_longname": "enable",
+                                            "parameter_mmax": 1,
+                                            "parameter_modmode": 0,
+                                            "parameter_shortname": "enable",
+                                            "parameter_type": 2
+                                        }
+                                    },
+                                    "text": "⏼",
+                                    "textcolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+                                    "texton": "⏼",
+                                    "textoncolor": [ 0.145830914378166, 0.92420494556427, 0.550447762012482, 1.0 ],
+                                    "varname": "enable[1]"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-88",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -299,42 +396,6 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.0, 0.0, 0.0, 0.0 ],
-                                    "bgoncolor": [ 0.0, 0.0, 0.0, 1.0 ],
-                                    "fontface": 1,
-                                    "fontsize": 24.0,
-                                    "id": "obj-24",
-                                    "maxclass": "textbutton",
-                                    "mode": 1,
-                                    "numinlets": 1,
-                                    "numoutlets": 3,
-                                    "outlettype": [ "", "", "int" ],
-                                    "parameter_enable": 1,
-                                    "patching_rect": [ 502.5, 276.9507209658623, 31.957836655369647, 29.09855806827545 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 466.0, 6.0, 30.0, 28.0 ],
-                                    "rounded": 10.0,
-                                    "saved_attribute_attributes": {
-                                        "valueof": {
-                                            "parameter_enum": [ "off", "on" ],
-                                            "parameter_initial": [ 1 ],
-                                            "parameter_initial_enable": 1,
-                                            "parameter_longname": "enable",
-                                            "parameter_mmax": 1,
-                                            "parameter_modmode": 0,
-                                            "parameter_shortname": "enable",
-                                            "parameter_type": 2
-                                        }
-                                    },
-                                    "text": "⏻",
-                                    "textcolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
-                                    "texton": "⏻",
-                                    "textoncolor": [ 0.145830914378166, 0.92420494556427, 0.550447762012482, 1.0 ],
-                                    "varname": "enable"
-                                }
-                            },
-                            {
-                                "box": {
                                     "id": "obj-26",
                                     "maxclass": "newobj",
                                     "numinlets": 13,
@@ -469,65 +530,6 @@
                                     },
                                     "patching_rect": [ 1152.0, 256.0, 77.0, 22.0 ],
                                     "text": "p description"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "activebgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
-                                    "activebgoncolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
-                                    "activetextcolor": [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
-                                    "activetextoncolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-                                    "bgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
-                                    "bordercolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
-                                    "focusbordercolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "id": "obj-13",
-                                    "maxclass": "live.text",
-                                    "mode": 0,
-                                    "numinlets": 1,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "" ],
-                                    "parameter_enable": 1,
-                                    "parameter_mappable": 0,
-                                    "patching_rect": [ 1152.0, 167.0, 107.0, 20.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 112.0, 10.0, 103.0, 19.0 ],
-                                    "saved_attribute_attributes": {
-                                        "activebgcolor": {
-                                            "expression": ""
-                                        },
-                                        "activebgoncolor": {
-                                            "expression": ""
-                                        },
-                                        "activetextcolor": {
-                                            "expression": ""
-                                        },
-                                        "activetextoncolor": {
-                                            "expression": ""
-                                        },
-                                        "bgcolor": {
-                                            "expression": ""
-                                        },
-                                        "bordercolor": {
-                                            "expression": ""
-                                        },
-                                        "focusbordercolor": {
-                                            "expression": ""
-                                        },
-                                        "valueof": {
-                                            "parameter_enum": [ "val1", "val2" ],
-                                            "parameter_initial": [ 0 ],
-                                            "parameter_longname": "clearAll[1]",
-                                            "parameter_mmax": 1,
-                                            "parameter_modmode": 0,
-                                            "parameter_shortname": "clearAll",
-                                            "parameter_type": 2
-                                        }
-                                    },
-                                    "text": "open description",
-                                    "texton": "preview",
-                                    "varname": "live.text[10]"
                                 }
                             },
                             {
@@ -1565,11 +1567,11 @@
                                         "b2": [ 1509.0153067520002 ],
                                         "b3": [ 92.70473523200002 ],
                                         "bias": [ 0.519519519519519 ],
-                                        "enable": [ 1 ],
+                                        "enable[1]": [ 1 ],
                                         "f1": [ 23.852408263195993 ],
                                         "f2": [ 2600.0 ],
                                         "f3": [ 96.72261718750003 ],
-                                        "live.text[10]": [ 0.0 ],
+                                        "live.text[2]": [ 0.0 ],
                                         "lock&close": [ 0.0 ],
                                         "preset": [ 0.0 ],
                                         "randomize": [ 0.0 ],
@@ -3192,23 +3194,6 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 36.0, 29.0, 30.0, 30.0 ]
                                 }
-                            },
-                            {
-                                "box": {
-                                    "angle": 270.0,
-                                    "background": 1,
-                                    "bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ],
-                                    "id": "obj-83",
-                                    "maxclass": "panel",
-                                    "mode": 0,
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 874.0, 277.0, 26.0, 29.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 0.0, 0.0, 501.6806423664093, 300.8403182029724 ],
-                                    "proportion": 0.5,
-                                    "rounded": 20
-                                }
                             }
                         ],
                         "lines": [
@@ -3250,8 +3235,15 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-51", 0 ],
+                                    "destination": [ "obj-16", 0 ],
                                     "order": 2,
+                                    "source": [ "obj-11", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-51", 0 ],
+                                    "order": 3,
                                     "source": [ "obj-11", 2 ]
                                 }
                             },
@@ -3301,12 +3293,6 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-107", 0 ],
-                                    "source": [ "obj-13", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
                                     "destination": [ "obj-21", 0 ],
                                     "source": [ "obj-14", 0 ]
                                 }
@@ -3351,12 +3337,6 @@
                                 "patchline": {
                                     "destination": [ "obj-40", 0 ],
                                     "source": [ "obj-22", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-87", 0 ],
-                                    "source": [ "obj-24", 0 ]
                                 }
                             },
                             {
@@ -3469,7 +3449,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-24", 0 ],
+                                    "destination": [ "obj-55", 0 ],
                                     "source": [ "obj-30", 0 ]
                                 }
                             },
@@ -3646,6 +3626,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-87", 0 ],
+                                    "source": [ "obj-55", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-54", 0 ],
                                     "source": [ "obj-57", 0 ]
                                 }
@@ -3666,6 +3652,12 @@
                                 "patchline": {
                                     "destination": [ "obj-61", 0 ],
                                     "source": [ "obj-59", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-107", 0 ],
+                                    "source": [ "obj-6", 0 ]
                                 }
                             },
                             {
@@ -3868,10 +3860,14 @@
                                 "parentstyle": "",
                                 "multi": 0
                             }
-                        ]
+                        ],
+                        "bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
                     "patching_rect": [ 10.0, 10.0, 109.0, 22.0 ],
                     "prototypename": "ste.snippet",
+                    "saved_object_attributes": {
+                        "locked_bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
+                    },
                     "text": "p ste.FFM~",
                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
                     "varname": "FFM~"
@@ -3880,9 +3876,7 @@
         ],
         "lines": [],
         "parameters": {
-            "obj-15::obj-13": [ "clearAll[1]", "clearAll", 0 ],
             "obj-15::obj-16": [ "preset", "preset", 0 ],
-            "obj-15::obj-24": [ "enable", "enable", 0 ],
             "obj-15::obj-28": [ "b1", "b1", 0 ],
             "obj-15::obj-3": [ "amp", "amp", 0 ],
             "obj-15::obj-34": [ "b2", "b2", 0 ],
@@ -3892,9 +3886,19 @@
             "obj-15::obj-42": [ "f1", "f1", 0 ],
             "obj-15::obj-51": [ "randomize", "randomize", 0 ],
             "obj-15::obj-52": [ "edit[51]", "edit", 0 ],
+            "obj-15::obj-55": [ "enable", "enable", 0 ],
+            "obj-15::obj-6": [ "live.text[2]", "live.text", 0 ],
             "obj-15::obj-7": [ "lock&close[40]", "lock&close", 0 ],
             "obj-15::obj-97": [ "saturation", "saturation", 0 ],
             "obj-15::obj-99": [ "bias", "bias", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

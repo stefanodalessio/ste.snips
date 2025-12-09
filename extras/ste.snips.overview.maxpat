@@ -3746,7 +3746,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 146.0, 62.0, 244.0, 22.0 ],
-                                    "text": "cv.jit, petra, dataknot, flucoma",
+                                    "text": "cv.jit, petra, flucoma, dataknot",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
                             },
@@ -4159,7 +4159,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 8.0, 55.0, 423.0, 261.0 ],
+                                    "patching_rect": [ 8.0, 55.0, 427.0, 261.0 ],
                                     "text": "ste.snips is a package for Max9, consisting of a collection of snippets designed to speed up and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.\n\nThe primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.\n\nMost snippets are single subpatchers that, when opened, display a ready-to-use interface in a separate window located at the bottom right of your main monitor. This allows quick access to the interface for each specific snippet while maintaining a minimal and clean main patch, becaus of this it is strongly advised to NOT use Max in fullscreen but windowed.\n\nSome snippets are more complex, while others are simple wrappers designed to offer a consistent user experience, especially for students. Credits for code contributions from C74 and others can be found within the snippets and their descriptions."
                                 }
                             }
@@ -4257,6 +4257,14 @@
             "obj-18::obj-138": [ "live.text[7]", "OPEN EXAMPLES FOLDER", 0 ],
             "obj-20": [ "live.text[8]", "DOWNLOAD ALL", 0 ],
             "obj-22": [ "live.text[1]", "DOWNLOAD ALL", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
