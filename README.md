@@ -41,7 +41,20 @@ To [Klaus Obermaier](https://www.exile.at/) for introducing me to Max in 2009, t
 
 to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
-## latest changelog v0.0.5
+## latest changelogs
+#### v0.0.6
+- shiny new stuff
+	- ste.folderPath is a snippets that checks the path of the patch and adds it to the Max search path. This will make the file path of the media you drop in snippets more readable, when stored near the patch
+- changes and improvements
+	- meshwarp comment ste.scenes (normally there is no state save and "read" message does not work)
+	- all snippets have no background panel anymore, they are now editable or lockable with cmd/ctrl-click
+	- "open description" button renamed to "?" in all snippets
+	- then "enable" or "on/off" button now uses an other text character, hopefully windows friendly
+	- ste.pixVideoLoop: resetLoop gets triggered when loading a new video
+	- ste.getPitch: last out renamed to "pitch (Hz) (sig~)"
+	- ste.granular~ has now a 3rd output: sampleLenght (ms)
+
+#### v0.0.5
 
 - shiny new stuff
 	- new exemple: strudelPlay
@@ -54,6 +67,7 @@ to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 - changes and improvements
 	- ste.sequence
 		- sequence step now excluded from preset
+		- smooth preset interpolation now works
 	- ste.videoTrig
 		- now uses startMs instead of startPos (milliseconds instead of position) to indicate where to start the playback from
 		- uses loop 3 and loopoints_ms instead of delay and stop. It should be more precise when triggering long video fragments
