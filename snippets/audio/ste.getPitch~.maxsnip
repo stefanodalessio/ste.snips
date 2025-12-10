@@ -32,7 +32,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
+                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
@@ -61,7 +61,7 @@
                                     "parameter_mappable": 0,
                                     "patching_rect": [ 602.0, 75.0, 24.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 466.0, 36.0, 22.0, 19.0 ],
+                                    "presentation_rect": [ 466.0, 10.083332985639572, 22.0, 19.0 ],
                                     "saved_attribute_attributes": {
                                         "activebgcolor": {
                                             "expression": ""
@@ -2076,14 +2076,6 @@
             "obj-1::obj-30": [ "edit[1]", "edit", 0 ],
             "obj-1::obj-68": [ "outFrequency", "outFrequency", 0 ],
             "obj-1::obj-95": [ "live.text[3]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "tags": "",

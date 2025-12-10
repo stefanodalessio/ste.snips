@@ -33,7 +33,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
+                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
@@ -114,7 +114,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 986.0, 773.0, 50.0, 22.0 ]
+                                    "patching_rect": [ 986.0, 773.0, 50.0, 22.0 ],
+                                    "text": "bang"
                                 }
                             },
                             {
@@ -204,7 +205,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 465.0, 72.0, 31.957836655369647, 29.09855806827545 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 462.0, 6.0, 30.0, 28.0 ],
+                                    "presentation_rect": [ 462.0, 3.0, 30.0, 28.0 ],
                                     "rounded": 10.0,
                                     "saved_attribute_attributes": {
                                         "valueof": {
@@ -218,9 +219,9 @@
                                             "parameter_type": 2
                                         }
                                     },
-                                    "text": "⏼",
+                                    "text": "o",
                                     "textcolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
-                                    "texton": "⏼",
+                                    "texton": "o",
                                     "textoncolor": [ 0.145830914378166, 0.92420494556427, 0.550447762012482, 1.0 ],
                                     "varname": "enable"
                                 }
@@ -4067,6 +4068,14 @@
             "obj-21::obj-77": [ "reverse", "reverse", 0 ],
             "obj-21::obj-78": [ "preset", "preset", 0 ],
             "obj-21::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

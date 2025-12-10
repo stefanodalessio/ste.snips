@@ -31,7 +31,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
+                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
@@ -3104,9 +3104,9 @@
                                             "parameter_type": 2
                                         }
                                     },
-                                    "text": "⏼",
+                                    "text": "o",
                                     "textcolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
-                                    "texton": "⏼",
+                                    "texton": "o",
                                     "textoncolor": [ 0.145830914378166, 0.92420494556427, 0.550447762012482, 1.0 ],
                                     "varname": "enable"
                                 }
@@ -4481,14 +4481,6 @@
             "obj-86::obj-87": [ "width", "width", 0 ],
             "obj-86::obj-88": [ "bottom", "bottom", 0 ],
             "obj-86::obj-95": [ "live.text", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "tags": "",
