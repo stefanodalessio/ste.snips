@@ -3025,7 +3025,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "LmiddleX",
+                                    "comment": "LmiddleY",
                                     "id": "obj-64",
                                     "index": 8,
                                     "maxclass": "outlet",
@@ -4320,14 +4320,6 @@
             "obj-4::obj-42": [ "clear all[11]", "clear all", 0 ],
             "obj-4::obj-51": [ "lock&close[40]", "lock&close", 0 ],
             "obj-4::obj-95": [ "live.text[2]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "tags": "",

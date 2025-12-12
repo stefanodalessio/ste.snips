@@ -60,7 +60,7 @@
                                     "parameter_mappable": 0,
                                     "patching_rect": [ 765.5, 45.0, 24.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 466.0, 36.0, 22.0, 19.0 ],
+                                    "presentation_rect": [ 466.0, 30.0, 22.0, 19.0 ],
                                     "saved_attribute_attributes": {
                                         "activebgcolor": {
                                             "expression": ""
@@ -114,7 +114,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 982.0, 130.0, 31.957836655369647, 29.09855806827545 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 462.0, 6.0, 30.0, 28.0 ],
+                                    "presentation_rect": [ 462.0, 1.0, 30.0, 28.0 ],
                                     "rounded": 10.0,
                                     "saved_attribute_attributes": {
                                         "valueof": {
@@ -1254,7 +1254,7 @@
                                     "outlettype": [ "preset", "int", "preset", "int", "" ],
                                     "patching_rect": [ 1125.0, 46.0, 161.5, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 287.0, 14.0, 162.0, 19.166665971279144 ]
+                                    "presentation_rect": [ 287.0, 9.0, 162.0, 19.166665971279144 ]
                                 }
                             },
                             {
@@ -2443,7 +2443,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 1623.0, 98.0, 106.0, 96.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 223.84032118320465, 9.0, 54.0, 23.0 ],
+                                    "presentation_rect": [ 224.0, 4.0, 54.0, 23.0 ],
                                     "saved_attribute_attributes": {
                                         "activebgcolor": {
                                             "expression": ""
@@ -3325,7 +3325,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 1500.0, 67.0, 212.0, 29.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 4.0, 6.0, 90.0, 29.0 ],
+                                    "presentation_rect": [ 4.0, 1.0, 90.0, 29.0 ],
                                     "style": "ste.snip",
                                     "text": "3dModel",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
@@ -3693,7 +3693,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 1500.0, 441.0, 62.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 440.0, 54.0, 51.0, 19.0 ],
+                                    "presentation_rect": [ 440.9183695539832, 82.5, 51.0, 19.0 ],
                                     "saved_attribute_attributes": {
                                         "activebgcolor": {
                                             "expression": ""
@@ -3751,7 +3751,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 1250.0, 435.0, 62.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 440.0, 53.0, 51.0, 19.0 ],
+                                    "presentation_rect": [ 440.9183695539832, 81.5, 51.0, 19.0 ],
                                     "saved_attribute_attributes": {
                                         "activebgcolor": {
                                             "expression": ""
@@ -3811,7 +3811,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 1331.0, 257.0, 29.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 199.0, 53.0, 29.0, 20.0 ],
+                                    "presentation_rect": [ 199.9183695539832, 81.5, 29.0, 20.0 ],
                                     "style": "ste.snip",
                                     "text": "add",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
@@ -3836,7 +3836,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 1331.0, 282.0, 69.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 199.0, 75.0, 102.65967881679535, 22.0 ],
+                                    "presentation_rect": [ 199.9183695539832, 103.5, 102.65967881679535, 22.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_defer": 1,
@@ -3886,7 +3886,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 1562.0, 469.0, 97.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 333.0, 53.0, 87.0, 20.0 ],
+                                    "presentation_rect": [ 333.9183695539832, 81.5, 87.0, 20.0 ],
                                     "style": "ste.snip",
                                     "text": "FXName",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
@@ -3929,7 +3929,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 1562.0, 507.0, 100.0, 50.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 334.0, 75.0, 157.0, 21.0 ],
+                                    "presentation_rect": [ 334.9183695539832, 103.5, 157.0, 21.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_invisible": 1,
@@ -4243,7 +4243,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 1331.0, 469.0, 97.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 333.0, 54.0, 87.0, 20.0 ],
+                                    "presentation_rect": [ 333.9183695539832, 82.5, 87.0, 20.0 ],
                                     "style": "ste.snip",
                                     "text": "materialName",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
@@ -4285,7 +4285,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 1331.0, 507.0, 100.0, 50.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 334.0, 75.0, 157.0, 21.0 ],
+                                    "presentation_rect": [ 334.9183695539832, 103.5, 157.0, 21.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_invisible": 1,
@@ -5759,6 +5759,14 @@
             "obj-14::obj-85": [ "FXName", "FXName", 0 ],
             "obj-14::obj-87": [ "smooth_shading", "smooth_shading", 0 ],
             "obj-14::obj-90": [ "posX", "posX", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",
