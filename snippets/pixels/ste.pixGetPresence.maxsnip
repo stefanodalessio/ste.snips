@@ -1378,7 +1378,7 @@
                                         "_edit": [ 0.0 ],
                                         "live.text[2]": [ 0.0 ],
                                         "lock&close": [ 0.0 ],
-                                        "sensitivity": [ 0.46 ],
+                                        "sensitivity": [ 0.8 ],
                                         "storeEmptySpace": [ 0.0 ]
                                     },
                                     "text": "autopattr",
@@ -1970,6 +1970,14 @@
             "obj-34::obj-34": [ "storeEmptySpace", "storeEmptySpace", 0 ],
             "obj-34::obj-7": [ "sensitivity[19]", "sensitivity", 0 ],
             "obj-34::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "snippetinfo": {

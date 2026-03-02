@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 106.0, 257.0, 214.0 ],
+        "rect": [ 1083.0, 270.0, 257.0, 214.0 ],
         "description": "152 x 73, containing 2 objects",
         "tags": "video",
         "boxes": [
@@ -23,7 +23,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 79.0, 39.0, 80.0, 49.0 ]
+                    "patching_rect": [ 76.0, 38.0, 80.0, 49.0 ]
                 }
             },
             {
@@ -41,18 +41,236 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
+                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
                         "enablevscroll": 0,
                         "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-82",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "bang" ],
+                                    "patcher": {
+                                        "fileversion": 1,
+                                        "appversion": {
+                                            "major": 9,
+                                            "minor": 1,
+                                            "revision": 2,
+                                            "architecture": "x64",
+                                            "modernui": 1
+                                        },
+                                        "classnamespace": "box",
+                                        "rect": [ 59.0, 106.0, 1000.0, 780.0 ],
+                                        "boxes": [
+                                            {
+                                                "box": {
+                                                    "id": "obj-80",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 1,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "bang" ],
+                                                    "patching_rect": [ 50.0, 133.087646484375, 22.0, 22.0 ],
+                                                    "text": "t b"
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "id": "obj-73",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 2,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "bang" ],
+                                                    "patching_rect": [ 50.0, 105.087646484375, 48.0, 22.0 ],
+                                                    "text": "del 100"
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "id": "obj-72",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 2,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "bang" ],
+                                                    "patching_rect": [ 100.0, 105.087646484375, 55.0, 22.0 ],
+                                                    "text": "del 1000"
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "comment": "",
+                                                    "id": "obj-66",
+                                                    "index": 1,
+                                                    "maxclass": "inlet",
+                                                    "numinlets": 0,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "bang" ],
+                                                    "patching_rect": [ 100.0, 40.00000048437499, 30.0, 30.0 ]
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "comment": "",
+                                                    "id": "obj-81",
+                                                    "index": 1,
+                                                    "maxclass": "outlet",
+                                                    "numinlets": 1,
+                                                    "numoutlets": 0,
+                                                    "patching_rect": [ 50.0, 215.087646484375, 30.0, 30.0 ]
+                                                }
+                                            }
+                                        ],
+                                        "lines": [
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-72", 0 ],
+                                                    "source": [ "obj-66", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-73", 0 ],
+                                                    "order": 1,
+                                                    "source": [ "obj-72", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-80", 0 ],
+                                                    "order": 0,
+                                                    "source": [ "obj-72", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-80", 0 ],
+                                                    "source": [ "obj-73", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-81", 0 ],
+                                                    "source": [ "obj-80", 0 ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "patching_rect": [ 1440.5, 388.0, 102.0, 22.0 ],
+                                    "text": "p floatingToggling"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-71",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "bang" ],
+                                    "patching_rect": [ 1381.0, 348.0, 48.0, 22.0 ],
+                                    "text": "del 100"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-68",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "bang", "bang" ],
+                                    "patching_rect": [ 1427.0, 288.0, 32.0, 22.0 ],
+                                    "text": "t b b"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-67",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 1440.0, 348.0, 70.0, 22.0 ],
+                                    "text": "fullscreen 0"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "fontsize": 12.0,
+                                    "hidden": 1,
+                                    "id": "obj-79",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 1228.0, 430.10954654216766, 178.0, 20.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 44.0, 90.0, 167.0, 20.0 ],
+                                    "text": "WINDOW IN FULLSCREEN!",
+                                    "textcolor": [ 0.993154764175415, 0.507667601108551, 0.122715823352337, 1.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-76",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 1307.0, 670.0, 92.0, 22.0 ],
+                                    "text": "prepend hidden"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-75",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "patching_rect": [ 1307.0, 632.0, 29.5, 22.0 ],
+                                    "text": "!- 1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-74",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 1189.5, 670.0, 92.0, 22.0 ],
+                                    "text": "prepend hidden"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-70",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
+                                    "patching_rect": [ 1189.5, 590.0, 97.0, 22.0 ],
+                                    "text": "getattr fullscreen"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-69",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 334.0, 803.0, 52.0, 22.0 ],
+                                    "text": "init"
+                                }
+                            },
                             {
                                 "box": {
                                     "activebgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
@@ -220,7 +438,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -422,7 +640,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -812,7 +1030,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1611,7 +1829,6 @@
                                         "lock&close[1]": [ 0.0 ],
                                         "output-texture": [ 0.0 ],
                                         "resetToSmallWindow": [ 0.0 ],
-                                        "toggle": [ 0 ],
                                         "visible": [ 1.0 ]
                                     },
                                     "text": "autopattr",
@@ -1864,7 +2081,7 @@
                                     "outlettype": [ "", "" ],
                                     "parameter_enable": 1,
                                     "parameter_mappable": 0,
-                                    "patching_rect": [ 886.0, 294.0, 129.0, 18.0 ],
+                                    "patching_rect": [ 1427.0, 260.5, 129.0, 18.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 5.0, 63.0, 244.0, 23.0 ],
                                     "saved_attribute_attributes": {
@@ -2213,19 +2430,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "int" ],
-                                    "parameter_enable": 1,
-                                    "patching_rect": [ 736.0, 262.0, 24.0, 24.0 ],
-                                    "saved_attribute_attributes": {
-                                        "valueof": {
-                                            "parameter_enum": [ "off", "on" ],
-                                            "parameter_longname": "toggle[1]",
-                                            "parameter_mmax": 1,
-                                            "parameter_modmode": 0,
-                                            "parameter_shortname": "toggle",
-                                            "parameter_type": 2
-                                        }
-                                    },
-                                    "varname": "toggle"
+                                    "parameter_enable": 0,
+                                    "patching_rect": [ 736.0, 262.0, 24.0, 24.0 ]
                                 }
                             },
                             {
@@ -2708,6 +2914,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-69", 1 ],
+                                    "source": [ "obj-3", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-46", 0 ],
                                     "source": [ "obj-30", 0 ]
                                 }
@@ -2871,7 +3083,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-27", 0 ],
+                                    "destination": [ "obj-68", 0 ],
                                     "source": [ "obj-52", 0 ]
                                 }
                             },
@@ -2965,7 +3177,77 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-3", 0 ],
+                                    "source": [ "obj-67", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-67", 0 ],
+                                    "source": [ "obj-68", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-71", 0 ],
+                                    "source": [ "obj-68", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-3", 0 ],
                                     "source": [ "obj-7", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-3", 0 ],
+                                    "source": [ "obj-70", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-74", 0 ],
+                                    "order": 1,
+                                    "source": [ "obj-70", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-75", 0 ],
+                                    "order": 0,
+                                    "source": [ "obj-70", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-27", 0 ],
+                                    "order": 1,
+                                    "source": [ "obj-71", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-82", 0 ],
+                                    "order": 0,
+                                    "source": [ "obj-71", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-74", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-76", 0 ],
+                                    "source": [ "obj-75", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-79", 0 ],
+                                    "source": [ "obj-76", 0 ]
                                 }
                             },
                             {
@@ -3004,6 +3286,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-82", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-3", 0 ],
                                     "source": [ "obj-9", 0 ]
                                 }
@@ -3031,7 +3319,7 @@
                         ],
                         "bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
-                    "patching_rect": [ 10.0, 10.0, 88.0, 22.0 ],
+                    "patching_rect": [ 7.0, 9.0, 88.0, 22.0 ],
                     "prototypename": "ste.snippet",
                     "saved_object_attributes": {
                         "locked_bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
@@ -3052,7 +3340,6 @@
         ],
         "parameters": {
             "obj-54::obj-15": [ "erase_color", "erase_color", 0 ],
-            "obj-54::obj-22": [ "toggle[1]", "toggle", 0 ],
             "obj-54::obj-29": [ "output_texture", "output_texture", 0 ],
             "obj-54::obj-30": [ "edit[51]", "edit", 0 ],
             "obj-54::obj-35": [ "auto_handle", "auto_handle", 0 ],
@@ -3064,14 +3351,6 @@
             "obj-54::obj-6": [ "floating[1]", "floating", 0 ],
             "obj-54::obj-61": [ "enable", "enable", 0 ],
             "obj-54::obj-95": [ "live.text[2]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "snippetinfo": {
@@ -3079,7 +3358,7 @@
             "objects": "jpatcher, jit.fpsgui",
             "tags": "video",
             "description": "152 x 73, containing 2 objects",
-            "image": "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"
+            "image": "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"
         },
         "autosave": 0
     }
