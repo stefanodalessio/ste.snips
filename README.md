@@ -41,45 +41,25 @@ To [Klaus Obermaier](https://www.exile.at/) for introducing me to Max in 2009, t
 
 to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
-## latest changelogs
-#### v0.0.6
-- shiny new stuff
-	- ste.folderPath is a snippets that checks the path of the patch and adds it to the Max search path. This will make the file path of the media you drop in snippets more readable, when stored near the patch
-- changes and improvements
-	- meshwarp comment ste.scenes (normally there is no state save and "read" message does not work)
-	- all snippets have no background panel anymore, they are now editable or lockable with cmd/ctrl-click
-	- "open description" button renamed to "?" in all snippets
-	- then "enable" or "on/off" button now uses an other text character, hopefully windows friendly
-	- ste.pixVideoLoop: resetLoop gets triggered when loading a new video
-	- ste.getPitch: last out renamed to "pitch (Hz) (sig~)"
-	- ste.granular~ has now a 3rd output: sampleLenght (ms)
+## latest changelog
 
-#### v0.0.5
-
+v0.0.7
 - shiny new stuff
-	- new exemple: strudelPlay
-	- new example: audioPlayerExample.maxpat
-	- ste.getPitch~ for pitch detection 
-	- ported from dataknow package:
-		- ste.audioHitClassifier~
-		- ste.audioClassifier~
-		- ste.getDescriptors~
+	- ste.pixThreshold: converts video images to binary black and white
+	- ste.pixAlpha: uses luma 2nd input as alpha channel for 1st input
+
 - changes and improvements
-	- ste.sequence
-		- sequence step now excluded from preset
-		- smooth preset interpolation now works
-	- ste.videoTrig
-		- now uses startMs instead of startPos (milliseconds instead of position) to indicate where to start the playback from
-		- uses loop 3 and loopoints_ms instead of delay and stop. It should be more precise when triggering long video fragments
-	- ste.3dCornerpin
-		- now it is possible to smoothly transition between presets without video flicker
-	- ste.3dWorld
-		- the 4th inlet is now correctly named "clear"
-	- ste.3dMotion
-		- all internal params are now addressable from outside
-	- ste.kick
-		- works without Percolate installed
-		- new "distort" parameter
-	- ste.loudness3
-		- each filter has now its own amp param
-	- ste.snips now depend also on flucoma and dataknow packages
+	- ste.colorMask renamed to ste.maskColor
+		- it now has an invert toggle to invert the mask
+	- ste.audioPlayer~ & ste.audioPlayer
+		- small QOL improvements and more reliability
+	- ste.3dWorld 
+		- When in full screen a “full screen” text appears in the snippet window, replacing the “floating” toggle
+		- When in fullscreen, the “resetToSmallWindow” button works 
+	- ste.granulator~ 
+		- new parameter "lengthRnd": additive randomization in milliseconds of the grain length
+		- range parameter renamed to "startRnd": the additive randomization of the grain start in milliseconds (smaller orange selection)
+		- New outlet “maxStartMs” outputs the latest possible grain starting point in milliseconds, relative to file length, amount of start randomization (startRnd), grain length (length) and amount of length randomization (lengthRnd). This value can be used to multiply a normalized float to then be fed in the startMs, so to be able to easily control the granulator startMs with a O-1 value coming for example from the position parameter of a video player.
+	- ste.pixVideoPos: renamed to ste.pixVideoScrub
+	- ste.pixVideoLoop: now updates startMs and lenMs only after dropping a new video in
+	- ste.pixVideoTrig: new outlet "maxStartMs" outputs the latest possible trigger starting point in milliseconds, relative to duration.
