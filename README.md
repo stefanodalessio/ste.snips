@@ -16,6 +16,8 @@ Find some videos of patches built with the ste.snippets here:
 - [duckFace improvisation](https://www.youtube.com/watch?v=dOpI2ajVjL0)
 - [Amen hand-break](https://www.youtube.com/watch?v=CH11DIMfMSY)
 
+There is a whole tutorial series based on these snippets: https://stefanodalessio.github.io/PLOC'
+
 The primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.
 
 Most snippets are single subpatchers that, when opened, display a ready-to-use interface in a separate window located at the bottom right of your main monitor. This allows quick access to the interface for each specific snippet while maintaining a minimal and clean main patch.
@@ -43,23 +45,34 @@ to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
 ## latest changelog
 
-v0.0.7
-- shiny new stuff
-	- ste.pixThreshold: converts video images to binary black and white
-	- ste.pixAlpha: uses luma 2nd input as alpha channel for 1st input
+v0.0.8
 
-- changes and improvements
-	- ste.colorMask renamed to ste.maskColor
-		- it now has an invert toggle to invert the mask
-	- ste.audioPlayer~ & ste.audioPlayer
-		- small QOL improvements and more reliability
-	- ste.3dWorld 
-		- When in full screen a “full screen” text appears in the snippet window, replacing the “floating” toggle
-		- When in fullscreen, the “resetToSmallWindow” button works 
-	- ste.granulator~ 
-		- new parameter "lengthRnd": additive randomization in milliseconds of the grain length
-		- range parameter renamed to "startRnd": the additive randomization of the grain start in milliseconds (smaller orange selection)
-		- New outlet “maxStartMs” outputs the latest possible grain starting point in milliseconds, relative to file length, amount of start randomization (startRnd), grain length (length) and amount of length randomization (lengthRnd). This value can be used to multiply a normalized float to then be fed in the startMs, so to be able to easily control the granulator startMs with a O-1 value coming for example from the position parameter of a video player.
-	- ste.pixVideoPos: renamed to ste.pixVideoScrub
-	- ste.pixVideoLoop: now updates startMs and lenMs only after dropping a new video in
-	- ste.pixVideoTrig: new outlet "maxStartMs" outputs the latest possible trigger starting point in milliseconds, relative to duration.
+- ste.dmxUsbPro stability improvements
+- ste.audioPlayer~ ste.audioPlayerStereo~
+	- new toggle resetLoopAfterLoad
+	-  stability improvement when switching presets or scene while changing sample, timeMode, start and end at the same time
+- ste.inScale, ste.outScale, ste.inOutScale:
+	- power renamed to pow^
+- ste.3dMotion renamed to ste.3Mod
+	- output 1 is now 7, outputs 2 3 4 5 6 7 shifted to 1 2 3 4 5 6  (basically the specific output for 3d objects moved from first to last)
+- ste.scenes: Big revamp with quality of Life and UI improvements
+- ste.pixVideoLoop 
+	- now uses jit.movie~ 
+	- lenMs param bug fix
+	- has new audio outputs (2nd and 3rd outlet)
+	- new param: wirelessAudioOut
+	- new param: loadram
+	- new param: resetLoopAfterLoad
+	- new out: video duration in milliseconds
+- ste.pixVideoTrig
+	- now uses jit.movie~ 
+	- has new audio outputs (2nd and 3rd outlet)
+	- new out: jit.movie dumpout
+	- new param: wirelessAudioOut
+- ste.pixVideoScrub
+	- now uses jit.movie~ 
+	- new out: jit.movie dumpout
+- ste.audioPlayer~ & ste.audioPlayer~
+	- fixed bug with mouse selection
+	- now its possible to drag and drop a file also on the waveform
+- ste.audioOut~ now stores and recalls I/O Vector size, Signal Vector Size and Sample Rate
