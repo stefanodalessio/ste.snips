@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 414.0, 312.0, 518.0, 456.0 ],
+        "rect": [ 569.0, 198.0, 518.0, 456.0 ],
         "description": "82 x 22, containing 1 object",
         "boxes": [
             {
@@ -42,7 +42,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -127,7 +127,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -307,7 +307,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -346,7 +346,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "power",
+                                    "comment": "pow^",
                                     "id": "obj-12",
                                     "index": 5,
                                     "maxclass": "inlet",
@@ -369,7 +369,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 64.0, 187.0, 41.0, 20.0 ],
                                     "style": "ste.snip",
-                                    "text": "power",
+                                    "text": "pow^",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
                                 }
                             },
@@ -404,7 +404,7 @@
                                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
                                     "triangle": 0,
                                     "tricolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-                                    "varname": "power"
+                                    "varname": "pow^"
                                 }
                             },
                             {
@@ -682,7 +682,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1477,7 +1477,7 @@
                                         "invert": [ 0.0 ],
                                         "live.text[2]": [ 0.0 ],
                                         "lock&close": [ 0.0 ],
-                                        "power": [ 1.0 ]
+                                        "pow^": [ 1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u464004402"
@@ -1837,7 +1837,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2001,7 +2001,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2111,7 +2111,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2965,6 +2965,14 @@
             "obj-39::obj-52": [ "edit[51]", "edit", 0 ],
             "obj-39::obj-7": [ "inMax", "inMax", 0 ],
             "obj-39::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

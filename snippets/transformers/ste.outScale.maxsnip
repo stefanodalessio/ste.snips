@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -27,7 +27,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -123,7 +123,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -292,7 +292,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -343,7 +343,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "power",
+                                    "comment": "pow^",
                                     "id": "obj-18",
                                     "index": 4,
                                     "maxclass": "inlet",
@@ -593,7 +593,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1387,7 +1387,7 @@
                                         "lock&close[1]": [ 0.0 ],
                                         "outMax": [ 1.0 ],
                                         "outMin": [ 0.0 ],
-                                        "power": [ 1.0 ]
+                                        "pow^": [ 1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u464004402[1]"
@@ -1423,7 +1423,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 56.0, 104.0, 41.0, 20.0 ],
                                     "style": "ste.snip",
-                                    "text": "power",
+                                    "text": "pow^",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
                                 }
                             },
@@ -1440,7 +1440,7 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 1,
-                                    "patching_rect": [ 112.0, 309.0, 64.0, 22.0 ],
+                                    "patching_rect": [ 112.0, 309.0, 53.0, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 8.0, 103.0, 48.0, 22.0 ],
                                     "saved_attribute_attributes": {
@@ -1458,7 +1458,7 @@
                                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
                                     "triangle": 0,
                                     "tricolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-                                    "varname": "power"
+                                    "varname": "pow^"
                                 }
                             },
                             {
@@ -1733,7 +1733,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },

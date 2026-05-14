@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -163,7 +163,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -183,7 +183,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -312,7 +312,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -763,7 +763,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1483,7 +1483,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1670,7 +1670,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1812,7 +1812,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1929,7 +1929,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2094,7 +2094,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2651,7 +2651,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3714,13 +3714,14 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 825.0, 116.0, 474.0, 430.0 ],
+                        "rect": [ 795.0, 116.0, 474.0, 430.0 ],
                         "toolbars_unpinned_last_save": 15,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -3730,7 +3731,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 146.0, 62.0, 244.0, 22.0 ],
+                                    "patching_rect": [ 148.0, 74.0, 244.0, 22.0 ],
                                     "text": "cv.jit, petra, flucoma, dataknot",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3751,11 +3752,12 @@
                             {
                                 "box": {
                                     "id": "obj-51",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 63.0, 130.0, 20.0 ],
-                                    "text": "install these packages:",
+                                    "patching_rect": [ 16.0, 63.0, 130.0, 33.0 ],
+                                    "text": "TL:DR \ninstall these packages:",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
                             },
@@ -3766,7 +3768,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 43.0, 352.0, 402.0, 47.0 ],
+                                    "patching_rect": [ 43.0, 365.0, 402.0, 47.0 ],
                                     "text": "in the search field on the top right search for the next package to install, always make sure \"Remote Packages\" is selected for the search.\nWhen you are done, just close the pacakge manager window"
                                 }
                             },
@@ -3777,7 +3779,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 43.0, 308.0, 402.0, 33.0 ],
+                                    "patching_rect": [ 43.0, 321.0, 402.0, 33.0 ],
                                     "text": "Max might get laggy -i guess because of indexing downloaded files- just be patient, it will go back to normal"
                                 }
                             },
@@ -3787,7 +3789,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 43.0, 281.0, 402.0, 20.0 ],
+                                    "patching_rect": [ 43.0, 294.0, 402.0, 20.0 ],
                                     "text": "once it is installed go back using the arrows on the top left"
                                 }
                             },
@@ -3797,7 +3799,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 43.0, 253.0, 402.0, 20.0 ],
+                                    "patching_rect": [ 43.0, 266.0, 402.0, 20.0 ],
                                     "text": "click on the \"install\" button and wait"
                                 }
                             },
@@ -3807,7 +3809,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 43.0, 225.0, 402.0, 20.0 ],
+                                    "patching_rect": [ 43.0, 238.0, 402.0, 20.0 ],
                                     "text": "the results should list the package, click on it"
                                 }
                             },
@@ -3817,7 +3819,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 43.0, 198.0, 411.0, 20.0 ],
+                                    "patching_rect": [ 43.0, 211.0, 411.0, 20.0 ],
                                     "text": "in the search field on the top right search for the package you want to install"
                                 }
                             },
@@ -3828,7 +3830,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 44.0, 160.0, 400.0, 33.0 ],
+                                    "patching_rect": [ 44.0, 173.0, 400.0, 33.0 ],
                                     "text": "if at the top right of the window you read \"installed packages\",  click on it and change it to \"remote packages\""
                                 }
                             },
@@ -3838,7 +3840,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 44.0, 132.0, 400.0, 20.0 ],
+                                    "patching_rect": [ 44.0, 145.0, 400.0, 20.0 ],
                                     "text": "open the package manager: File / Show Package manager"
                                 }
                             },
@@ -3850,7 +3852,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 352.0, 22.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 365.0, 22.0, 20.0 ],
                                     "text": "7",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3863,7 +3865,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 281.0, 22.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 294.0, 22.0, 20.0 ],
                                     "text": "6",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3876,7 +3878,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 253.0, 22.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 266.0, 22.0, 20.0 ],
                                     "text": "5",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3889,7 +3891,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 225.0, 22.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 238.0, 22.0, 20.0 ],
                                     "text": "4",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3902,7 +3904,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 198.0, 22.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 211.0, 22.0, 20.0 ],
                                     "text": "3",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3915,7 +3917,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 160.0, 22.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 173.0, 22.0, 20.0 ],
                                     "text": "2",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3928,7 +3930,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 132.0, 22.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 145.0, 22.0, 20.0 ],
                                     "text": "1",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
@@ -3939,7 +3941,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 16.0, 101.0, 357.0, 20.0 ],
+                                    "patching_rect": [ 16.0, 112.0, 357.0, 20.0 ],
                                     "text": "if you don't know how to install packages, follow the steps below"
                                 }
                             },
@@ -4058,14 +4060,13 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 795.0, 116.0, 439.0, 716.0 ],
+                        "rect": [ 795.0, 116.0, 444.0, 724.0 ],
                         "toolbars_unpinned_last_save": 15,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -4087,8 +4088,8 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 8.0, 572.0, 414.0, 141.0 ],
-                                    "text": "To my students at the Univ. of Applied Arts Vienna,  (APL) (DK), Kunst Uni. Linz (interface cultures) and FH Salzburg for testing the snippets over the years while working on their projects\n\nTo everyone whose code or patches are included in this snippet collection.\n\nTo Klaus Obermaier for introducing me to Max in 2009, teaching me about interactivity, and influencing many of the methods used in these snippets.\n\nto Vienna's MA7 for the support."
+                                    "patching_rect": [ 8.0, 572.0, 415.0, 141.0 ],
+                                    "text": "To my students at the Univ. of Applied Arts Vienna (APL and DK), Kunst Uni. Linz (interface cultures) and FH Salzburg for testing the snippets over the years while working on their projects\n\nTo everyone whose code or patches are included in this snippet collection.\n\nTo Klaus Obermaier for introducing me to Max in 2009, teaching me about interactivity, and influencing many of the methods used in these snippets.\n\nto Vienna's MA7 for the support."
                                 }
                             },
                             {
@@ -4144,8 +4145,8 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 8.0, 55.0, 430.0, 261.0 ],
-                                    "text": "ste.snips is a package for Max9, consisting of a collection of snippets designed to speed up and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.\n\nThe primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.\n\nMost snippets are single subpatchers that, when opened, display a ready-to-use interface in a separate window located at the bottom right of your main monitor. This allows quick access to the interface for each specific snippet while maintaining a minimal and clean main patch, becaus of this it is strongly advised to NOT use Max in fullscreen but windowed.\n\nSome snippets are more complex, while others are simple wrappers designed to offer a consistent user experience, especially for students. Credits for code contributions from C74 and others can be found within the snippets and their descriptions."
+                                    "patching_rect": [ 8.0, 55.0, 437.0, 261.0 ],
+                                    "text": "ste.snips is a collection of snippets designed to speed up and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.\n\nThe primary goal of the ste.snips collection is to provide quick access and powerful tools for beginners who have never used Max and are unfamiliar with programming or Max-specific idioms, while also speeding up patching for seasoned users.\n\nMost snippets are single subpatchers that, when opened, display a ready-to-use interface in a separate window located at the bottom right of your main monitor. This allows quick access to the interface for each specific snippet while maintaining a minimal and clean main patch, becaus of this it is strongly advised to NOT use Max in fullscreen but windowed.\n\nSome snippets are more complex, while others are simple wrappers designed to offer a consistent user experience, especially for students. Credits for code contributions from C74 and others can be found within the snippets and their descriptions."
                                 }
                             }
                         ],
@@ -4242,6 +4243,14 @@
             "obj-18::obj-138": [ "live.text[7]", "OPEN EXAMPLES FOLDER", 0 ],
             "obj-20": [ "live.text[8]", "DOWNLOAD ALL", 0 ],
             "obj-22": [ "live.text[1]", "DOWNLOAD ALL", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

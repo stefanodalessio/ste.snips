@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 337.0, 157.0, 640.0, 480.0 ],
+        "rect": [ 355.0, 404.0, 640.0, 480.0 ],
         "description": "103 x 22, containing 1 object",
         "boxes": [
             {
@@ -27,7 +27,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -122,7 +122,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -291,7 +291,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -342,7 +342,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "power",
+                                    "comment": "pow^",
                                     "id": "obj-18",
                                     "index": 4,
                                     "maxclass": "inlet",
@@ -592,7 +592,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1386,7 +1386,7 @@
                                         "lock&close[1]": [ 0.0 ],
                                         "outMax": [ 1.0 ],
                                         "outMin": [ 0.0 ],
-                                        "power": [ 1.0 ]
+                                        "pow^": [ 1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u464004402[1]"
@@ -1422,7 +1422,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 56.0, 104.0, 41.0, 20.0 ],
                                     "style": "ste.snip",
-                                    "text": "power",
+                                    "text": "pow^",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
                                 }
                             },
@@ -1439,7 +1439,7 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 1,
-                                    "patching_rect": [ 112.0, 309.0, 64.0, 22.0 ],
+                                    "patching_rect": [ 112.0, 309.0, 53.0, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 8.0, 103.0, 48.0, 22.0 ],
                                     "saved_attribute_attributes": {
@@ -1457,7 +1457,7 @@
                                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
                                     "triangle": 0,
                                     "tricolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-                                    "varname": "power"
+                                    "varname": "pow^"
                                 }
                             },
                             {
@@ -1732,7 +1732,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2114,7 +2114,7 @@
                         ],
                         "bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
-                    "patching_rect": [ 9.0, 103.0, 92.0, 22.0 ],
+                    "patching_rect": [ 24.0, 97.0, 92.0, 22.0 ],
                     "prototypename": "ste.snippet",
                     "saved_object_attributes": {
                         "locked_bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
@@ -2135,7 +2135,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 9.0, 53.0, 82.0, 27.0 ],
+                    "patching_rect": [ 24.0, 57.0, 82.0, 27.0 ],
                     "size": 1.0
                 }
             },
@@ -2154,7 +2154,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2239,7 +2239,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2419,7 +2419,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2458,7 +2458,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "power",
+                                    "comment": "pow^",
                                     "id": "obj-12",
                                     "index": 5,
                                     "maxclass": "inlet",
@@ -2481,7 +2481,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 64.0, 187.0, 41.0, 20.0 ],
                                     "style": "ste.snip",
-                                    "text": "power",
+                                    "text": "pow^",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
                                 }
                             },
@@ -2516,7 +2516,7 @@
                                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
                                     "triangle": 0,
                                     "tricolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-                                    "varname": "power"
+                                    "varname": "pow^"
                                 }
                             },
                             {
@@ -2794,7 +2794,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3589,7 +3589,7 @@
                                         "invert": [ 0.0 ],
                                         "live.text[2]": [ 0.0 ],
                                         "lock&close": [ 0.0 ],
-                                        "power": [ 1.0 ]
+                                        "pow^": [ 1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u464004402"
@@ -3949,7 +3949,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4113,7 +4113,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -4223,7 +4223,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -5049,7 +5049,7 @@
                         ],
                         "bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
-                    "patching_rect": [ 9.0, 21.0, 82.0, 22.0 ],
+                    "patching_rect": [ 24.0, 25.0, 82.0, 22.0 ],
                     "prototypename": "ste.snippet",
                     "saved_object_attributes": {
                         "locked_bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
@@ -5090,6 +5090,14 @@
             "obj-39::obj-52": [ "edit[51]", "edit", 0 ],
             "obj-39::obj-7": [ "inMax", "inMax", 0 ],
             "obj-39::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",
@@ -5098,7 +5106,7 @@
             "objects": "jpatcher, slider",
             "tags": "",
             "description": "103 x 22, containing 1 object",
-            "image": "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"
+            "image": "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"
         },
         "autosave": 0
     }

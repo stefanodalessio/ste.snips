@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -21,18 +21,18 @@
                     "maxclass": "newobj",
                     "numinlets": 8,
                     "numoutlets": 7,
-                    "outlettype": [ "", "", "", "", "bang", "bang", "bang" ],
+                    "outlettype": [ "", "", "", "bang", "bang", "bang", "" ],
                     "patcher": {
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
+                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
@@ -159,7 +159,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -476,7 +476,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -693,7 +693,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1010,7 +1010,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1227,7 +1227,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1680,7 +1680,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2001,7 +2001,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2390,7 +2390,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2399,57 +2399,69 @@
                                         "boxes": [
                                             {
                                                 "box": {
-                                                    "id": "obj-3",
-                                                    "linecount": 40,
+                                                    "id": "obj-2",
+                                                    "linecount": 4,
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 6.0, 44.0, 315.0, 543.0 ],
-                                                    "text": "3 low frequency oscillator floats (bipolar) to be used for 3d position / rotation / scale\n\nplug the 1st out in the 1st in of a [ste.3dModel] and select the desired outMode\nor get the 3 singular floats from out 2, 3, and 4\n\nout 5 6 7 give bangs at X, Y, Z loop start\n\noutFrequency: is the frequency of output, if you are using it for visuals, with a 3dWorld keep it as synced with ste.3dWorld\n\nout1Mode: when plugged in a 3dModel or a 3dPointLight etc from the 1st outlet to 1st inlet, it decides what the 3 oscillators are animating (position, rotatexyz, scale)\n\nfor each oscillator you can:\nturn ON or OFF, frequency (speed), amplitude, center (around which number is the oscillation centered) mode (oscillator shape), phase (at which point of the shape is the oscillator starting) sync (reset oscillation at start) init (initialize parameters)\n\nrange mode gives you the possiblity to decide how you want to define the oscillators' range wiht min and max or with amplitude and center\n\nas the oscillators are bipolar the values of amp 1 and center 0 generates an oscillation between -0.5 0.5 this makes sense when moving things around in 3d\n\nthere is a syncAll button to restart all oscillators together\nfor example\n\nsometimes when switching between range modes and resetting the min max or the amp center, the values will suddenly jump, this only happens once because of the mode switch and will not happen again (unless you change rangeMode again)"
+                                                    "patching_rect": [ 336.0, 67.0, 173.0, 60.0 ],
+                                                    "text": "PRESETS\nsave a preset with shift click\nrecall with click\ndelete with shift option click",
+                                                    "textcolor": [ 0.993154764175415, 0.507667601108551, 0.122715823352337, 1.0 ]
                                                 }
                                             },
                                             {
                                                 "box": {
-                                                    "id": "obj-13",
+                                                    "id": "obj-4",
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 342.0, 176.0, 67.0, 20.0 ],
+                                                    "patching_rect": [ 336.0, 276.0, 67.0, 20.0 ],
                                                     "text": "ste.snippet"
                                                 }
                                             },
                                             {
                                                 "box": {
-                                                    "id": "obj-11",
+                                                    "id": "obj-5",
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
-                                                    "patching_rect": [ 342.0, 143.0, 89.0, 22.0 ],
+                                                    "patching_rect": [ 336.0, 243.0, 89.0, 22.0 ],
                                                     "text": "prepend preset"
                                                 }
                                             },
                                             {
                                                 "box": {
                                                     "format": 6,
-                                                    "id": "obj-10",
+                                                    "id": "obj-6",
                                                     "maxclass": "flonum",
                                                     "numinlets": 1,
                                                     "numoutlets": 2,
                                                     "outlettype": [ "", "bang" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 342.0, 110.0, 50.0, 22.0 ]
+                                                    "patching_rect": [ 336.0, 210.0, 50.0, 22.0 ]
                                                 }
                                             },
                                             {
                                                 "box": {
-                                                    "id": "obj-8",
+                                                    "id": "obj-7",
                                                     "linecount": 4,
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 342.0, 44.0, 173.0, 60.0 ],
+                                                    "patching_rect": [ 336.0, 135.0, 173.0, 60.0 ],
                                                     "text": "you can change preset from outside by sending in the first inlet the preset number (int or float) with a prepend \"preset\" "
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "id": "obj-3",
+                                                    "linecount": 41,
+                                                    "maxclass": "comment",
+                                                    "numinlets": 1,
+                                                    "numoutlets": 0,
+                                                    "patching_rect": [ 6.0, 44.0, 315.0, 556.0 ],
+                                                    "text": "3 low frequency oscillator floats (bipolar) to be used for modulation of floats or 3d motion: position / rotation / scale\n\nget the 3 singular modulated floats from out 1, 2, and 3\nout 4 5 6 give bangs at X, Y, Z loop start\n\nplug the 7th out in the 1st in of a [ste.3dModel] and select the desired outMode\n\noutFrequency: is the frequency of output, if you are using it for visuals, with a 3dWorld keep it as synced with ste.3dWorld\n\nout7Mode: when plugged in a 3dModel or a 3dPointLight etc from the 1st outlet to 1st inlet, it decides what the 3 oscillators are animating (position, rotatexyz, scale)\n\nfor each oscillator you can:\nturn ON or OFF, frequency (speed), amplitude, center (around which number is the oscillation centered) mode (oscillator shape), phase (at which point of the shape is the oscillator starting) sync (reset oscillation at start) init (initialize parameters)\n\nrange mode gives you the possiblity to decide how you want to define the oscillators' range: with min and max or with amplitude and center\n\nas the oscillators are bipolar the values of amp 1 and center 0 generates an oscillation between -0.5 0.5 this makes sense when moving things around in 3d\n\nthere is a syncAll button to restart all oscillators together\n\nthis can be useful for example when switching between range modes and resetting the min max or the amp center, the values will suddenly jump\nthis only happens once because of the mode switch and will not happen again (unless you change rangeMode again)"
                                                 }
                                             },
                                             {
@@ -2468,14 +2480,14 @@
                                         "lines": [
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-11", 0 ],
-                                                    "source": [ "obj-10", 0 ]
+                                                    "destination": [ "obj-4", 0 ],
+                                                    "source": [ "obj-5", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-13", 0 ],
-                                                    "source": [ "obj-11", 0 ]
+                                                    "destination": [ "obj-5", 0 ],
+                                                    "source": [ "obj-6", 0 ]
                                                 }
                                             }
                                         ]
@@ -2869,7 +2881,7 @@
                                 "box": {
                                     "comment": "loopZ",
                                     "id": "obj-30",
-                                    "index": 7,
+                                    "index": 6,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -2880,7 +2892,7 @@
                                 "box": {
                                     "comment": "loopY",
                                     "id": "obj-36",
-                                    "index": 6,
+                                    "index": 5,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -2891,7 +2903,7 @@
                                 "box": {
                                     "comment": "loopX",
                                     "id": "obj-37",
-                                    "index": 5,
+                                    "index": 4,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -3085,7 +3097,7 @@
                                 "box": {
                                     "comment": "Zfloat",
                                     "id": "obj-16",
-                                    "index": 4,
+                                    "index": 3,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -3096,7 +3108,7 @@
                                 "box": {
                                     "comment": "Yfloat",
                                     "id": "obj-11",
-                                    "index": 3,
+                                    "index": 2,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -3107,7 +3119,7 @@
                                 "box": {
                                     "comment": "Xfloat",
                                     "id": "obj-9",
-                                    "index": 2,
+                                    "index": 1,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -3468,7 +3480,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 2.0, 255.0, 64.0, 20.0 ],
                                     "style": "ste.snip",
-                                    "text": "out1Mode",
+                                    "text": "out7Mode",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
                                 }
                             },
@@ -3532,7 +3544,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3717,7 +3729,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -3798,7 +3810,7 @@
                                                                     "maxclass": "inlet",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
-                                                                    "outlettype": [ "bang" ],
+                                                                    "outlettype": [ "int" ],
                                                                     "patching_rect": [ 50.0, 40.0, 30.0, 30.0 ]
                                                                 }
                                                             },
@@ -3935,7 +3947,7 @@
                                                     "maxclass": "inlet",
                                                     "numinlets": 0,
                                                     "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
+                                                    "outlettype": [ "bang" ],
                                                     "patching_rect": [ 13.0, 40.0, 30.0, 30.0 ]
                                                 }
                                             },
@@ -4187,7 +4199,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4361,7 +4373,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -4579,7 +4591,7 @@
                                                     "maxclass": "inlet",
                                                     "numinlets": 0,
                                                     "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
+                                                    "outlettype": [ "bang" ],
                                                     "patching_rect": [ 20.0, 40.0, 30.0, 30.0 ]
                                                 }
                                             },
@@ -4865,7 +4877,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5039,7 +5051,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -5257,7 +5269,7 @@
                                                     "maxclass": "inlet",
                                                     "numinlets": 0,
                                                     "numoutlets": 1,
-                                                    "outlettype": [ "bang" ],
+                                                    "outlettype": [ "int" ],
                                                     "patching_rect": [ 13.0, 46.0, 30.0, 30.0 ]
                                                 }
                                             },
@@ -6638,7 +6650,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -7427,7 +7439,7 @@
                                     "patching_rect": [ 992.0, 267.0, 97.0, 34.0 ],
                                     "restore": {
                                         "XOnOff": [ 1 ],
-                                        "Xval": [ 0.0 ],
+                                        "Xval": [ -0.2049509068019688 ],
                                         "YOnOff": [ 0 ],
                                         "Yval": [ 0.0 ],
                                         "ZOnOff": [ 0 ],
@@ -7536,7 +7548,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 1.0, 5.0, 184.0, 29.0 ],
                                     "style": "ste.snip",
-                                    "text": "3dMotion",
+                                    "text": "3Mod",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
                             },
@@ -7544,11 +7556,11 @@
                                 "box": {
                                     "comment": "to 3d object",
                                     "id": "obj-14",
-                                    "index": 1,
+                                    "index": 7,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 62.0, 928.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 482.0, 928.0, 30.0, 30.0 ]
                                 }
                             }
                         ],
@@ -9016,14 +9028,14 @@
                         ],
                         "bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
-                    "patching_rect": [ 95.0, 73.0, 93.0, 22.0 ],
+                    "patching_rect": [ 18.0, 27.0, 92.5, 22.0 ],
                     "prototypename": "ste.snippet",
                     "saved_object_attributes": {
                         "locked_bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
-                    "text": "p ste.3dMotion",
+                    "text": "p ste.3Mod",
                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
-                    "varname": "3dMotion"
+                    "varname": "3Mod"
                 }
             }
         ],
@@ -9081,7 +9093,7 @@
             "objects": "jpatcher",
             "tags": "",
             "description": "100 x 22, containing 1 object",
-            "image": "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"
+            "image": "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"
         },
         "autosave": 0
     }
