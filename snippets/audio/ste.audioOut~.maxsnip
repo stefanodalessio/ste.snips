@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1145.0, 211.0, 640.0, 480.0 ],
+        "rect": [ 256.0, 221.0, 640.0, 480.0 ],
         "description": "92 x 22, containing 1 object",
         "boxes": [
             {
@@ -28,16 +28,17 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
+                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
                         "enablevscroll": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -271,7 +272,7 @@
                                     "bgfillcolor_type": "color",
                                     "blanksym": "",
                                     "id": "obj-78",
-                                    "items": [ 8000, ",", 16000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 176400, ",", 192000, ",", 352800, ",", 384000, ",", 705600, ",", 768000 ],
+                                    "items": [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -284,11 +285,11 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_defer": 1,
-                                            "parameter_enum": [ "8000", "16000", "44100", "48000", "88200", "96000", "176400", "192000", "352800", "384000", "705600", "768000" ],
+                                            "parameter_enum": [ "44100", "48000", "88200", "96000" ],
                                             "parameter_initial": [ 5.0 ],
                                             "parameter_initial_enable": 1,
                                             "parameter_longname": "SRate",
-                                            "parameter_mmax": 11,
+                                            "parameter_mmax": 3,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "SRate",
                                             "parameter_type": 2
@@ -327,7 +328,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -472,7 +473,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -617,7 +618,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -986,7 +987,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1256,7 +1257,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2044,9 +2045,9 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 479.0, 200.0, 97.0, 34.0 ],
                                     "restore": {
-                                        "InOutVSize": [ "256" ],
+                                        "InOutVSize": [ "512" ],
                                         "SIgVSize": [ "64" ],
-                                        "SRate": [ "16000" ],
+                                        "SRate": [ "48000" ],
                                         "_edit": [ 0.0 ],
                                         "live.text[2]": [ 0.0 ],
                                         "loadAudioStatus": [ 0.0 ],
@@ -2207,7 +2208,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "bang" ],
                                     "patching_rect": [ 430.0, 541.0, 55.0, 22.0 ],
-                                    "text": "del 1200"
+                                    "text": "del 3000"
                                 }
                             },
                             {

@@ -3719,7 +3719,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 795.0, 116.0, 474.0, 430.0 ],
+                        "rect": [ 795.0, 108.0, 474.0, 430.0 ],
                         "toolbars_unpinned_last_save": 15,
                         "visible": 1,
                         "boxes": [
@@ -3732,7 +3732,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 148.0, 74.0, 244.0, 22.0 ],
-                                    "text": "cv.jit, petra, flucoma, dataknot",
+                                    "text": "cv.jit, petra, flucoma, data knot",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
                             },
