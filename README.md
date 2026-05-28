@@ -75,4 +75,4 @@ v0.0.8
 - ste.audioPlayer~ & ste.audioPlayer~
 	- fixed bug with mouse selection
 	- now its possible to drag and drop a file also on the waveform
-- ste.audioOut~ now stores and recalls I/O Vector size, Signal Vector Size and Sample Rate
+- ste.audioOut~ now can store and recalls I/O Vector size, Signal Vector Size and Sample Rate
