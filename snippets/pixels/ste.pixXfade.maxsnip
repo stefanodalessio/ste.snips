@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -27,7 +27,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -210,7 +210,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -264,11 +264,12 @@
                                     "maxclass": "jit.pwindow",
                                     "numinlets": 1,
                                     "numoutlets": 2,
+                                    "onscreen": 0,
                                     "outlettype": [ "jit_matrix", "" ],
                                     "patching_rect": [ 112.0, 615.0, 160.0, 120.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 253.0, 125.0, 242.64777076244354, 164.0 ],
-                                    "sync": 1
+                                    "sync": 0
                                 }
                             },
                             {
@@ -511,7 +512,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1421,7 +1422,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "float" ],
-                                    "patching_rect": [ 314.0, 341.0, 29.5, 22.0 ],
+                                    "patching_rect": [ 216.0, 376.0, 29.5, 22.0 ],
                                     "text": "!- 1."
                                 }
                             },
@@ -1483,7 +1484,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1740,14 +1741,14 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-42", 0 ],
-                                    "order": 0,
+                                    "order": 1,
                                     "source": [ "obj-31", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-7", 0 ],
-                                    "order": 1,
+                                    "destination": [ "obj-6", 0 ],
+                                    "order": 0,
                                     "source": [ "obj-31", 0 ]
                                 }
                             },
@@ -1765,7 +1766,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-6", 0 ],
+                                    "destination": [ "obj-7", 0 ],
                                     "source": [ "obj-42", 0 ]
                                 }
                             },
@@ -1866,6 +1867,14 @@
             "obj-18::obj-48": [ "lock&close[6]", "lock&close", 0 ],
             "obj-18::obj-50": [ "edit[6]", "edit", 0 ],
             "obj-18::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

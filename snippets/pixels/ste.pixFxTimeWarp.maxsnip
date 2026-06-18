@@ -608,7 +608,10 @@
                                     "patching_rect": [ 192.0, 642.0, 80.0, 60.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 8.0, 123.0, 242.64777076244354, 164.0 ],
-                                    "sync": 1
+                                    "sync": 0,
+                                    "onscreen": 0,
+                                    "depthbuffer": 0,
+                                    "doublebuffer": 0
                                 }
                             },
                             {

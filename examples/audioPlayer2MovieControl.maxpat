@@ -4,13 +4,24 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 103.0, 168.0, 478.0, 727.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 225.0, 27.0, 48.0, 22.0 ],
+                    "text": "del 100"
+                }
+            },
             {
                 "box": {
                     "bgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
@@ -26,12 +37,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
+                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
@@ -94,7 +105,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -601,7 +612,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -894,7 +905,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1173,7 +1184,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1966,7 +1977,7 @@
                                         "file": [ "chickens.mp4" ],
                                         "live.text[3]": [ 0.0 ],
                                         "lock&close[1]": [ 0.0 ],
-                                        "position": [ 0.8112026776171457 ]
+                                        "position": [ 0.9668869888050732 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u464004402[1]"
@@ -2570,12 +2581,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
+                        "rect": [ 2060.0, 680.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
@@ -3110,7 +3121,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3476,7 +3487,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3794,7 +3805,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4066,7 +4077,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4347,7 +4358,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4796,7 +4807,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5855,7 +5866,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -6197,7 +6208,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -6989,8 +7000,8 @@
                                         "clear[1]": [ 0.0 ],
                                         "file": [ "jongly.aif" ],
                                         "formant": [ 1.0 ],
-                                        "lenMs": [ 176.359126984127 ],
-                                        "lenNorm": [ 1.0 ],
+                                        "lenMs": [ 705.436507936508 ],
+                                        "lenNorm": [ 0.25 ],
                                         "lengthOut": [ 0.0 ],
                                         "live.text[2]": [ 0.0 ],
                                         "lock&close": [ 0.0 ],
@@ -8628,7 +8639,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 225.0, 13.0, 58.0, 22.0 ],
+                    "patching_rect": [ 225.0, 0.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -8643,7 +8654,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -8799,7 +8810,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -8876,7 +8887,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -9325,7 +9336,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -11591,7 +11602,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -11866,7 +11877,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -12881,7 +12892,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -13023,7 +13034,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -13367,7 +13378,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 3,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -14611,7 +14622,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-14", 0 ],
+                    "destination": [ "obj-3", 0 ],
                     "source": [ "obj-15", 0 ]
                 }
             },
@@ -14619,6 +14630,12 @@
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
                     "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
@@ -14805,7 +14822,7 @@
                         "loopinterp": 0.0,
                         "mode": 0.0,
                         "output_texture": 0.0,
-                        "position": 0.8112026776171457,
+                        "position": 0.9668869888050732,
                         "resetToSmallWindow": 0.0,
                         "restart": 0.0,
                         "restart[1]": 0.0,
@@ -14824,8 +14841,8 @@
                             "preset": [ 0.0 ],
                             "startNorm": [ 0.75 ],
                             "startMs": [ 2116.309523809524 ],
-                            "lenNorm": [ 1.0 ],
-                            "lenMs": [ 176.359126984127 ]
+                            "lenNorm": [ 0.25 ],
+                            "lenMs": [ 705.436507936508 ]
                         }
                     }
                 }
@@ -14873,7 +14890,7 @@
                                     "loopinterp": 0.0,
                                     "mode": 0.0,
                                     "output_texture": 0.0,
-                                    "position": 0.8112026776171457,
+                                    "position": 0.9668869888050732,
                                     "resetToSmallWindow": 0.0,
                                     "restart": 0.0,
                                     "restart[1]": 0.0,
@@ -14892,8 +14909,8 @@
                                         "preset": [ 0.0 ],
                                         "startNorm": [ 0.75 ],
                                         "startMs": [ 2116.309523809524 ],
-                                        "lenNorm": [ 1.0 ],
-                                        "lenMs": [ 176.359126984127 ]
+                                        "lenNorm": [ 0.25 ],
+                                        "lenMs": [ 705.436507936508 ]
                                     }
                                 }
                             }

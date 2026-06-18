@@ -49,7 +49,10 @@
                                     "patching_rect": [ 238.5, 731.0, 160.0, 120.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 236.0, 731.0, 209.0, 143.0 ],
-                                    "sync": 1
+                                    "sync": 0,
+                                    "onscreen": 0,
+                                    "depthbuffer": 0,
+                                    "doublebuffer": 0
                                 }
                             },
                             {
@@ -3330,7 +3333,10 @@
                                     "patching_rect": [ 483.0, 708.0, 160.0, 120.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 285.0, 105.0, 209.0, 143.0 ],
-                                    "sync": 1
+                                    "sync": 0,
+                                    "onscreen": 0,
+                                    "depthbuffer": 0,
+                                    "doublebuffer": 0
                                 }
                             },
                             {
@@ -3416,7 +3422,10 @@
                                     "patching_rect": [ 53.0, 199.0, 160.0, 120.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 4.0, 105.0, 209.0, 143.0 ],
-                                    "sync": 1
+                                    "sync": 0,
+                                    "onscreen": 0,
+                                    "depthbuffer": 0,
+                                    "doublebuffer": 0
                                 }
                             }
                         ],

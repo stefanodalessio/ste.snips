@@ -45,6 +45,18 @@ to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
 ## latest changelog
 
+v0.0.9
+
+- ste.pixVideoLoop 
+	- new param: posOut (when ON: the snippets outputs the movie position as 0.-1. number, from the 5th output)
+- ste.pixVideoTrig
+	- new param: posOut (when ON: the snippets outputs the movie position as 0.-1. number, from the 5th output)
+- ste.pixVideoScrub
+	- perfomance improvement
+- pix snippets
+	- performance improvement when preview window visible
+- minor bug fixes and improvements
+
 v0.0.8
 
 - ste.dmxUsbPro stability improvements

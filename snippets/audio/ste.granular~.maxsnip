@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -28,7 +28,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -40,6 +40,74 @@
                         "enablevscroll": 0,
                         "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-76",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 402.0, 597.0, 150.0, 20.0 ],
+                                    "text": "do routePass for this too"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "activebgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activebgoncolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activetextcolor": [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+                                    "activetextoncolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+                                    "bgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "bordercolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "focusbordercolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0,
+                                    "id": "obj-37",
+                                    "maxclass": "live.text",
+                                    "mode": 0,
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "parameter_enable": 1,
+                                    "patching_rect": [ 402.0, 626.0, 62.0, 18.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 162.75, 272.5, 48.25, 19.125 ],
+                                    "saved_attribute_attributes": {
+                                        "activebgcolor": {
+                                            "expression": ""
+                                        },
+                                        "activebgoncolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextcolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextoncolor": {
+                                            "expression": ""
+                                        },
+                                        "bgcolor": {
+                                            "expression": ""
+                                        },
+                                        "bordercolor": {
+                                            "expression": ""
+                                        },
+                                        "focusbordercolor": {
+                                            "expression": ""
+                                        },
+                                        "valueof": {
+                                            "parameter_enum": [ "val1", "val2" ],
+                                            "parameter_initial": [ 0 ],
+                                            "parameter_longname": "infoOut",
+                                            "parameter_mmax": 1,
+                                            "parameter_modmode": 0,
+                                            "parameter_shortname": "infoOut",
+                                            "parameter_type": 2
+                                        }
+                                    },
+                                    "text": "infoOut",
+                                    "texton": "preview",
+                                    "varname": "infoOut"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-128",
@@ -74,7 +142,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -574,12 +642,12 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 1300.0, 95.0, 1000.0, 780.0 ],
+                                        "rect": [ 134.0, 172.0, 1000.0, 780.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -909,7 +977,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1170,7 +1238,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1382,7 +1450,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1855,7 +1923,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 2,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2649,6 +2717,7 @@
                                         "density": [ 20 ],
                                         "enable": [ 1 ],
                                         "file": [ "jongly.aif" ],
+                                        "infoOut": [ 0.0 ],
                                         "length": [ 100.0 ],
                                         "lengthRnd": [ 100.0 ],
                                         "live.text[16]": [ 0.0 ],
@@ -3173,7 +3242,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 238.0, 877.0, 140.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 31.0, 271.0, 137.0, 20.0 ],
+                                    "presentation_rect": [ 31.0, 271.0, 80.0, 20.0 ],
                                     "style": "ste.snip",
                                     "text": "grains played",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
@@ -3743,6 +3812,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-63", 0 ],
+                                    "source": [ "obj-37", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-74", 1 ],
                                     "source": [ "obj-38", 1 ]
                                 }
@@ -4284,6 +4359,7 @@
             "obj-33::obj-125": [ "file[1]", "file", 0 ],
             "obj-33::obj-29": [ "pitch[1]", "pitch", 0 ],
             "obj-33::obj-32": [ "density", "density", 0 ],
+            "obj-33::obj-37": [ "infoOut", "infoOut", 0 ],
             "obj-33::obj-42": [ "startrnd", "startrnd", 4 ],
             "obj-33::obj-48": [ "enable[4]", "enable", 0 ],
             "obj-33::obj-52": [ "edit[52]", "edit", 0 ],
@@ -4292,6 +4368,14 @@
             "obj-33::obj-78": [ "preset[1]", "preset", 0 ],
             "obj-33::obj-95": [ "live.text[16]", "live.text", 0 ],
             "obj-33::obj-96": [ "lengthrnd", "lengthrnd", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

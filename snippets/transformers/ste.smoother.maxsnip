@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -27,7 +27,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -144,7 +144,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -409,7 +409,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1379,6 +1379,7 @@
                                     "htricolor": [ 0.993154764175415, 0.507667601108551, 0.122715823352337, 1.0 ],
                                     "id": "obj-16",
                                     "maxclass": "flonum",
+                                    "minimum": 1.0,
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
@@ -1393,6 +1394,7 @@
                                             "parameter_invisible": 1,
                                             "parameter_longname": "smoothness",
                                             "parameter_mmax": 1.0,
+                                            "parameter_mmin": 1.0,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "smoothness",
                                             "parameter_type": 3
@@ -1858,6 +1860,14 @@
             "obj-34::obj-37": [ "outFrequency", "outFrequency", 0 ],
             "obj-34::obj-43": [ "edit[51]", "edit", 0 ],
             "obj-34::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

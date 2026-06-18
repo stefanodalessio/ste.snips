@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -27,7 +27,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -43,13 +43,15 @@
                                 "box": {
                                     "id": "obj-1",
                                     "maxclass": "jit.pwindow",
+                                    "name": "u204007778",
                                     "numinlets": 1,
                                     "numoutlets": 2,
+                                    "onscreen": 0,
                                     "outlettype": [ "jit_matrix", "" ],
                                     "patching_rect": [ 158.0, 593.0, 80.0, 60.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 4.0, 106.0, 249.0, 185.0 ],
-                                    "sync": 1
+                                    "sync": 0
                                 }
                             },
                             {
@@ -201,7 +203,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -454,7 +456,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1302,7 +1304,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1588,6 +1590,14 @@
             "obj-49::obj-13": [ "lock&close[40]", "lock&close", 0 ],
             "obj-49::obj-25": [ "edit[51]", "edit", 0 ],
             "obj-49::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",
