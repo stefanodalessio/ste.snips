@@ -3,7 +3,7 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
@@ -26,13 +26,13 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1228.0, 717.0, 500.0, 300.0 ],
+                        "rect": [ 1152.0, 716.0, 500.0, 300.0 ],
                         "toolbarvisible": 0,
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
@@ -198,7 +198,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -451,7 +451,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -1244,6 +1244,17 @@
                                         "live.text[2]": [ 0.0 ],
                                         "lock&close": [ 0.0 ]
                                     },
+                                    "restore_extra": {
+                                        "_edit": {
+                                            "id": "obj-25"
+                                        },
+                                        "live.text[2]": {
+                                            "id": "obj-95"
+                                        },
+                                        "lock&close": {
+                                            "id": "obj-13"
+                                        }
+                                    },
                                     "text": "autopattr",
                                     "varname": "u464004402"
                                 }
@@ -1288,7 +1299,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -1420,18 +1431,21 @@
                             },
                             {
                                 "box": {
+                                    "depthbuffer": 0,
+                                    "doublebuffer": 0,
+                                    "fsaa": 0,
                                     "id": "obj-1",
                                     "maxclass": "jit.pwindow",
                                     "numinlets": 1,
                                     "numoutlets": 2,
+                                    "onscreen": 0,
                                     "outlettype": [ "jit_matrix", "" ],
                                     "patching_rect": [ 158.0, 566.0, 160.0, 120.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 4.89130425453186, 128.26086711883545, 242.64777076244354, 164.0 ],
-                                    "sync": 0,
-                                    "onscreen": 0,
-                                    "depthbuffer": 0,
-                                    "doublebuffer": 0
+                                    "pwinoutlettype": 0,
+                                    "stereo": 0,
+                                    "sync": 0
                                 }
                             }
                         ],
@@ -1610,6 +1624,14 @@
             "obj-1::obj-13": [ "lock&close[1]", "lock&close", 0 ],
             "obj-1::obj-25": [ "edit[1]", "edit", 0 ],
             "obj-1::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

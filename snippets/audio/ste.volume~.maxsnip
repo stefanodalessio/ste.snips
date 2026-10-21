@@ -3,7 +3,7 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
@@ -26,7 +26,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -111,7 +111,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -291,7 +291,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -544,7 +544,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -1334,10 +1334,27 @@
                                     "patching_rect": [ 379.0, 193.0, 97.0, 34.0 ],
                                     "restore": {
                                         "_edit[1]": [ 0.0 ],
+                                        "amplitude": [ 1.0 ],
                                         "live.text[2]": [ 0.0 ],
                                         "lock&close[1]": [ 0.0 ],
-                                        "number": [ 1.0 ],
                                         "volume": [ 0.0 ]
+                                    },
+                                    "restore_extra": {
+                                        "_edit[1]": {
+                                            "id": "obj-43"
+                                        },
+                                        "amplitude": {
+                                            "id": "obj-4"
+                                        },
+                                        "live.text[2]": {
+                                            "id": "obj-95"
+                                        },
+                                        "lock&close[1]": {
+                                            "id": "obj-38"
+                                        },
+                                        "volume": {
+                                            "id": "obj-105"
+                                        }
                                     },
                                     "text": "autopattr",
                                     "varname": "u464004402[1]"
@@ -1436,7 +1453,7 @@
                                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
                                     "triangle": 0,
                                     "tricolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
-                                    "varname": "number"
+                                    "varname": "amplitude"
                                 }
                             },
                             {
@@ -1721,6 +1738,14 @@
             "obj-56::obj-4": [ "amplitude", "amplitude", 0 ],
             "obj-56::obj-43": [ "edit[51]", "edit", 0 ],
             "obj-56::obj-95": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",

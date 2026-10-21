@@ -11,7 +11,7 @@ The package already includes a collection of media pipe projects from [lysdexic-
 
 ste.snips is a package for Max9, consisting of a collection of snippets designed to expedite and simplify your Max experience, with a focus on embodied interactivity and real-time audio-visual synergy.
 
-Find some videos of patches built with the ste.snippets here:
+Find some videos of patches built with the ste.snips here:
 - [shaking my heads](https://www.youtube.com/watch?v=TAmbGvDeVtY)
 - [duckFace improvisation](https://www.youtube.com/watch?v=dOpI2ajVjL0)
 - [Amen hand-break](https://www.youtube.com/watch?v=CH11DIMfMSY)
@@ -45,46 +45,24 @@ to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
 ## latest changelog
 
-v0.0.9
+#### v0.1.0
 
-- ste.pixVideoLoop 
-	- new param: posOut (when ON: the snippets outputs the movie position as 0.-1. number, from the 5th output)
-- ste.pixVideoTrig
-	- new param: posOut (when ON: the snippets outputs the movie position as 0.-1. number, from the 5th output)
-- ste.pixVideoScrub
-	- perfomance improvement
-- pix snippets
-	- performance improvement when preview window visible
-- minor bug fixes and improvements
-
-v0.0.8
-
-- ste.dmxUsbPro stability improvements
-- ste.audioPlayer~ ste.audioPlayerStereo~
-	- new toggle resetLoopAfterLoad
-	-  stability improvement when switching presets or scene while changing sample, timeMode, start and end at the same time
-- ste.inScale, ste.outScale, ste.inOutScale:
-	- power renamed to pow^
-- ste.3dMotion renamed to ste.3Mod
-	- output 1 is now 7, outputs 2 3 4 5 6 7 shifted to 1 2 3 4 5 6  (basically the specific output for 3d objects moved from first to last)
-- ste.scenes: Big revamp with quality of Life and UI improvements
-- ste.pixVideoLoop 
-	- now uses jit.movie~ 
-	- lenMs param bug fix
-	- has new audio outputs (2nd and 3rd outlet)
-	- new param: wirelessAudioOut
-	- new param: loadram
-	- new param: resetLoopAfterLoad
-	- new out: video duration in milliseconds
-- ste.pixVideoTrig
-	- now uses jit.movie~ 
-	- has new audio outputs (2nd and 3rd outlet)
-	- new out: jit.movie dumpout
-	- new param: wirelessAudioOut
-- ste.pixVideoScrub
-	- now uses jit.movie~ 
-	- new out: jit.movie dumpout
-- ste.audioPlayer~ & ste.audioPlayer~
-	- fixed bug with mouse selection
-	- now its possible to drag and drop a file also on the waveform
-- ste.audioOut~ now can store and recalls I/O Vector size, Signal Vector Size and Sample Rate
+- new stuff
+	- ste.localip: reports the computer's local ip(s)
+	- ste.pixFxSlide: trail / smear / slide video fx
+	- ste.pixLumaDisp: displace video pixels based on the luminosity of an other video
+	- ste.getBands~: 64 FFT melBands sound analysis
+- changes and improvements
+	- improved file loading / text box / dropFile in...
+		- ste.pixVideoTrig
+		- ste.pixVideoScrub
+		- ste.pixVideoLoop
+		- ste.3dEnvironment
+		- ste.3dModelGeom
+		- ste.3dModel
+		- ste.3dPBRmaterial
+		- ste.granular~
+		- ste.audioHitClassifier~
+		- ste.audioClassifier~
+		- ste.audioPlayer~
+		- ste.audioPlayerStereo~

@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 4,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -26,8 +26,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 4,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -209,8 +209,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 4,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -260,6 +260,9 @@
                             },
                             {
                                 "box": {
+                                    "depthbuffer": 1,
+                                    "doublebuffer": 1,
+                                    "fsaa": 0,
                                     "id": "obj-26",
                                     "maxclass": "jit.pwindow",
                                     "numinlets": 1,
@@ -269,6 +272,8 @@
                                     "patching_rect": [ 112.0, 615.0, 160.0, 120.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 253.0, 125.0, 242.64777076244354, 164.0 ],
+                                    "pwinoutlettype": 0,
+                                    "stereo": 0,
                                     "sync": 0
                                 }
                             },
@@ -511,8 +516,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 4,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1305,6 +1310,20 @@
                                         "lock&close": [ 0.0 ],
                                         "xFade": [ 0.5 ]
                                     },
+                                    "restore_extra": {
+                                        "_edit": {
+                                            "id": "obj-50"
+                                        },
+                                        "live.text[2]": {
+                                            "id": "obj-95"
+                                        },
+                                        "lock&close": {
+                                            "id": "obj-48"
+                                        },
+                                        "xFade": {
+                                            "id": "obj-31"
+                                        }
+                                    },
                                     "text": "autopattr",
                                     "varname": "u464004402"
                                 }
@@ -1483,8 +1502,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 4,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
