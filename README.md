@@ -45,8 +45,15 @@ to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 
 ## latest changelog
 
-#### v0.1.0
+#### v0.1.1
+- new stuff
+	- ste.pixRotate90: rotates an image 90 degrees, taking care of pixel dimensions
+	- ste.pixBGsubtract: separate people from background (jit.vis.bgsubtract)
+	- ste.pixDepth: estimate the depth of an image
+	- ste.snapshots: substitutes ste.autoSave with additional functionalities: it saves a snapshot to and load snapshot from an external file
 
+
+#### v0.1.0
 - new stuff
 	- ste.localip: reports the computer's local ip(s)
 	- ste.pixFxSlide: trail / smear / slide video fx

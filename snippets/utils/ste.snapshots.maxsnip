@@ -3,7 +3,7 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
@@ -14,31 +14,19 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-12",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 10.0, 35.0, 67.0, 22.0 ],
-                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-                    "text": "thispatcher"
-                }
-            },
-            {
-                "box": {
                     "bgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
                     "color": [ 0.638382196426392, 0.254104733467102, 1.0, 1.0 ],
                     "fontface": 3,
-                    "id": "obj-9",
+                    "id": "obj-16",
                     "maxclass": "newobj",
-                    "numinlets": 1,
+                    "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patcher": {
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -49,8 +37,176 @@
                         "toolbars_unpinned_last_save": 15,
                         "enablehscroll": 0,
                         "enablevscroll": 0,
-                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "fontface": 0,
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0,
+                                    "id": "obj-15",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 229.0, 110.0, 163.0, 74.0 ],
+                                    "presentation": 1,
+                                    "presentation_linecount": 3,
+                                    "presentation_rect": [ 232.0, 75.0, 212.0, 60.0 ],
+                                    "style": "ste.snip",
+                                    "text": "when patch is saved: \nautomatically saves all params around the patch to snapshot 0\n",
+                                    "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "loadSnap",
+                                    "id": "obj-12",
+                                    "index": 2,
+                                    "maxclass": "inlet",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 602.0, 52.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "activebgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activebgoncolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activetextcolor": [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+                                    "activetextoncolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+                                    "bgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "bordercolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "focusbordercolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0,
+                                    "id": "obj-10",
+                                    "maxclass": "live.text",
+                                    "mode": 0,
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "parameter_enable": 1,
+                                    "patching_rect": [ 557.0, 297.0, 75.0, 15.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 3.999996453523636, 116.0, 120.00000354647636, 19.000000566244125 ],
+                                    "saved_attribute_attributes": {
+                                        "activebgcolor": {
+                                            "expression": ""
+                                        },
+                                        "activebgoncolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextcolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextoncolor": {
+                                            "expression": ""
+                                        },
+                                        "bgcolor": {
+                                            "expression": ""
+                                        },
+                                        "bordercolor": {
+                                            "expression": ""
+                                        },
+                                        "focusbordercolor": {
+                                            "expression": ""
+                                        },
+                                        "valueof": {
+                                            "parameter_enum": [ "val1", "val2" ],
+                                            "parameter_initial": [ 0 ],
+                                            "parameter_longname": "loadSnap",
+                                            "parameter_mmax": 1,
+                                            "parameter_modmode": 0,
+                                            "parameter_shortname": "loadSnap",
+                                            "parameter_type": 2
+                                        }
+                                    },
+                                    "text": "loadSnap",
+                                    "texton": "preview",
+                                    "varname": "loadSnap"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "activebgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activebgoncolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "activetextcolor": [ 0.454901960784314, 0.462745098039216, 0.062745098039216, 1.0 ],
+                                    "activetextoncolor": [ 0.836127519607544, 0.850476503372192, 0.118815958499908, 1.0 ],
+                                    "bgcolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "bordercolor": [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
+                                    "focusbordercolor": [ 0.222059041261673, 0.222059041261673, 0.222059041261673, 1.0 ],
+                                    "fontname": "Arial",
+                                    "fontsize": 12.0,
+                                    "id": "obj-124",
+                                    "maxclass": "live.text",
+                                    "mode": 0,
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "parameter_enable": 1,
+                                    "patching_rect": [ 469.0, 297.0, 75.0, 15.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 3.999996453523636, 80.0, 120.00000354647636, 19.000000566244125 ],
+                                    "saved_attribute_attributes": {
+                                        "activebgcolor": {
+                                            "expression": ""
+                                        },
+                                        "activebgoncolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextcolor": {
+                                            "expression": ""
+                                        },
+                                        "activetextoncolor": {
+                                            "expression": ""
+                                        },
+                                        "bgcolor": {
+                                            "expression": ""
+                                        },
+                                        "bordercolor": {
+                                            "expression": ""
+                                        },
+                                        "focusbordercolor": {
+                                            "expression": ""
+                                        },
+                                        "valueof": {
+                                            "parameter_enum": [ "val1", "val2" ],
+                                            "parameter_initial": [ 0 ],
+                                            "parameter_longname": "saveSnap",
+                                            "parameter_mmax": 1,
+                                            "parameter_modmode": 0,
+                                            "parameter_shortname": "saveSnap",
+                                            "parameter_type": 2
+                                        }
+                                    },
+                                    "text": "saveSnap",
+                                    "texton": "preview",
+                                    "varname": "saveSnap"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-6",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 346.0, 429.0, 127.0, 22.0 ],
+                                    "text": "importsnapshot 0"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-7",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 161.0, 429.0, 166.0, 22.0 ],
+                                    "text": "snapshot 0, exportsnapshot 0"
+                                }
+                            },
                             {
                                 "box": {
                                     "fontsize": 44.66727679186445,
@@ -121,14 +277,14 @@
                             },
                             {
                                 "box": {
-                                    "comment": "I/O",
+                                    "comment": "saveSnap",
                                     "id": "obj-13",
                                     "index": 1,
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 297.0, 175.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 525.0, 52.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -187,7 +343,7 @@
                                         },
                                         "valueof": {
                                             "parameter_enum": [ "val1", "val2" ],
-                                            "parameter_longname": "lock&close[40]",
+                                            "parameter_longname": "lock&close[7]",
                                             "parameter_mmax": 1,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "lock&close",
@@ -255,7 +411,7 @@
                                         },
                                         "valueof": {
                                             "parameter_enum": [ "val1", "val2" ],
-                                            "parameter_longname": "edit[51]",
+                                            "parameter_longname": "edit[7]",
                                             "parameter_mmax": 1,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "edit",
@@ -278,7 +434,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -1068,7 +1224,23 @@
                                     "patching_rect": [ 14.0, 216.0, 97.0, 34.0 ],
                                     "restore": {
                                         "_edit": [ 0.0 ],
-                                        "lock&close": [ 0.0 ]
+                                        "loadSnap": [ 0.0 ],
+                                        "lock&close": [ 0.0 ],
+                                        "saveSnap": [ 0.0 ]
+                                    },
+                                    "restore_extra": {
+                                        "_edit": {
+                                            "id": "obj-32"
+                                        },
+                                        "loadSnap": {
+                                            "id": "obj-10"
+                                        },
+                                        "lock&close": {
+                                            "id": "obj-4"
+                                        },
+                                        "saveSnap": {
+                                            "id": "obj-124"
+                                        }
                                     },
                                     "text": "autopattr",
                                     "varname": "u464004402"
@@ -1087,7 +1259,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 4.0, 6.0, 184.0, 29.0 ],
                                     "style": "ste.snip",
-                                    "text": "autoSave",
+                                    "text": "snapshots",
                                     "textcolor": [ 0.984804928302765, 0.135178834199905, 0.649349331855774, 1.0 ]
                                 }
                             },
@@ -1120,12 +1292,12 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 281.0, 297.0, 163.0, 47.0 ],
+                                    "patching_rect": [ 281.0, 297.0, 164.0, 33.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 2,
-                                    "presentation_rect": [ 232.0, 148.0, 200.0, 47.0 ],
+                                    "presentation_rect": [ 232.0, 126.0, 200.0, 33.0 ],
                                     "style": "ste.snip",
-                                    "text": "saves all params around the patch (or tries its best to)\n",
+                                    "text": "also save and load snapshot 0 to and from external file",
                                     "textcolor": [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ]
                                 }
                             },
@@ -1172,8 +1344,32 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-10", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-1", 0 ],
                                     "source": [ "obj-11", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-10", 0 ],
+                                    "source": [ "obj-12", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-7", 0 ],
+                                    "source": [ "obj-124", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-124", 0 ],
+                                    "source": [ "obj-13", 0 ]
                                 }
                             },
                             {
@@ -1220,6 +1416,18 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-14", 0 ],
+                                    "source": [ "obj-6", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-14", 0 ],
+                                    "source": [ "obj-7", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-92", 0 ],
                                     "source": [ "obj-8", 0 ]
                                 }
@@ -1248,14 +1456,26 @@
                         ],
                         "bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
-                    "patching_rect": [ 10.0, 10.0, 98.0, 22.0 ],
+                    "patching_rect": [ 10.0, 3.0, 100.0, 22.0 ],
                     "prototypename": "ste.snippet",
                     "saved_object_attributes": {
                         "locked_bgcolor": [ 0.084130473434925, 0.084130473434925, 0.084130473434925, 1.0 ]
                     },
-                    "text": "p ste.autoSave",
+                    "text": "p ste.snapshots",
                     "textcolor": [ 0.114268571138382, 0.646994113922119, 1.0, 1.0 ],
-                    "varname": "autoSave"
+                    "varname": "snapshots"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 10.0, 35.0, 67.0, 22.0 ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+                    "text": "thispatcher"
                 }
             }
         ],
@@ -1263,22 +1483,32 @@
             {
                 "patchline": {
                     "destination": [ "obj-12", 0 ],
-                    "source": [ "obj-9", 0 ]
+                    "source": [ "obj-16", 0 ]
                 }
             }
         ],
         "parameters": {
-            "obj-9::obj-32": [ "edit[51]", "edit", 0 ],
-            "obj-9::obj-4": [ "lock&close[40]", "lock&close", 0 ],
+            "obj-16::obj-10": [ "loadSnap", "loadSnap", 0 ],
+            "obj-16::obj-124": [ "saveSnap", "saveSnap", 0 ],
+            "obj-16::obj-32": [ "edit[7]", "edit", 0 ],
+            "obj-16::obj-4": [ "lock&close[7]", "lock&close", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",
         "snippetinfo": {
             "name": "ste.autoSave",
-            "objects": "jpatcher, thispatcher",
+            "objects": "thispatcher, jpatcher",
             "tags": "",
             "description": "93 x 47, containing 2 objects",
-            "image": "iVBORw0KGgoAAAANSUhEUgAAAHYAAABDCAYAAABJEPEPAAAABHNCSVQICAgIfAhkiAAAD1VJREFUeJztnH1clGW6x78zzPAOM8gwyCCDIYqK7yyKZJQJnrU1zY4uWNimdkJcy/Ohl2PZsTI2z4ppe0orN61sDf3gS6mlbVZ+TNTVTVB8HeVdQAGB4XVemfPH6HhGmBpn2IL5zPef+XA/93NfF8/vua77nue+nhFMmjTJhBuXQ/hrO+DmX4NbWBfFLayL4hbWRXEL66K4hXVR3MK6KG5hXRS3sC6KyN6OGeIfum0XL9yFQGzo0m7Si9BvetRxz9x0ywf6++zq53TEdpYp7qrdzS+D08Ia88fQ2RBo1dZ5Q4Ixf4yzQ7txArtTsU003hh2pCC8pwokraD2p7M0HDo9esA9N45it7CvVUT/dIcyJz1xYxdhYWF29XOviu8CsVj8a7tgN86n4h5ixIgRyGQyDh061KvsCQQC0tLSuP/++xk2bBjFxcUcOXKEzz77DI1G84v46gi9ImIXLlzIhg0b8Pf373X2pk2bxuLFi1EoFJw6dQqZTMb8+fNJT0//BTx1HKci9vcP3kP61EGoW3WEBHkjFArYfrCETV9etuonFovJyMggMTERqVRKVVUVmzZt4vjx4yxfvpwpU6YgEAjIzMzk2LFjxMfH8/DDDxMREUFNTQ3r1q3j4sWLXew/9thjTJo0icjISMrLy3nvvfcoKipixowZpKam8tVXX7F161ZmzZrF7Nmz2bNnD9HR0V3sjR07ltmzZ6NQKFCr1ezbt4/t27cDMH78eAAKCwvJzs5GoVCQnp6Op6cnAGPHjiU1NZWYmBi0Wi27d+9m+/btrFu3DrlczpIlS2hsbGT69OnMnTuX4uJisrOzyczMJC4ujsDAQAoKCsjJyaG9vd0ZOaxwKmLHD5MR2d+fIUoJ5ddakUm8yZw1DB9P6xVxSkoKqampGAwGLl68yNChQ3n55Zfx8vIiPDwcsViMXq+nqqqKCRMmsHz5cmJiYqirq2P48OE89dRTXWxPmTKFzMxMBgwYQGVlJSNHjiQjIwOAcePGoVQqaWtrAyAuLg6lUklLS0sXe/Hx8bz66qvExsbS3NyMUqlkyZIlREZGAlBQUADA5MmTyc3NJTY2llWrVrFhwwaCgoJYuXIliYmJlJaWIpfLWbRoESEhIQAolUoiIyPx8/MjIyMDpVLJN998wxtvvMHs2bPx9fXFaDSSnJzM5MmTnZGiC04JO3ygFIDsTwrJyDnK96dqEIuExA2VWfWLjjavqE0mE99++y0rVqzg2WefRafTkZubC8C5c+d4+umnmTp1KgDr16/n+eefp7a2lri4OPz8/KzGvHjxItnZ2WzcuJGjR48C0K9fPwBiYmIAuHTpUpe/77Q3b948ADZv3kx6ejrbtm0DzDcjwBdffMGWLVvQ6XTI5XKWLVvGW2+9BYBOpyM7O5v169dz4MABmpqaEIlESCQSLl82Zy2lUsm8efOQSqWcPHmSoqIiEhISMBgMLF26lNWrVwOQlJTkjBRdcDgVS/zEhIf4oTd0sv/4VQDaNeZHi75e1hG7Z88epk+fTlRUFMuWLaO1tZXMzExMJhNDhgwBzBfdx8eH0aNHA5CVlUVWVpZlDD8/P0sEAjzyyCPMmjULLy8vS1t5eTm+vr6Eh4djMBgoLi4mKCiI/v37o9VqKSsr44EHHrDY8/T0ZMCAAQDk5eUBIBSa7/WwsDAiIiIICwtjx44d7Nq1iwULFjBjxgzi4uIYNGgQoaGhZGVlERoaavHBaDRSWVmJSqUCzKn6vvvuw2Aw8PbbbzN+/HiEQiFCodByEwFIJBJHpegWh4UddjNaxSIhnmIPxB4mJsSaU1BJTauln0QiITQ0lJdeeomoqCjS0tKQy+XMmTOHnJwcBg0aBIBKpcJkMmEwmG+O7OxsRCIRI0aM4MqVK9TX11vGVCgUpKam0tjYyOuvv8706dNJTExEpVIxcOBABAIBlZWV6HQ6Zs6cCUBxcTFGo9HKntWFEIkQCATce++9AJSVlTF//nxSUlLYtGkTH3/8MWvWrCEpKQmpVIpCoeCJJ54gNDSUjRs30tHRwdKlS6moqECr1VoiNjk5GYBt27ZRUVFhsX/mzBny8vJQKBRIJBJOnDjhqBTd4rCwt9IwQM7ieEQeAkKDfPjH+TquXG22HBs3bhwrV66ksbGR3bt309zcjFwup7q6GjCLBDBp0iQKCgr44YcfSElJISkpiYCAAOLj4zlw4AB6vZ4XXniB/fv38/nnnyMQCBAIBEycOJGEhATgdsQCBAcHs3jxYlJTU4HbaflOeyUlJURHR7N27Vo8PDyIiIigra2NvXv3kpycTEpKCgsXLiQlJQUfHx+kUinV1dUcPXqUJUuWABAeHm5ZZFVUVFg+NRoN3t7eNDQ08NFHHwGQn59Pe3s70dHRxMbG8uCDDyKXyzlz5oyjUnSLw3PsLWFPqW6QEBtCQqycM8UNrPjwlFW/77//nry8PLy8vFiwYAFyuZz9+/dbUt/x48cB8+IkICCALVu2cPjwYZKSkhg9ejSHDx+2RLZIJKKiogKVSkV+fj5BQUEkJydTV1cHmNNgYWEhJSUlBAYGMnPmTEv6viXsnfZWrFhBaWkpgwcPJioqivLycrKysmhqamLnzp3k5uaiVqtRKpWEhIRQWVnJqlWrMBqNbN26FY1Gw0MPPURHRweAJeOYTCaKi4sBeP/99y0rXp1OR05ODlVVVaSlpSEWi3n33XfJz893VIpuEdhbMF5TU2P195c5KQwI8eN3L/yderUWX28RDc1am+eLRCLkcjnXrl2js7PT6lhwcDBCodAiEEBAQAA6nQ6t1vaY/fr1o7m52XIx/z9yuZz6+voutmzZCww0b2Q0Nzd36Q8gk8nQarW0tLRYtfv4+CASibq024NMJrOaYuzB3keKDqXiQD8xA0L8ULfquFpnvhM1OuNPnmMwGCzp905u3LjRpc2eC9XQ0GDzWG1trc1j3dmzJegtbAlwK1Id4W5FvRscEtZgNPHKX3+kqVXX0/646SHs391RXrFuqDR/TFGCwMOAdNxpvOR1aK/LaSoYhcnYax5DuxT2VlA4ffVFAS0Mef4dytVXuFKmIfJ+b4ZNj0b11jMYWgKcHd6NgzgtbETqTvLPnmXv7tvzxcOzNIxL3Unph086O7wbB3F6d0cypoiDX1svYg5+3YBkTJGzQ7txAru/7vwcycnJNDc3ExgYyMGDB3tiSDdO0Cv2Y930PG5hXRS7F08TJ07stv2NpDHM/eAzq0diIVIJuRmP8d+HC533sBdy7NixX9uFn8XpiD1fryY1fpRVW2r8KM7Xq50d2o0TOP11Z8/lSjLGDiE6VMala3UM7R9CWHA/Nhaofv5kN/8ynBa2TW/gLycvMCJEiiwkhPMtWvJKLmA0uX+M5tfEbmFvbbO5wVJ10Ztxr4pdFIeFFQjM5afBgeaao32rpxIXI+vSL3GEnN1vJjvuoZ32bWHLL1fHYWEj5P6smD8Oib+5vnZgWACBfl1fgWhq1XH6iu19056ybwtbfrk6Di+e1j4zAYC//td9ZK45AkD6v0Xz4uOj8BAK2HOkgnd3nkfq78nYIcEAxA+V8cqTY5FJvKlXa1i/6zx/P1HFi4+PIiosgDCZL77eIvKLrpP9cQEGo4mk0f1Z/OhwwkN8MRpNfH3iKqs+Pd3FfofWyMtPjGFYpBRVpZpP9l8mv+i6Tb8ApiUM4KmHhxIi9eZCeRN/+qSQiuutLEsfzcAwf4ZESFBVqlmU07NlK78EDkfsp1+b92c/3HeJqptVFCPuCeLDvZcoUN1g0SPDuCcsAH9fMZH9za9SLJs3hvomDcs3/pPK2jZeXxiHWCSkfz8fJo3uz8kLdXx64AoPJUSw+NHheIqFrFoUj7pNx2ubTnHkzDUenxrN8IFSK/vV9e2sfy6RAXI/3tlxDp2hkzf+Iw4vsdCmX8MHSlm9eDylNS38Je8sCpkvLz5u/j4eFuzDpFH9+eH0NU5cqLvzX+8TOByxBSpzeck/ztXSdrOe+P3PL7LzUBmHCmr4XaISZah1kbfIQ4DE3xNPsZA3txQiD/LGaDTXJNXcaCf7E/OTqhFRQUweG8bmfZd4Z+c5vv+xBoEQJP6ePJI0kH6BXlb2gyXeRCkCee6d43x9oopDhTX8/sEoAnw9bfoVP8xcKvvh3ovo9J14iot5Ye5IvG++xXC2pJFXN1kX5vUlerTMobLWXE98Q62ls9OEWGSdEFZvPcOfnv4Na59JQKc3svNQGWduzr9Fxbfn4fNljUyJU9DaYUDq78WuN5OR+HtaCtKFAoHVuPeEmTf0zxQ3Wuy/t/vCT/qlkPkiEAjYkW29sLs1bVRcb6Uv06PCGjt//qFE2qvfESbzJW1KFHNTBrH/uLnGRiG7Hd3R4YFU1bcxZnA/lvz7cD76UsWeI+Vo9Eb2r/ktd+iK+mbtVWR/f2putOPrLeI/58Sy/btSm341tepoatEyNesAJpMJfx8xo6P7ca6kEaaA3tC1urEv4fAcq9GZo2fM4GA8xT8/jFAAy/8whhcfH0V1XTvHzpmrCA1G80UfNlDKtIQB3DsylKQxYZw4X4e3p/m+O6Wq53pjB3+cNRwAT7GHlf3Say2oW3XM+200UYoAMmYOZfq9Sq432H577fi5WqQBXvxh2mCCArx4Lm0kry+MQygU2DynL+FwxN5QaymuamblU3G0dugxGK3vcGOnCYPRhFggwGSCThP8+W+neeXJsXz7vw9hMHaS910JRSXmFKzTG3kzw/xGwdGztazJLUKrN3KooIZ1zyYg8hBy7Ox1mlq0xCglfPdj9W377+h5+YOTZD/9G/b8eSrV9W38z99O09phsOnXoX9Ws2X/ZTJmDuWPjw6n/FoLr20+Zam8tCf79GbsrqC4evVqt+3+PiJaO7oWbP8UYcG+1Ks1lnS39pkJ6PSdvLb5FJ5iIc1teqv+Ab5iTCZTt3butC8P8qa20f43zUUeAoICvKhrsv+cvvBI0ek59m5FBfMKuDs0OmO3hect7fpuendv/25EBfNUcDei9hV6RfHvtm9L0Ol/+k0CN3eH3cLOmTPH5jGBQIBUKsXb2xuNRkNTUxMmB7btBv9Kv/l1t/73hQoK5wvGRSJiYmLw8fGxtLW3t6NSqbp9Waq30df9t4XT23YRERFWFwXA19eXiIgIZ4f+Rejr/tvCaWGlUuldtfc2+rr/tuixgnE3vQt3BYWL4hbWRXEL66K4hXVR3MK6KG5hXRS3sC6KW1gXxS2si/J/hl3+wiqOXtYAAAAASUVORK5CYII="
+            "image": "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"
         },
         "autosave": 0,
         "snapshot": {
@@ -1293,8 +1523,10 @@
             "snapshot": {
                 "valuedictionary": {
                     "parameter_values": {
-                        "edit[51]": 0.0,
-                        "lock&close[40]": 0.0
+                        "edit[7]": 0.0,
+                        "loadSnap": 0.0,
+                        "lock&close[7]": 0.0,
+                        "saveSnap": 0.0
                     }
                 }
             },
@@ -1306,24 +1538,19 @@
                         "version": 2,
                         "minorversion": 0,
                         "name": "snap00",
-                        "origin": "ste.autoSave",
+                        "origin": "ste.snapshots",
                         "type": "patcher",
                         "subtype": "Undefined",
                         "embed": 1,
                         "snapshot": {
                             "valuedictionary": {
                                 "parameter_values": {
-                                    "edit[51]": 0.0,
-                                    "lock&close[40]": 0.0
+                                    "edit[7]": 0.0,
+                                    "loadSnap": 0.0,
+                                    "lock&close[7]": 0.0,
+                                    "saveSnap": 0.0
                                 }
                             }
-                        },
-                        "fileref": {
-                            "name": "snap00",
-                            "filename": "snap00_20241001.maxsnap",
-                            "filepath": "~/Documents/Max 8/Snapshots",
-                            "filepos": -1,
-                            "snapshotfileid": "402befd35e9ac0f1161492a219aff435"
                         }
                     }
                 ]
