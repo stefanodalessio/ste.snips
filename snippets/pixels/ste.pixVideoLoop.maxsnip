@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 694.0, 114.0, 1000.0, 780.0 ],
+        "rect": [ 291.0, 120.0, 1000.0, 780.0 ],
         "description": "119 x 22, containing 1 object",
         "boxes": [
             {
@@ -3337,7 +3337,7 @@
                                     "restore": {
                                         "clear[1]": [ 0.0 ],
                                         "file": [ "chickens.mp4" ],
-                                        "lenMs": [ 12646.0 ],
+                                        "lenMs": [ 0.0 ],
                                         "live.text": [ 0.0 ],
                                         "live.text[1]": [ 0.0 ],
                                         "live.text[2]": [ 0.0 ],
@@ -3722,8 +3722,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 4,
                                     "outlettype": [ "signal", "signal", "jit_gl_texture", "" ],
-                                    "patching_rect": [ 77.0, 558.0, 378.0, 22.0 ],
-                                    "text": "jit.movie~ @unique 0 @output_texture 1 @autostart 0 @engine viddll"
+                                    "patching_rect": [ 77.0, 558.0, 473.0, 22.0 ],
+                                    "text": "jit.movie~ @unique 0 @output_texture 1 @autostart 0 @engine viddll @cache_size 0.5"
                                 }
                             }
                         ],
