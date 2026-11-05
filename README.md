@@ -51,7 +51,7 @@ to Vienna's [MA7](https://www.wien.gv.at/kultur/abteilung/) for the support.
 	- ste.pixBGsubtract: separate people from background (jit.vis.bgsubtract)
 	- ste.pixDepth: estimate the depth of an image
 	- ste.snapshots: substitutes ste.autoSave with additional functionalities: it saves a snapshot to and load snapshot from an external file
-
+	- ste.3dWorld: "clear" button deleted, world automatically clears its internal texture after 2 seconds after texture or matrix stops coming in.
 
 #### v0.1.0
 - new stuff
