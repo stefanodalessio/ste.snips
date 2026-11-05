@@ -3341,7 +3341,7 @@
                                         "live.text": [ 0.0 ],
                                         "live.text[1]": [ 0.0 ],
                                         "live.text[2]": [ 0.0 ],
-                                        "loadram": [ 0.0 ],
+                                        "loadram": [ 1.0 ],
                                         "loadram[1]": [ 0.0 ],
                                         "palindromLoop": [ 0.0 ],
                                         "preset": [ 0.0 ],
